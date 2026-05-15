@@ -1,15 +1,15 @@
-<!-- REVIEWS-CHECKED: zero-found — new business opening May 31 2026, zero public reviews exist yet. Social proof section uses strategic objection-breaking copy. -->
+<!-- REVIEWS-CHECKED: zero-found — new business opening May 31 2026, zero public reviews exist yet. Strategic objection-breaking social proof used. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Little Seeds of Hope Academy | Faith-Based Daycare & Preschool | Humble, TX</title>
-<meta name="description" content="Little Seeds of Hope Academy — faith-based early childhood education in Humble, TX. Ages 18 months–5+ years. Bilingual (Spanish), Chapel, hands-on learning. Now enrolling! Grand Opening May 31, 2026.">
+<meta name="description" content="Little Seeds of Hope Academy — faith-based early childhood education in Humble, TX. Ages 18 months–5+ years. Bilingual (Spanish), Chapel, hands-on learning. Grand Opening May 31, 2026.">
 <meta name="keywords" content="daycare Humble TX, preschool Humble Texas, faith-based daycare Humble, bilingual daycare Humble, Spanish daycare Humble, early childhood education Humble, childcare 77338, Little Seeds of Hope Academy">
 <link rel="canonical" href="https://littleseedsofhopeacademy.com/">
 <meta property="og:title" content="Little Seeds of Hope Academy | Faith-Based Childcare in Humble, TX">
-<meta property="og:description" content="Now enrolling! Ages 18 months to 5+ years. Faith-based, bilingual (Spanish), Chapel. Grand Opening May 31, 2026 at 900 Granberry St., Humble, TX.">
+<meta property="og:description" content="Now enrolling! Ages 18 months to 5+. Faith-based, bilingual (Spanish), Chapel. Grand Opening May 31, 2026 — 900 Granberry St., Humble, TX.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 
@@ -18,7 +18,7 @@
   "@context": "https://schema.org",
   "@type": ["ChildCare", "LocalBusiness"],
   "name": "Little Seeds of Hope Academy",
-  "description": "Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on activities, individualized attention for children ages 18 months and up.",
+  "description": "Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on learning. Ages 18 months and up.",
   "telephone": "+18329930188",
   "email": "lshopeacademy@gmail.com",
   "address": {
@@ -35,546 +35,523 @@
 }
 </script>
 
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:wght@700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
 <style>
+/* === RESET === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { overflow-x: hidden; }
+
+/* === VARIABLES === */
 :root {
-  --sky:       #3B9ED4;
-  --sky-dark:  #2478A8;
-  --sky-light: #EAF6FF;
-  --sun:       #F5A623;
-  --sun-dark:  #D48A10;
-  --sun-light: #FFF8EC;
-  --green:     #5BAD6F;
-  --green-dark:#3D8A50;
-  --green-light:#EEF8F1;
-  --coral:     #F0624D;
-  --purple:    #8B6DC8;
-  --dark:      #1A2840;
-  --text:      #2D3748;
-  --muted:     #6B7280;
-  --border:    #E5EBF0;
-  --card:      #FFFFFF;
-  --cream:     #FAFBFF;
+  --sky:        #3B9ED4;
+  --sky-dark:   #2478A8;
+  --sky-light:  #EAF6FF;
+  --coral:      #F0624D;
+  --coral-dark: #D94F3B;
+  --sun:        #F5A623;
+  --green:      #5BAD6F;
+  --green-dark: #3D8A50;
+  --purple:     #8B6DC8;
+  --dark:       #1A2840;
+  --text:       #374151;
+  --muted:      #6B7280;
+  --border:     #E5EBF0;
+  --card:       #FFFFFF;
+  --cream:      #FAFBFF;
+  --sky-bg:     #EAF6FF;
 }
+
+/* === BASE === */
 html { scroll-behavior: smooth; }
 body { font-family: 'Nunito', sans-serif; background: var(--cream); color: var(--text); line-height: 1.7; font-size: 16px; }
-h1,h2,h3,h4 { font-family: 'Nunito', sans-serif; line-height: 1.2; color: var(--dark); font-weight: 800; }
-img { display: block; width: 100%; object-fit: cover; }
+h1,h2,h3,h4 { font-family: 'Nunito', sans-serif; font-weight: 800; line-height: 1.2; color: var(--dark); }
+img { display: block; max-width: 100%; }
 a { color: var(--sky); text-decoration: none; }
-a:hover { text-decoration: underline; }
 
-/* ─── GRAND OPENING BANNER ─── */
+.container { max-width: 1160px; margin: 0 auto; padding: 0 40px; }
+section { padding: 88px 0; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 15px 34px; border-radius: 50px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .95rem;
+  cursor: pointer; border: 2px solid transparent; transition: all .22s ease;
+  text-decoration: none; line-height: 1; white-space: nowrap;
+}
+.btn-coral { background: var(--coral); color: #fff; border-color: var(--coral); box-shadow: 0 4px 18px rgba(240,98,77,.32); }
+.btn-coral:hover { background: var(--coral-dark); border-color: var(--coral-dark); transform: translateY(-2px); }
+.btn-outline { background: transparent; color: var(--coral); border-color: var(--coral); }
+.btn-outline:hover { background: var(--coral); color: #fff; transform: translateY(-2px); }
+.btn-white { background: #fff; color: var(--dark); border-color: #fff; }
+.btn-white:hover { background: var(--sky-light); transform: translateY(-2px); }
+.btn-outline-white { background: transparent; color: #fff; border-color: rgba(255,255,255,.75); }
+.btn-outline-white:hover { background: rgba(255,255,255,.15); border-color: #fff; transform: translateY(-2px); }
+
+.section-label {
+  display: inline-block; font-size: .72rem; font-weight: 800;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--sky);
+  margin-bottom: 12px;
+}
+.section-label.coral { color: var(--coral); }
+.section-label.green { color: var(--green-dark); }
+
+.section-headline { font-size: 2.25rem; font-weight: 900; color: var(--dark); margin-bottom: 16px; }
+.section-sub { font-size: 1.05rem; color: var(--muted); max-width: 580px; }
+
+/* === GRAND OPENING BANNER === */
 .go-banner {
   background: linear-gradient(90deg, var(--coral), var(--sun));
-  color: #fff; text-align: center;
-  padding: 10px 20px; font-size: .85rem; font-weight: 700;
+  color: #fff; text-align: center; padding: 10px 20px;
+  font-size: .82rem; font-weight: 700; letter-spacing: .02em;
 }
-.go-banner a { color: #fff; text-decoration: underline; }
 
-/* ─── TRUST RIBBON ─── */
+/* === TRUST RIBBON === */
 .trust-ribbon {
-  background: var(--dark);
-  color: rgba(255,255,255,.75);
-  padding: 8px 48px;
-  display: flex; align-items: center; justify-content: center;
-  gap: 32px; flex-wrap: wrap; font-size: .78rem; font-weight: 700;
+  background: var(--dark); color: rgba(255,255,255,.72);
+  padding: 9px 40px; display: flex; align-items: center;
+  justify-content: center; gap: 36px; flex-wrap: wrap; font-size: .76rem; font-weight: 700;
 }
-.trust-ribbon span { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
-.trust-ribbon a { color: rgba(255,255,255,.75); text-decoration: none; }
+.trust-ribbon span { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+.trust-ribbon a { color: rgba(255,255,255,.72); }
 .trust-ribbon a:hover { color: #fff; }
 
-/* ─── NAV ─── */
+/* === NAV === */
 .nav {
-  background: #fff; border-bottom: 2px solid var(--border);
-  padding: 0 48px;
-  display: flex; align-items: center; justify-content: space-between;
-  position: sticky; top: 0; z-index: 100; height: 74px;
-  box-shadow: 0 2px 16px rgba(0,0,0,.06);
+  background: #fff; border-bottom: 1px solid var(--border);
+  padding: 0 40px; display: flex; align-items: center;
+  justify-content: space-between; position: sticky; top: 0; z-index: 100;
+  height: 72px; box-shadow: 0 2px 20px rgba(0,0,0,.05);
 }
-.nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .nav-logo-icon {
-  width: 46px; height: 46px; border-radius: 12px;
+  width: 44px; height: 44px; border-radius: 12px;
   background: #fff; border: 2px solid var(--border);
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;
 }
-.nav-logo-text { font-family: 'Nunito', sans-serif; font-weight: 900; line-height: 1.1; }
-.nav-logo-text .name { color: var(--sky-dark); font-size: 1.1rem; font-family: 'Dancing Script', cursive; font-weight: 700; }
-.nav-logo-text .tagline { color: var(--muted); font-size: .68rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
-.nav-links { display: flex; align-items: center; gap: 28px; }
-.nav-links a { color: var(--text); font-size: .87rem; font-weight: 700; text-decoration: none; transition: color .2s; }
-.nav-links a:hover { color: var(--sky); text-decoration: none; }
-.nav-cta {
-  background: var(--coral); color: #fff !important;
-  padding: 10px 24px; border-radius: 50px; font-weight: 800 !important;
-  font-size: .84rem !important; transition: background .2s, transform .15s !important;
-  box-shadow: 0 4px 16px rgba(240,98,77,.3);
+.nav-logo-text { line-height: 1.1; }
+.nav-logo-name { font-family: 'Dancing Script', cursive; font-size: 1.15rem; font-weight: 700; color: var(--sky-dark); }
+.nav-logo-tag { font-size: .65rem; font-weight: 700; color: var(--muted); letter-spacing: .05em; text-transform: uppercase; }
+.nav-links { display: flex; align-items: center; gap: 30px; }
+.nav-links a { color: var(--text); font-size: .86rem; font-weight: 700; text-decoration: none; transition: color .2s; }
+.nav-links a:hover { color: var(--sky); }
+.nav-tour {
+  background: var(--coral); color: #fff; padding: 10px 24px;
+  border-radius: 50px; font-weight: 800; font-size: .84rem;
+  box-shadow: 0 4px 14px rgba(240,98,77,.28); transition: all .2s;
 }
-.nav-cta:hover { background: #d94f3b !important; transform: translateY(-1px); }
+.nav-tour:hover { background: var(--coral-dark); transform: translateY(-1px); }
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--dark); border-radius: 2px; }
 .mobile-menu {
   display: none; position: fixed; inset: 0; z-index: 101;
-  background: rgba(26,40,64,.97);
-  flex-direction: column; align-items: center; justify-content: center; gap: 28px;
+  background: rgba(26,40,64,.97); flex-direction: column;
+  align-items: center; justify-content: center; gap: 28px; text-align: center;
 }
 .mobile-menu.open { display: flex; }
-.mobile-menu a { color: rgba(255,255,255,.88); font-size: 1.3rem; font-weight: 700; text-decoration: none; }
-.mobile-menu a:hover { color: var(--sun); }
-.m-close { position: absolute; top: 22px; right: 24px; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; cursor: pointer; color: #fff; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 50%; }
-.mob-enroll { background: var(--coral); color: #fff !important; padding: 14px 40px; border-radius: 50px; font-weight: 900; font-size: 1rem !important; margin-top: 8px; }
-
-/* ─── HERO ─── */
-.hero {
-  position: relative; min-height: 92vh;
-  display: flex; align-items: center;
-  overflow: hidden;
+.m-close {
+  position: absolute; top: 20px; right: 20px; width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; cursor: pointer; color: #fff;
+  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+  border-radius: 50%; transition: background .2s;
 }
+.m-close:hover { background: rgba(255,255,255,.2); }
+.mobile-menu a { color: #fff; font-size: 1.2rem; font-weight: 800; text-decoration: none; }
+
+/* === HERO === */
+.hero { position: relative; min-height: 92vh; display: flex; align-items: center; overflow: hidden; }
 .hero-bg {
   position: absolute; inset: 0;
   background: url('https://d8j0ntlcm91z4.cloudfront.net/user_38DvIrVBfKAlbHvCuX7mdJZHgNn/hf_20260515_152659_75f74b89-2b79-4e21-9522-ffe848aff480.png') center/cover no-repeat;
 }
 .hero-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(100deg, rgba(26,40,64,.90) 0%, rgba(26,40,64,.70) 45%, rgba(26,40,64,.20) 100%);
+  background: linear-gradient(105deg, rgba(26,40,64,.88) 0%, rgba(26,40,64,.68) 50%, rgba(26,40,64,.25) 100%);
 }
-.hero-inner {
-  position: relative; z-index: 2;
-  max-width: 640px; padding: 0 48px;
-}
+.hero-inner { position: relative; z-index: 2; max-width: 620px; padding: 0 40px; }
 .hero-badge {
   display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(245,166,35,.2); border: 1px solid rgba(245,166,35,.5);
-  color: var(--sun); font-size: .72rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
-  padding: 6px 16px; border-radius: 30px; margin-bottom: 22px;
+  background: rgba(245,166,35,.18); border: 1px solid rgba(245,166,35,.5);
+  color: var(--sun); padding: 7px 18px; border-radius: 50px;
+  font-size: .8rem; font-weight: 800; letter-spacing: .04em;
+  text-transform: uppercase; margin-bottom: 22px;
 }
 .hero h1 {
-  font-size: clamp(2.4rem, 5.5vw, 4rem); color: #fff;
-  margin-bottom: 20px; font-weight: 900; line-height: 1.1;
-  text-shadow: 0 2px 24px rgba(0,0,0,.4);
+  font-size: 3.8rem; font-weight: 900; color: #fff;
+  line-height: 1.1; margin-bottom: 20px;
 }
 .hero h1 em { color: var(--sun); font-style: normal; }
-.hero-sub {
-  color: rgba(255,255,255,.85); font-size: clamp(.95rem, 1.8vw, 1.1rem);
-  margin-bottom: 36px; line-height: 1.8; max-width: 520px;
-}
+.hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.82); margin-bottom: 36px; max-width: 500px; line-height: 1.7; }
 .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 44px; }
-.btn-enroll {
-  background: var(--coral); color: #fff; padding: 16px 36px;
-  border-radius: 50px; font-weight: 900; font-size: .98rem;
-  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  box-shadow: 0 6px 24px rgba(240,98,77,.4); transition: background .2s, transform .15s;
-}
-.btn-enroll:hover { background: #d94f3b; transform: translateY(-2px); text-decoration: none; color: #fff; }
-.btn-tour {
-  background: rgba(255,255,255,.12); backdrop-filter: blur(8px);
-  border: 1.5px solid rgba(255,255,255,.45); color: #fff;
-  padding: 16px 36px; border-radius: 50px; font-weight: 700; font-size: .98rem;
-  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  transition: background .2s;
-}
-.btn-tour:hover { background: rgba(255,255,255,.22); text-decoration: none; color: #fff; }
 .hero-chips { display: flex; gap: 12px; flex-wrap: wrap; }
 .hero-chip {
-  background: rgba(255,255,255,.12); backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,.2); border-radius: 40px;
-  padding: 8px 16px; display: flex; align-items: center; gap: 8px;
-  color: rgba(255,255,255,.92); font-size: .78rem; font-weight: 700;
+  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+  color: rgba(255,255,255,.9); padding: 8px 18px; border-radius: 50px;
+  font-size: .8rem; font-weight: 700; display: flex; align-items: center; gap: 6px;
 }
 .hero-chip strong { color: var(--sun); }
 
-/* ─── STATS STRIP ─── */
+/* === STATS STRIP === */
 .stats-strip {
-  background: var(--sky); display: grid; grid-template-columns: repeat(4,1fr);
+  background: #fff; border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 24px rgba(0,0,0,.06);
 }
-.stat-cell { padding: 26px 16px; text-align: center; border-right: 1px solid rgba(255,255,255,.15); }
-.stat-cell:last-child { border-right: none; }
-.stat-num { font-size: 2rem; font-weight: 900; color: #fff; line-height: 1; margin-bottom: 5px; }
-.stat-label { color: rgba(255,255,255,.72); font-size: .75rem; font-weight: 700; letter-spacing: .04em; line-height: 1.4; }
+.stats-strip .container {
+  display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap;
+}
+.stat-item {
+  flex: 1; min-width: 160px; text-align: center;
+  padding: 32px 24px; border-right: 1px solid var(--border);
+}
+.stat-item:last-child { border-right: none; }
+.stat-num { font-size: 2.6rem; font-weight: 900; color: var(--sky); line-height: 1; margin-bottom: 6px; }
+.stat-label { font-size: .8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 
-/* ─── SECTION BASE ─── */
-.section { padding: 88px 0; }
-.section.alt { background: var(--sky-light); }
-.section.green-bg { background: var(--green-light); }
-.section.dark-bg { background: var(--dark); }
-.container { max-width: 1140px; margin: 0 auto; padding: 0 48px; }
-.s-label { font-size: .7rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: var(--sky); margin-bottom: 10px; }
-.s-label.coral { color: var(--coral); }
-.s-label.green { color: var(--green-dark); }
-.s-label.sun { color: var(--sun-dark); }
-h2.s-title { font-size: clamp(1.9rem, 3.8vw, 2.7rem); color: var(--dark); margin-bottom: 14px; }
-h2.s-title.light { color: #fff; }
-.s-rule { width: 48px; height: 4px; border-radius: 4px; background: var(--sky); margin-bottom: 18px; }
-.s-rule.coral { background: var(--coral); }
-.s-rule.sun { background: var(--sun); }
-.s-sub { color: var(--muted); font-size: 1rem; line-height: 1.8; max-width: 600px; margin-bottom: 52px; }
-.s-sub.light { color: rgba(255,255,255,.72); }
-.text-center { text-align: center; }
-.text-center .s-sub { margin-left: auto; margin-right: auto; }
-.text-center .s-rule { margin-left: auto; margin-right: auto; }
+/* === PROGRAMS === */
+.programs { background: var(--cream); }
+.programs-header { text-align: center; margin-bottom: 52px; }
+.programs-header .section-sub { margin: 0 auto; }
+.programs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.prog-card {
+  background: var(--card); border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.07);
+  overflow: hidden; transition: transform .25s ease, box-shadow .25s ease;
+}
+.prog-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(0,0,0,.12); }
+.prog-bar { height: 6px; }
+.prog-bar.coral { background: var(--coral); }
+.prog-bar.sky   { background: var(--sky); }
+.prog-bar.green { background: var(--green); }
+.prog-body { padding: 36px 32px 40px; }
+.prog-age {
+  display: inline-block; font-size: .72rem; font-weight: 800;
+  letter-spacing: .1em; text-transform: uppercase;
+  background: var(--sky-bg); color: var(--sky-dark);
+  padding: 5px 14px; border-radius: 50px; margin-bottom: 18px;
+}
+.prog-age.coral-bg { background: rgba(240,98,77,.1); color: var(--coral); }
+.prog-age.green-bg { background: var(--green-light, #EEF8F1); color: var(--green-dark); }
+.prog-name { font-size: 1.55rem; font-weight: 900; color: var(--dark); margin-bottom: 8px; }
+.prog-tagline { font-size: .96rem; color: var(--muted); font-style: italic; margin-bottom: 24px; line-height: 1.5; }
+.prog-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+.prog-list li { display: flex; align-items: flex-start; gap: 10px; font-size: .9rem; color: var(--text); }
+.prog-list li::before {
+  content: ''; width: 20px; height: 20px; border-radius: 50%; flex-shrink: 0;
+  background: var(--sky-bg); display: flex; align-items: center; justify-content: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%232478A8' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  background-size: 12px; background-repeat: no-repeat; background-position: center;
+}
+.prog-link { font-weight: 800; font-size: .88rem; color: var(--sky-dark); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+.prog-link:hover { color: var(--sky); gap: 10px; }
 
-/* ─── PROGRAMS ─── */
-.programs-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 28px; margin-bottom: 28px; }
-.program-card {
-  background: var(--card); border-radius: 20px; overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0,0,0,.07); transition: transform .25s, box-shadow .25s;
-  display: flex; flex-direction: column;
+/* === CURRICULUM === */
+.curriculum { background: var(--sky-bg); }
+.curriculum-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.curriculum-text .section-sub { margin-bottom: 32px; }
+.curriculum-pillars { display: flex; flex-direction: column; gap: 16px; }
+.pillar {
+  display: flex; align-items: center; gap: 16px;
+  background: #fff; border-radius: 14px; padding: 18px 22px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.05);
 }
-.program-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,.12); }
-.program-img { height: 220px; overflow: hidden; }
-.program-img img { height: 100%; transition: transform .4s; }
-.program-card:hover .program-img img { transform: scale(1.04); }
-.program-body { padding: 28px; flex: 1; }
-.program-age {
-  display: inline-block; padding: 4px 14px; border-radius: 20px;
-  font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
-  margin-bottom: 12px;
+.pillar-icon {
+  width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 1.3rem;
 }
-.age-infant { background: #FDE8E8; color: var(--coral); }
-.age-toddler { background: #FEF3DC; color: var(--sun-dark); }
-.age-prek { background: #E8F4FD; color: var(--sky-dark); }
-.age-school { background: var(--green-light); color: var(--green-dark); }
-.program-name { font-size: 1.25rem; font-weight: 900; color: var(--dark); margin-bottom: 10px; }
-.program-desc { color: var(--muted); font-size: .9rem; line-height: 1.75; margin-bottom: 18px; }
-.program-features { display: flex; flex-direction: column; gap: 7px; }
-.program-feat { display: flex; align-items: flex-start; gap: 10px; font-size: .85rem; color: var(--text); }
-.program-feat::before { content: '✓'; color: var(--green); font-weight: 900; flex-shrink: 0; margin-top: 2px; }
+.pillar-icon.sky    { background: var(--sky-bg); }
+.pillar-icon.coral  { background: rgba(240,98,77,.1); }
+.pillar-icon.sun    { background: rgba(245,166,35,.12); }
+.pillar-icon.green  { background: rgba(91,173,111,.12); }
+.pillar-icon.purple { background: rgba(139,109,200,.12); }
+.pillar-text strong { display: block; font-size: .95rem; font-weight: 800; color: var(--dark); }
+.pillar-text span   { font-size: .83rem; color: var(--muted); }
+.curriculum-cta { margin-top: 32px; }
 
-/* ─── SPECIAL FEATURES STRIP ─── */
-.special-strip {
-  background: linear-gradient(135deg, var(--dark), #2d3f5c);
-  border-radius: 20px; padding: 36px 40px;
-  display: flex; align-items: center; justify-content: space-between; gap: 32px;
-  flex-wrap: wrap;
+/* === THREE PILLARS === */
+.pillars-section { background: #fff; }
+.pillars-header { text-align: center; margin-bottom: 52px; }
+.pillars-header .section-sub { margin: 0 auto; }
+.pillars-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.pillar-card {
+  background: var(--cream); border-radius: 20px; padding: 40px 32px;
+  text-align: center; border: 2px solid var(--border);
+  transition: border-color .25s, transform .25s, box-shadow .25s;
 }
-.special-strip-left h3 { color: #fff; font-size: 1.2rem; font-weight: 900; margin-bottom: 6px; }
-.special-strip-left p { color: rgba(255,255,255,.65); font-size: .88rem; max-width: 420px; line-height: 1.6; }
-.special-badges { display: flex; gap: 12px; flex-wrap: wrap; }
-.special-badge {
-  padding: 10px 22px; border-radius: 50px; font-weight: 800; font-size: .87rem;
-  display: flex; align-items: center; gap: 8px; white-space: nowrap;
+.pillar-card:hover { border-color: var(--sky); transform: translateY(-4px); box-shadow: 0 8px 32px rgba(59,158,212,.12); }
+.pillar-badge {
+  width: 68px; height: 68px; border-radius: 20px; margin: 0 auto 22px;
+  display: flex; align-items: center; justify-content: center; font-size: 2rem;
 }
-.badge-spanish { background: var(--sun); color: var(--dark); }
-.badge-chapel { background: var(--purple); color: #fff; }
+.pillar-badge.sky   { background: var(--sky-bg); }
+.pillar-badge.coral { background: rgba(240,98,77,.1); }
+.pillar-badge.green { background: rgba(91,173,111,.12); }
+.pillar-card h3 { font-size: 1.3rem; font-weight: 900; color: var(--dark); margin-bottom: 12px; }
+.pillar-card p { font-size: .92rem; color: var(--muted); line-height: 1.7; }
+.pillar-stat { margin-top: 18px; font-size: 1.6rem; font-weight: 900; color: var(--sky); }
+.pillar-stat-label { font-size: .75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; }
 
-/* ─── WHY US ─── */
-.why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
-.why-card {
-  background: var(--card); border-radius: 18px; padding: 32px 28px;
-  border-top: 4px solid var(--sky); text-align: center;
-  box-shadow: 0 2px 16px rgba(0,0,0,.05); transition: box-shadow .25s;
+/* === SAFETY === */
+.safety { background: var(--cream); }
+.safety-header { text-align: center; margin-bottom: 52px; }
+.safety-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 860px; margin: 0 auto; }
+.safety-card {
+  background: #fff; border-radius: 16px; padding: 28px 28px;
+  display: flex; align-items: flex-start; gap: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,.05);
 }
-.why-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,.10); }
-.why-card:nth-child(2) { border-top-color: var(--coral); }
-.why-card:nth-child(3) { border-top-color: var(--green); }
-.why-card:nth-child(4) { border-top-color: var(--sun); }
-.why-card:nth-child(5) { border-top-color: var(--purple); }
-.why-card:nth-child(6) { border-top-color: var(--sky); }
-.why-icon { font-size: 2.4rem; margin-bottom: 16px; }
-.why-title { font-size: 1.05rem; font-weight: 900; color: var(--dark); margin-bottom: 10px; }
-.why-body { color: var(--muted); font-size: .88rem; line-height: 1.7; }
-
-/* ─── FAITH SECTION ─── */
-.faith-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
-.faith-img { border-radius: 24px; overflow: hidden; aspect-ratio: 4/5; }
-.faith-content .s-label { color: var(--purple); }
-.faith-quote {
-  background: rgba(139,109,200,.08); border-left: 4px solid var(--purple);
-  border-radius: 0 12px 12px 0; padding: 20px 24px; margin: 28px 0;
-  font-style: italic; color: var(--dark); font-size: 1.05rem; line-height: 1.7;
+.safety-icon {
+  width: 48px; height: 48px; border-radius: 14px; flex-shrink: 0;
+  background: var(--sky-bg); display: flex; align-items: center; justify-content: center; font-size: 1.4rem;
 }
-.faith-quote cite { display: block; font-style: normal; color: var(--purple); font-weight: 800; font-size: .82rem; margin-top: 10px; }
-.faith-pillars { display: flex; flex-direction: column; gap: 14px; }
-.faith-pillar { display: flex; align-items: flex-start; gap: 14px; }
-.faith-pillar-icon { width: 40px; height: 40px; border-radius: 10px; background: rgba(139,109,200,.12); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
-.faith-pillar-text strong { display: block; font-weight: 800; color: var(--dark); font-size: .92rem; }
-.faith-pillar-text span { color: var(--muted); font-size: .85rem; }
+.safety-card h4 { font-size: 1rem; font-weight: 800; color: var(--dark); margin-bottom: 6px; }
+.safety-card p { font-size: .87rem; color: var(--muted); line-height: 1.6; }
 
-/* ─── DAILY SCHEDULE ─── */
-.schedule-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+/* === DAY SCHEDULE === */
+.schedule-section { background: var(--sky-bg); }
+.schedule-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
 .schedule-list { display: flex; flex-direction: column; gap: 0; }
-.schedule-item { display: flex; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--border); }
-.schedule-item:last-child { border-bottom: none; }
-.schedule-time { font-weight: 800; color: var(--sky); font-size: .85rem; min-width: 90px; flex-shrink: 0; padding-top: 2px; }
-.schedule-detail strong { display: block; font-weight: 800; color: var(--dark); font-size: .9rem; }
-.schedule-detail span { color: var(--muted); font-size: .84rem; line-height: 1.5; }
-.schedule-img { border-radius: 20px; overflow: hidden; height: 100%; min-height: 400px; }
-
-/* ─── TEAM ─── */
-.team-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 32px; max-width: 700px; margin: 0 auto; }
-.team-card {
-  background: var(--card); border-radius: 20px; padding: 36px 28px; text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,.07);
+.sched-row {
+  display: flex; gap: 18px; align-items: flex-start;
+  padding: 16px 0; border-bottom: 1px solid var(--border);
 }
-.team-avatar {
-  width: 90px; height: 90px; border-radius: 50%; margin: 0 auto 18px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 2.2rem; background: linear-gradient(135deg, var(--sky-light), var(--green-light));
-  border: 3px solid var(--sky);
+.sched-row:last-child { border-bottom: none; }
+.sched-time { font-size: .82rem; font-weight: 800; color: var(--sky-dark); width: 86px; flex-shrink: 0; padding-top: 2px; }
+.sched-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--sky); flex-shrink: 0; margin-top: 6px; }
+.sched-info strong { display: block; font-size: .95rem; font-weight: 800; color: var(--dark); }
+.sched-info span { font-size: .83rem; color: var(--muted); }
+.schedule-side { display: flex; flex-direction: column; gap: 24px; }
+.schedule-callout {
+  background: #fff; border-radius: 18px; padding: 32px; text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,.06);
 }
-.team-name { font-size: 1.1rem; font-weight: 900; color: var(--dark); margin-bottom: 4px; }
-.team-role { color: var(--sky); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 14px; }
-.team-bio { color: var(--muted); font-size: .87rem; line-height: 1.7; }
+.schedule-callout h3 { font-size: 1.2rem; font-weight: 900; color: var(--dark); margin-bottom: 10px; }
+.schedule-callout p { font-size: .9rem; color: var(--muted); }
 
-/* ─── GALLERY ─── */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: 220px 220px;
-  gap: 12px;
-}
-.gallery-item { border-radius: 14px; overflow: hidden; }
-.gallery-item img { height: 100%; transition: transform .4s; }
-.gallery-item:hover img { transform: scale(1.05); }
-.gallery-item.tall { grid-row: span 2; }
-
-/* ─── PROOF ─── */
-.proof-section { background: var(--dark); }
-.proof-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
-.proof-card {
-  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
-  border-radius: 18px; padding: 28px 24px; display: flex; flex-direction: column;
-}
-.proof-stars { color: var(--sun); font-size: .9rem; letter-spacing: 2px; margin-bottom: 14px; }
-.proof-text { color: rgba(255,255,255,.82); font-size: .88rem; line-height: 1.8; font-style: italic; flex: 1; margin-bottom: 18px; }
-.proof-attr { color: rgba(255,255,255,.4); font-size: .78rem; font-weight: 700; border-top: 1px solid rgba(255,255,255,.08); padding-top: 14px; }
-
-/* ─── BIBLE VERSES ─── */
-.bible-section { background: #1a2840; padding: 88px 0; }
-.bible-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; }
+/* === FAITH === */
+.faith-section { background: var(--dark); }
+.faith-header { text-align: center; margin-bottom: 52px; }
+.faith-header .section-label { color: var(--sun); }
+.faith-header .section-headline { color: #fff; }
+.faith-header .section-sub { color: rgba(255,255,255,.65); margin: 0 auto; }
+.bible-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 900px; margin: 0 auto 48px; }
 .verse-card {
-  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.10);
-  border-radius: 20px; padding: 32px 28px; position: relative; overflow: hidden;
-  transition: background .25s;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
+  border-radius: 18px; padding: 30px 28px;
 }
-.verse-card::before {
-  content: '✝';
-  position: absolute; top: 16px; right: 20px;
-  font-size: 1.6rem; color: rgba(245,166,35,.18);
-  line-height: 1;
+.verse-ref { font-size: .8rem; font-weight: 800; color: var(--sun); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; }
+.verse-en { font-size: .97rem; color: rgba(255,255,255,.88); line-height: 1.7; font-style: italic; margin-bottom: 8px; }
+.verse-es { font-size: .85rem; color: rgba(255,255,255,.5); line-height: 1.6; }
+.chapel-banner {
+  background: rgba(245,166,35,.12); border: 1px solid rgba(245,166,35,.3);
+  border-radius: 16px; padding: 28px 36px; text-align: center; max-width: 640px; margin: 0 auto;
 }
-.verse-card:hover { background: rgba(255,255,255,.09); }
-.verse-ref {
-  font-size: .78rem; font-weight: 900; color: var(--sun);
-  letter-spacing: .12em; text-transform: uppercase; margin-bottom: 14px;
-  display: flex; align-items: center; gap: 8px;
-}
-.verse-ref::before { content: '🌿'; font-size: .9rem; }
-.verse-en {
-  font-size: 1.01rem; line-height: 1.75; color: #fff;
-  font-style: italic; margin-bottom: 12px;
-}
-.verse-es {
-  font-size: .82rem; line-height: 1.7; color: rgba(255,255,255,.45);
-}
+.chapel-banner h3 { color: var(--sun); font-size: 1.2rem; font-weight: 900; margin-bottom: 10px; }
+.chapel-banner p { color: rgba(255,255,255,.7); font-size: .93rem; }
 
-/* ─── FAQ ─── */
+/* === TESTIMONIALS === */
+.testimonials { background: #fff; }
+.testimonials-header { text-align: center; margin-bottom: 52px; }
+.testimonials-header .section-sub { margin: 0 auto; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.testi-card {
+  background: var(--cream); border-radius: 18px; padding: 34px 30px;
+  border: 1px solid var(--border); position: relative;
+  transition: transform .25s, box-shadow .25s;
+}
+.testi-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+.testi-quote { font-size: 2.5rem; color: var(--sky-light); line-height: 1; margin-bottom: 14px; font-family: Georgia, serif; }
+.testi-text { font-size: .93rem; color: var(--text); line-height: 1.75; margin-bottom: 22px; font-style: italic; }
+.testi-name { font-weight: 800; color: var(--dark); font-size: .9rem; }
+.testi-loc { font-size: .78rem; color: var(--muted); font-weight: 600; }
+
+/* === CTA BAND === */
+.cta-band { background: linear-gradient(110deg, var(--sky-dark), var(--sky)); }
+.cta-band-inner { text-align: center; padding: 80px 40px; }
+.cta-band h2 { font-size: 2.4rem; font-weight: 900; color: #fff; margin-bottom: 14px; }
+.cta-band p { font-size: 1.05rem; color: rgba(255,255,255,.8); margin-bottom: 36px; }
+.cta-band-btns { display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
+.cta-phone { color: #fff; font-size: 1rem; font-weight: 800; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.cta-phone:hover { color: var(--sun); }
+
+/* === ENROLL FORM === */
+.enroll { background: var(--cream); }
+.enroll-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.enroll-left h2 { font-size: 2rem; margin-bottom: 14px; }
+.enroll-left p { color: var(--muted); margin-bottom: 28px; }
+.enroll-contact { display: flex; flex-direction: column; gap: 14px; }
+.contact-row { display: flex; align-items: center; gap: 14px; }
+.contact-icon { width: 44px; height: 44px; border-radius: 12px; background: var(--sky-bg); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+.contact-detail strong { display: block; font-size: .88rem; color: var(--dark); font-weight: 800; }
+.contact-detail a, .contact-detail span { font-size: .9rem; color: var(--muted); }
+.contact-detail a:hover { color: var(--sky); }
+.form-card {
+  background: #fff; border-radius: 20px; padding: 36px;
+  box-shadow: 0 4px 28px rgba(0,0,0,.08);
+}
+.form-card h3 { font-size: 1.3rem; font-weight: 900; color: var(--dark); margin-bottom: 24px; }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: .82rem; font-weight: 800; color: var(--dark); margin-bottom: 7px; text-transform: uppercase; letter-spacing: .05em; }
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%; padding: 13px 16px; border: 2px solid var(--border); border-radius: 10px;
+  font-family: 'Nunito', sans-serif; font-size: .93rem; color: var(--text);
+  background: var(--cream); transition: border-color .2s;
+  appearance: none; -webkit-appearance: none;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  outline: none; border-color: var(--sky);
+}
+.form-group textarea { resize: vertical; min-height: 100px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-submit { width: 100%; }
+
+/* === FAQ === */
+.faq { background: #fff; }
+.faq-header { text-align: center; margin-bottom: 52px; }
 .faq-list { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 0; }
 .faq-item { border-bottom: 1px solid var(--border); }
+.faq-item:first-child { border-top: 1px solid var(--border); }
 .faq-q {
-  width: 100%; text-align: left; padding: 20px 0;
-  font-family: 'Nunito', sans-serif; font-size: .97rem; font-weight: 800;
-  color: var(--dark); background: none; border: none; cursor: pointer;
-  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  width: 100%; background: none; border: none; text-align: left; cursor: pointer;
+  padding: 22px 0; display: flex; justify-content: space-between; align-items: center;
+  font-family: 'Nunito', sans-serif; font-size: 1rem; font-weight: 800; color: var(--dark);
 }
-.faq-q .faq-icon { color: var(--sky); font-size: 1.2rem; flex-shrink: 0; transition: transform .3s; }
-.faq-q.open .faq-icon { transform: rotate(45deg); }
-.faq-a { display: none; padding-bottom: 20px; color: var(--muted); font-size: .91rem; line-height: 1.8; }
-.faq-a.open { display: block; }
+.faq-q:hover { color: var(--sky); }
+.faq-chevron { font-size: 1.1rem; color: var(--muted); transition: transform .25s; flex-shrink: 0; }
+.faq-a { max-height: 0; overflow: hidden; transition: max-height .3s ease, padding .3s ease; font-size: .93rem; color: var(--muted); line-height: 1.75; }
+.faq-a.open { max-height: 300px; padding-bottom: 20px; }
+.faq-item.open .faq-chevron { transform: rotate(180deg); }
 
-/* ─── ENROLLMENT CTA ─── */
-.enroll-section {
-  background: linear-gradient(135deg, var(--sky), var(--sky-dark));
-  text-align: center; padding: 88px 0;
+/* === LOCATION === */
+.location { background: var(--cream); }
+.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+.map-wrap { border-radius: 18px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,.08); }
+.map-wrap iframe { display: block; width: 100%; height: 320px; border: none; }
+.map-open-link { display: block; margin-top: 12px; font-size: .85rem; font-weight: 700; color: var(--sky); }
+.hours-card {
+  background: #fff; border-radius: 18px; padding: 32px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.06);
 }
-.enroll-section h2 { color: #fff; font-size: clamp(2rem,4vw,3rem); margin-bottom: 16px; }
-.enroll-section p { color: rgba(255,255,255,.82); font-size: 1.05rem; max-width: 560px; margin: 0 auto 40px; line-height: 1.8; }
-.enroll-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-.btn-white {
-  background: #fff; color: var(--sky-dark); padding: 16px 40px; border-radius: 50px;
-  font-weight: 900; font-size: 1rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  box-shadow: 0 6px 24px rgba(0,0,0,.15); transition: transform .15s;
-}
-.btn-white:hover { transform: translateY(-2px); text-decoration: none; color: var(--sky-dark); }
-.btn-outline-white {
-  background: transparent; border: 2px solid rgba(255,255,255,.6); color: #fff;
-  padding: 16px 40px; border-radius: 50px; font-weight: 700; font-size: 1rem;
-  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  transition: border-color .2s, background .2s;
-}
-.btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,.12); text-decoration: none; color: #fff; }
-
-/* ─── CONTACT / LOCATION ─── */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
-.contact-block h3 { font-size: 1.3rem; color: var(--dark); margin-bottom: 20px; }
-.contact-detail { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 18px; }
-.contact-detail-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
-.contact-detail-body strong { display: block; font-weight: 800; color: var(--dark); font-size: .9rem; }
-.contact-detail-body span { color: var(--muted); font-size: .88rem; line-height: 1.6; }
-.hours-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
-.hours-table td { padding: 8px 0; font-size: .88rem; border-bottom: 1px solid var(--border); }
-.hours-table td:first-child { font-weight: 700; color: var(--dark); }
-.hours-table td:last-child { color: var(--muted); text-align: right; }
+.hours-card h3 { font-size: 1.15rem; font-weight: 900; color: var(--dark); margin-bottom: 20px; }
+.hours-table { width: 100%; border-collapse: collapse; }
+.hours-table td { padding: 9px 4px; font-size: .9rem; border-bottom: 1px solid var(--border); }
 .hours-table tr:last-child td { border-bottom: none; }
-.map-wrap { border-radius: 16px; overflow: hidden; border: 2px solid var(--border); }
-.map-link { display: block; text-align: center; padding: 10px; font-size: .82rem; font-weight: 700; color: var(--sky); background: var(--sky-light); }
+.hours-table td:first-child { font-weight: 800; color: var(--dark); width: 120px; }
+.hours-table td:last-child { color: var(--muted); text-align: right; }
+.hours-table tr.today td { color: var(--sky-dark); background: var(--sky-bg); border-radius: 6px; }
+.hours-divider { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+.addr-row { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+.addr-icon { color: var(--sky); font-size: 1.1rem; margin-top: 2px; flex-shrink: 0; }
+.addr-text { font-size: .9rem; color: var(--text); line-height: 1.6; }
 
-/* ─── ENROLLMENT FORM ─── */
-.form-card {
-  background: var(--card); border-radius: 20px; padding: 40px;
-  box-shadow: 0 4px 32px rgba(0,0,0,.08); border: 1px solid var(--border);
-}
-.form-card h3 { font-size: 1.3rem; color: var(--dark); margin-bottom: 6px; }
-.form-sub { color: var(--muted); font-size: .88rem; margin-bottom: 28px; }
-.field { margin-bottom: 18px; }
-.field label { display: block; font-weight: 800; font-size: .82rem; color: var(--dark); margin-bottom: 6px; }
-.field input, .field select, .field textarea {
-  width: 100%; padding: 12px 16px; border: 1.5px solid var(--border);
-  border-radius: 10px; font-family: 'Nunito', sans-serif; font-size: .9rem;
-  color: var(--text); transition: border-color .2s, box-shadow .2s; background: #fff;
-}
-.field input:focus, .field select:focus, .field textarea:focus {
-  outline: none; border-color: var(--sky); box-shadow: 0 0 0 3px rgba(59,158,212,.12);
-}
-.field textarea { resize: vertical; }
-.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.btn-submit {
-  width: 100%; padding: 15px; background: var(--coral); color: #fff;
-  border: none; border-radius: 50px; font-family: 'Nunito', sans-serif;
-  font-size: .98rem; font-weight: 900; cursor: pointer;
-  transition: background .2s, transform .15s; box-shadow: 0 4px 16px rgba(240,98,77,.3);
-}
-.btn-submit:hover { background: #d94f3b; transform: translateY(-2px); }
-
-/* ─── FOOTER ─── */
+/* === FOOTER === */
 footer { background: var(--dark); color: rgba(255,255,255,.7); }
 .footer-main { padding: 64px 0 40px; }
-.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
 .footer-brand-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
-.footer-icon { width: 44px; height: 44px; border-radius: 10px; background: linear-gradient(135deg, var(--green), var(--sky)); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; }
-.footer-brand-name { color: #fff; font-weight: 900; font-size: .97rem; line-height: 1.2; }
-.footer-brand-tag { color: rgba(255,255,255,.45); font-size: .72rem; font-weight: 600; }
-.footer-desc { font-size: .85rem; line-height: 1.8; max-width: 320px; color: rgba(255,255,255,.55); }
-.footer-col h5 { color: #fff; font-size: .78rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 18px; }
+.footer-icon { width: 42px; height: 42px; flex-shrink: 0; }
+.footer-brand-name { font-family: 'Dancing Script', cursive; font-size: 1.2rem; font-weight: 700; color: #fff; }
+.footer-brand-tag { font-size: .7rem; font-weight: 700; color: rgba(255,255,255,.45); letter-spacing: .05em; text-transform: uppercase; }
+.footer-desc { font-size: .87rem; color: rgba(255,255,255,.55); line-height: 1.7; margin-bottom: 18px; }
+.footer-contacts { font-size: .87rem; }
+.footer-contacts a { color: rgba(255,255,255,.6); }
+.footer-contacts a:hover { color: #fff; }
+.footer-col h4 { color: #fff; font-size: .9rem; font-weight: 800; margin-bottom: 16px; }
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-.footer-col ul li a { color: rgba(255,255,255,.55); font-size: .85rem; text-decoration: none; transition: color .2s; }
+.footer-col ul li a { font-size: .87rem; color: rgba(255,255,255,.55); text-decoration: none; transition: color .2s; }
 .footer-col ul li a:hover { color: #fff; }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding: 20px 0; display: flex; justify-content: space-between; align-items: center; font-size: .78rem; color: rgba(255,255,255,.35); }
-.footer-social { display: flex; gap: 14px; }
-.footer-social a { color: rgba(255,255,255,.5); text-decoration: none; font-size: .82rem; transition: color .2s; }
-.footer-social a:hover { color: #fff; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 20px 0; display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  font-size: .78rem; color: rgba(255,255,255,.35);
+}
+.footer-bottom a { color: rgba(255,255,255,.35); }
 
-/* ─── MOBILE STICKY ─── */
+/* === MOBILE STICKY === */
 .mobile-sticky {
-  display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 90;
-  background: #fff; border-top: 2px solid var(--border);
-  padding: 12px 16px; gap: 10px;
-  box-shadow: 0 -4px 20px rgba(0,0,0,.12);
+  display: none; position: fixed; bottom: 0; left: 0; right: 0;
+  z-index: 90; background: var(--dark); padding: 12px 16px; gap: 10px;
+  border-top: 1px solid rgba(255,255,255,.1);
 }
-.ms-btn { flex: 1; text-align: center; padding: 12px 10px; border-radius: 50px; font-weight: 900; font-size: .85rem; text-decoration: none; white-space: normal; }
-.ms-call { background: var(--sky); color: #fff; }
-.ms-enroll { background: var(--coral); color: #fff; }
+@media (max-width: 768px) { .mobile-sticky { display: flex; } }
+.ms-btn {
+  flex: 1; text-align: center; padding: 13px 8px; border-radius: 10px;
+  font-weight: 800; font-size: .85rem; text-decoration: none;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+}
+.ms-call { background: var(--coral); color: #fff; }
+.ms-dir  { background: var(--sky); color: #fff; }
+@media (max-width: 768px) { body { padding-bottom: 72px; } }
 
-/* ─── LANGUAGE TOGGLE BUTTON ─── */
+/* === LANGUAGE TOGGLE === */
 .lang-toggle {
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  z-index: 200;
-  background: var(--dark);
-  color: #fff;
-  border: 2px solid rgba(255,255,255,.18);
-  border-radius: 50px;
-  padding: 8px 16px;
-  font-family: 'Nunito', sans-serif;
-  font-size: .78rem;
-  font-weight: 800;
-  cursor: pointer;
-  box-shadow: 0 4px 20px rgba(0,0,0,.3);
-  transition: background .2s, transform .15s;
-  display: flex; align-items: center; gap: 6px;
-  white-space: nowrap;
-  letter-spacing: .02em;
+  position: fixed; bottom: 90px; right: 20px; z-index: 95;
+  background: var(--dark); color: #fff; border: 2px solid rgba(255,255,255,.15);
+  border-radius: 50px; padding: 8px 16px; font-size: .78rem; font-weight: 800;
+  cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,.25); transition: all .2s;
+  letter-spacing: .05em;
 }
-.lang-toggle:hover { background: #2d3f5c; transform: translateY(-2px); }
-.lang-toggle .lang-en { color: rgba(255,255,255,.55); }
-.lang-toggle .lang-es { color: rgba(255,255,255,.55); }
-.lang-toggle .lang-sep { color: rgba(255,255,255,.3); margin: 0 2px; }
-.lang-toggle.es .lang-es { color: var(--sun); font-weight: 900; }
-.lang-toggle.en .lang-en { color: var(--sun); font-weight: 900; }
+.lang-toggle:hover { background: var(--sky-dark); border-color: var(--sky); }
 
-/* ─── FADE ─── */
-.fade { opacity: 0; transform: translateY(22px); transition: opacity .55s ease, transform .55s ease; }
+/* === SCROLL ANIMATIONS === */
+.fade { opacity: 0; transform: translateY(20px); transition: opacity .55s ease, transform .55s ease; }
 .fade.in { opacity: 1; transform: translateY(0); }
 
-/* ─── RESPONSIVE ─── */
-@media (max-width: 960px) {
-  .nav-links { display: none; }
-  .hamburger { display: flex; }
-  .nav { padding: 0 24px; }
-  .container { padding: 0 24px; }
-  .hero-inner { padding: 0 24px; }
-  .programs-grid { grid-template-columns: 1fr; }
-  .why-grid { grid-template-columns: 1fr 1fr; }
-  .faith-grid { grid-template-columns: 1fr; gap: 36px; }
-  .faith-img { aspect-ratio: 16/9; }
-  .schedule-wrap { grid-template-columns: 1fr; }
-  .team-grid { grid-template-columns: 1fr 1fr; }
-  .gallery-grid { grid-template-columns: repeat(2,1fr); grid-template-rows: auto; }
-  .gallery-item.tall { grid-row: span 1; }
-  .proof-grid { grid-template-columns: 1fr; }
-  .contact-grid { grid-template-columns: 1fr; gap: 40px; }
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .stats-strip { grid-template-columns: repeat(2,1fr); }
-  .bible-grid { grid-template-columns: 1fr; }
-  .trust-ribbon { padding: 8px 24px; }
-  .special-strip { flex-direction: column; align-items: flex-start; gap: 20px; }
+/* === RESPONSIVE === */
+@media (max-width: 1024px) {
+  .curriculum-grid, .enroll-grid, .schedule-grid { grid-template-columns: 1fr; gap: 40px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+  .programs-grid { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; }
+  .pillars-grid { grid-template-columns: 1fr 1fr; }
 }
-@media (max-width: 600px) {
-  .hero { min-height: 100vh; }
-  .hero h1 { font-size: 2.1rem; }
-  .hero-btns { flex-direction: column; }
-  .why-grid { grid-template-columns: 1fr; }
-  .team-grid { grid-template-columns: 1fr; max-width: 360px; }
-  .gallery-grid { grid-template-columns: 1fr 1fr; }
-  .field-row { grid-template-columns: 1fr; }
+@media (max-width: 768px) {
+  section { padding: 64px 0; }
+  .container { padding: 0 20px; }
+  .hero h1 { font-size: 2.4rem; }
+  .hero-inner { padding: 0 20px; }
+  .section-headline { font-size: 1.8rem; }
+  .nav { padding: 0 20px; }
+  .nav-links, .nav-tour { display: none; }
+  .hamburger { display: flex; }
+  .stats-strip .container { flex-wrap: wrap; }
+  .stat-item { flex: 1 1 40%; border-right: none; border-bottom: 1px solid var(--border); }
+  .stat-item:nth-child(odd) { border-right: 1px solid var(--border); }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .safety-grid { grid-template-columns: 1fr; }
+  .bible-grid { grid-template-columns: 1fr; }
+  .location-grid { grid-template-columns: 1fr; }
+  .pillars-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .cta-band h2 { font-size: 1.8rem; }
   .footer-grid { grid-template-columns: 1fr; }
-  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
-  .section { padding: 60px 0; }
-  .mobile-sticky { display: flex; }
-  body { padding-bottom: 72px; }
-  .enroll-btns { flex-direction: column; align-items: center; }
-  .trust-ribbon { gap: 14px; font-size: .72rem; }
-  .lang-toggle { bottom: 84px; right: 14px; font-size: .72rem; padding: 7px 13px; }
-  .bible-section { padding: 60px 0; }
-  .special-badges { gap: 8px; }
+  .hero-btns { flex-direction: column; }
+  .trust-ribbon { padding: 8px 16px; gap: 16px; }
 }
 </style>
 </head>
+
 <body>
 
 <!-- GRAND OPENING BANNER -->
 <div class="go-banner">
-  <span data-en="🎉 Grand Opening — May 31, 2026! Pop-up market, face painting, kids activities &amp; enrollment sign-ups · Noon–5:30 PM · 900 Granberry St., Humble, TX · " data-es="🎉 ¡Gran Inauguración — 31 de Mayo de 2026! Mercado pop-up, pintura de caras, actividades para niños e inscripciones · Mediodía–5:30 PM · 900 Granberry St., Humble, TX · ">🎉 Grand Opening — May 31, 2026! Pop-up market, face painting, kids activities &amp; enrollment sign-ups · Noon–5:30 PM · 900 Granberry St., Humble, TX · </span><a href="#contact" data-en="RSVP &amp; Enroll Today" data-es="Confirmar asistencia e Inscribirse Hoy">RSVP &amp; Enroll Today</a>
+  🌟 <span data-en="Grand Opening — May 31, 2026 · Now Enrolling! Limited Spots Available." data-es="Gran Inauguración — 31 de mayo de 2026 · ¡Inscripciones abiertas! Cupos limitados.">Grand Opening — May 31, 2026 · Now Enrolling! Limited Spots Available.</span>
 </div>
 
 <!-- TRUST RIBBON -->
 <div class="trust-ribbon">
+  <span>✅ <span data-en="Licensed by Texas HHSC" data-es="Licenciado por Texas HHSC">Licensed by Texas HHSC</span></span>
+  <span>🏫 <span data-en="47 Children Max — Intentionally Small" data-es="47 Niños Máx — Intencionalmente Pequeño">47 Children Max — Intentionally Small</span></span>
+  <span>🙏 <span data-en="Faith-Based Curriculum" data-es="Currículo Basado en la Fe">Faith-Based Curriculum</span></span>
+  <span>🇪🇸 <span data-en="Spanish Offered" data-es="Español Ofrecido">Spanish Offered</span></span>
   <span>📞 <a href="tel:8329930188">(832) 993-0188</a></span>
-  <span>✉️ <a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></span>
-  <span data-en="🌎 Spanish Offered" data-es="🌎 Se Ofrece Español">🌎 Spanish Offered</span>
-  <span data-en="⛪ Chapel Program" data-es="⛪ Programa de Capilla">⛪ Chapel Program</span>
-  <span data-en="📍 900 Granberry St., Humble, TX" data-es="📍 900 Granberry St., Humble, TX">📍 900 Granberry St., Humble, TX</span>
 </div>
 
 <!-- NAV -->
 <nav class="nav" role="navigation">
   <a class="nav-logo" href="#">
     <div class="nav-logo-icon">
-      <svg viewBox="0 0 46 46" width="42" height="42" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 46 46" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="23" cy="15" rx="4.5" ry="8" fill="#F0624D"/>
         <ellipse cx="23" cy="15" rx="4.5" ry="8" fill="#3B9ED4" transform="rotate(60 23 23)"/>
         <ellipse cx="23" cy="15" rx="4.5" ry="8" fill="#F5A623" transform="rotate(120 23 23)"/>
@@ -587,8 +564,8 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
       </svg>
     </div>
     <div class="nav-logo-text">
-      <div class="name">Little Seeds of Hope</div>
-      <div class="tagline" data-en="Academy · Humble, TX" data-es="Academia · Humble, TX">Academy · Humble, TX</div>
+      <div class="nav-logo-name">Little Seeds of Hope</div>
+      <div class="nav-logo-tag" data-en="Academy · Humble, TX" data-es="Academia · Humble, TX">Academy · Humble, TX</div>
     </div>
   </a>
   <div class="nav-links">
@@ -596,10 +573,9 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
     <a href="#about" data-en="About Us" data-es="Nosotros">About Us</a>
     <a href="#schedule" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</a>
     <a href="#faq" data-en="FAQ" data-es="Preguntas">FAQ</a>
-    <a href="#contact" data-en="Location" data-es="Ubicación">Location</a>
-    <a href="tel:8329930188" style="color:var(--sky);font-weight:800;font-size:.84rem;">(832) 993-0188</a>
-    <a href="#enroll" class="nav-cta" data-en="Enroll Now →" data-es="Inscríbete →">Enroll Now →</a>
+    <a href="#location" data-en="Location" data-es="Ubicación">Location</a>
   </div>
+  <a href="#enroll" class="nav-tour" data-en="Schedule a Tour →" data-es="Agendar Visita →">Schedule a Tour →</a>
   <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
@@ -611,216 +587,161 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   <a href="#programs" class="menu-link" data-en="Programs" data-es="Programas">Programs</a>
   <a href="#about" class="menu-link" data-en="About Us" data-es="Nosotros">About Us</a>
   <a href="#schedule" class="menu-link" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</a>
-  <a href="#faq" class="menu-link" data-en="FAQ" data-es="Preguntas">FAQ</a>
-  <a href="#contact" class="menu-link" data-en="Location" data-es="Ubicación">Location</a>
-  <a href="tel:8329930188" class="menu-link">(832) 993-0188</a>
-  <a href="#enroll" class="menu-link mob-enroll" data-en="Enroll Now →" data-es="Inscríbete →">Enroll Now →</a>
+  <a href="#faq" class="menu-link">FAQ</a>
+  <a href="#location" class="menu-link" data-en="Location" data-es="Ubicación">Location</a>
+  <a href="#enroll" class="btn btn-coral menu-link" data-en="Schedule a Tour →" data-es="Agendar Visita →">Schedule a Tour →</a>
 </div>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero" id="hero">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
   <div class="hero-inner">
-    <div class="hero-badge fade" data-en="🌟 Now Enrolling — Ages 18 Months and Up" data-es="🌟 Inscripciones Abiertas — Desde 18 Meses">🌟 Now Enrolling — Ages 18 Months and Up</div>
-    <h1 class="fade" data-en="Where Little Minds<br><em>Grow With Purpose</em>" data-es="Donde las Pequeñas Mentes<br><em>Crecen con Propósito</em>">Where Little Minds<br><em>Grow With Purpose</em></h1>
-    <p class="hero-sub fade" data-en="Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on learning, and a family-oriented community where every child is known, loved, and nurtured." data-es="Educación infantil temprana basada en la fe en Humble, TX. Bilingüe (español), programa de capilla, aprendizaje práctico y una comunidad familiar donde cada niño es conocido, amado y cuidado.">Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on learning, and a family-oriented community where every child is known, loved, and nurtured.</p>
+    <div class="hero-badge fade" data-en="🌟 Grand Opening May 31, 2026 — Spots Are Limited" data-es="🌟 Gran Inauguración 31 de mayo de 2026 — Cupos Limitados">🌟 Grand Opening May 31, 2026 — Spots Are Limited</div>
+    <h1 class="fade" data-en="Your Child <em>Blooms</em> Here." data-es="Tu Hijo <em>Florece</em> Aquí.">Your Child <em>Blooms</em> Here.</h1>
+    <p class="hero-sub fade" data-en="Faith-based early childhood education in Humble, TX. Intentionally small. Bilingual. A community where every child is known, loved, and nurtured from 18 months and up." data-es="Educación infantil temprana basada en la fe en Humble, TX. Intencionalmente pequeño. Bilingüe. Una comunidad donde cada niño es conocido, amado y cuidado desde los 18 meses.">Faith-based early childhood education in Humble, TX. Intentionally small. Bilingual. A community where every child is known, loved, and nurtured from 18 months and up.</p>
     <div class="hero-btns fade">
-      <a href="#enroll" class="btn-enroll" data-en="✏️ Enroll Now — It's Free" data-es="✏️ Inscríbete — Es Gratis">✏️ Enroll Now — It's Free</a>
-      <a href="#programs" class="btn-tour" data-en="Explore Programs →" data-es="Ver Programas →">Explore Programs →</a>
+      <a href="#enroll" class="btn btn-coral" data-en="Schedule a Tour →" data-es="Agendar Visita →">Schedule a Tour →</a>
+      <a href="#programs" class="btn btn-outline-white" data-en="See Our Programs" data-es="Ver Programas">See Our Programs</a>
     </div>
     <div class="hero-chips fade">
-      <div class="hero-chip"><strong>47</strong> <span data-en="Children Max · Intentionally Small" data-es="Niños Máx · Intencionalmente Pequeño">Children Max · Intentionally Small</span></div>
-      <div class="hero-chip"><strong data-en="Faith-Based" data-es="Basado en la Fe">Faith-Based</strong> <span data-en="Curriculum" data-es="Currículo">Curriculum</span></div>
-      <div class="hero-chip"><strong>18 Mo – 5+</strong> <span data-en="Years Served" data-es="Años Atendidos">Years Served</span></div>
+      <div class="hero-chip"><strong>47</strong> <span data-en="Children Max" data-es="Niños Máx">Children Max</span></div>
+      <div class="hero-chip"><strong data-en="Faith-Based" data-es="Fe">Faith-Based</strong></div>
+      <div class="hero-chip"><strong>18 Mo – 5+</strong> <span data-en="Years" data-es="Años">Years</span></div>
+      <div class="hero-chip">🇪🇸 <span data-en="Bilingual" data-es="Bilingüe">Bilingual</span></div>
     </div>
   </div>
 </section>
 
 <!-- STATS STRIP -->
 <div class="stats-strip">
-  <div class="stat-cell fade">
-    <div class="stat-num">47</div>
-    <div class="stat-label" data-en="Max Capacity<br>Intentionally Small" data-es="Capacidad Máxima<br>Intencionalmente Pequeño">Max Capacity<br>Intentionally Small</div>
-  </div>
-  <div class="stat-cell fade">
-    <div class="stat-num">18 Mo</div>
-    <div class="stat-label" data-en="Youngest Age<br>We Serve" data-es="Edad Mínima<br>que Atendemos">Youngest Age<br>We Serve</div>
-  </div>
-  <div class="stat-cell fade">
-    <div class="stat-num">5+</div>
-    <div class="stat-label" data-en="School Age<br>Classrooms" data-es="Edad Escolar<br>y Más">School Age<br>Classrooms</div>
-  </div>
-  <div class="stat-cell fade">
-    <div class="stat-num">100%</div>
-    <div class="stat-label" data-en="Faith-Based<br>Curriculum" data-es="Currículo<br>Basado en la Fe">Faith-Based<br>Curriculum</div>
+  <div class="container">
+    <div class="stat-item fade">
+      <div class="stat-num">47</div>
+      <div class="stat-label" data-en="Children Max · Intentionally Small" data-es="Niños Máx · Intencionalmente Pequeño">Children Max · Intentionally Small</div>
+    </div>
+    <div class="stat-item fade">
+      <div class="stat-num">3</div>
+      <div class="stat-label" data-en="Age-Based Programs" data-es="Programas por Edad">Age-Based Programs</div>
+    </div>
+    <div class="stat-item fade">
+      <div class="stat-num">2</div>
+      <div class="stat-label" data-en="Languages · English & Spanish" data-es="Idiomas · Inglés y Español">Languages · English & Spanish</div>
+    </div>
+    <div class="stat-item fade">
+      <div class="stat-num">May 31</div>
+      <div class="stat-label" data-en="Grand Opening 2026" data-es="Gran Inauguración 2026">Grand Opening 2026</div>
+    </div>
   </div>
 </div>
 
 <!-- PROGRAMS -->
-<section class="section" id="programs">
+<section class="programs" id="programs">
   <div class="container">
-    <div class="text-center">
-      <div class="s-label fade" data-en="Our Programs" data-es="Nuestros Programas">Our Programs</div>
-      <h2 class="s-title fade" data-en="Care &amp; Education for<br>Every Stage of Childhood" data-es="Cuidado y Educación para<br>Cada Etapa de la Niñez">Care &amp; Education for<br>Every Stage of Childhood</h2>
-      <div class="s-rule fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade" data-en="From your toddler's first classroom to your big kid's growing years — Little Seeds of Hope Academy is built to grow with your family." data-es="Desde el primer salón de tu pequeño hasta los años de crecimiento de tu hijo mayor — Little Seeds of Hope Academy está diseñada para crecer con tu familia.">From your toddler's first classroom to your big kid's growing years — Little Seeds of Hope Academy is built to grow with your family.</p>
+    <div class="programs-header fade">
+      <div class="section-label coral" data-en="OUR PROGRAMS" data-es="NUESTROS PROGRAMAS">OUR PROGRAMS</div>
+      <h2 class="section-headline" data-en="Early Learning Built for Every Stage" data-es="Aprendizaje Temprano para Cada Etapa">Early Learning Built for Every Stage</h2>
+      <p class="section-sub" data-en="Three intentionally designed programs, each crafted to meet your child exactly where they are — developmentally, emotionally, and spiritually." data-es="Tres programas diseñados intencionalmente, cada uno para encontrar a tu hijo exactamente donde está — en lo emocional, espiritual y del desarrollo.">Three intentionally designed programs, each crafted to meet your child exactly where they are — developmentally, emotionally, and spiritually.</p>
     </div>
-
     <div class="programs-grid">
-
-      <!-- CARD 1 -->
-      <div class="program-card fade">
-        <div class="program-img">
-          <img src="https://images.pexels.com/photos/8088235/pexels-photo-8088235.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Toddler classroom 18 months to 2 years" loading="lazy">
-        </div>
-        <div class="program-body">
-          <span class="program-age age-infant" data-en="18 Months – 2 Years" data-es="18 Meses – 2 Años">18 Months – 2 Years</span>
-          <div class="program-name" data-en="Toddler Classroom" data-es="Salón de Bebés y Caminadores">Toddler Classroom</div>
-          <p class="program-desc" data-en="Gentle, nurturing care in a safe and stimulating environment. Our caregivers follow individualized routines that support healthy development and strong early bonds." data-es="Cuidado gentil y cariñoso en un ambiente seguro y estimulante. Nuestros cuidadores siguen rutinas individualizadas que apoyan el desarrollo saludable y vínculos tempranos fuertes.">Gentle, nurturing care in a safe and stimulating environment. Our caregivers follow individualized routines that support healthy development and strong early bonds.</p>
-          <div class="program-features">
-            <div class="program-feat" data-en="Low caregiver-to-toddler ratio for hands-on attention" data-es="Baja proporción cuidador-niño para atención personalizada">Low caregiver-to-toddler ratio for hands-on attention</div>
-            <div class="program-feat" data-en="Sensory play and age-appropriate stimulation daily" data-es="Juego sensorial y estimulación apropiada para la edad a diario">Sensory play and age-appropriate stimulation daily</div>
-            <div class="program-feat" data-en="Daily parent communication on routines and milestones" data-es="Comunicación diaria con padres sobre rutinas e hitos">Daily parent communication on routines and milestones</div>
-            <div class="program-feat" data-en="Faith-integrated songs, stories, and calm routines" data-es="Canciones, cuentos y rutinas tranquilas integradas a la fe">Faith-integrated songs, stories, and calm routines</div>
-          </div>
+      <!-- Little Sprouts -->
+      <div class="prog-card fade">
+        <div class="prog-bar coral"></div>
+        <div class="prog-body">
+          <div class="prog-age coral-bg" data-en="Ages 18 Months – 2 Years" data-es="Edades 18 Meses – 2 Años">Ages 18 Months – 2 Years</div>
+          <h3 class="prog-name" data-en="Little Sprouts" data-es="Pequeños Brotes">Little Sprouts</h3>
+          <p class="prog-tagline" data-en="Nurturing wonder in your littlest explorer." data-es="Cultivando la curiosidad en tu pequeño explorador.">"Nurturing wonder in your littlest explorer."</p>
+          <ul class="prog-list">
+            <li data-en="Responsive, attachment-focused caregiving" data-es="Cuidado enfocado en el apego seguro">Responsive, attachment-focused caregiving</li>
+            <li data-en="Early language & sensory play" data-es="Lenguaje temprano y juego sensorial">Early language & sensory play</li>
+            <li data-en="Faith-based songs & morning devotion" data-es="Canciones de fe y devoción matutina">Faith-based songs & morning devotion</li>
+            <li data-en="Spanish introduction through music & play" data-es="Introducción al español mediante música y juego">Spanish introduction through music & play</li>
+          </ul>
+          <a href="#enroll" class="prog-link" data-en="Enroll in Little Sprouts →" data-es="Inscribirse en Pequeños Brotes →">Enroll in Little Sprouts →</a>
         </div>
       </div>
-
-      <!-- CARD 2 -->
-      <div class="program-card fade">
-        <div class="program-img">
-          <img src="https://images.pexels.com/photos/8363560/pexels-photo-8363560.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Preschool classroom 3 to 4 years" loading="lazy">
-        </div>
-        <div class="program-body">
-          <span class="program-age age-toddler" data-en="3–4 Years" data-es="3–4 Años">3–4 Years</span>
-          <div class="program-name" data-en="Preschool Classroom" data-es="Salón de Preescolar">Preschool Classroom</div>
-          <p class="program-desc" data-en="Curious, energetic preschoolers thrive with structure and freedom in equal measure. Our preschool blends guided exploration with the warmth of a faith-centered community." data-es="Los preescolares curiosos y enérgicos prosperan con estructura y libertad en partes iguales. Nuestro preescolar combina exploración guiada con el calor de una comunidad centrada en la fe.">Curious, energetic preschoolers thrive with structure and freedom in equal measure. Our preschool blends guided exploration with the warmth of a faith-centered community.</p>
-          <div class="program-features">
-            <div class="program-feat" data-en="Language development and early literacy activities" data-es="Desarrollo del lenguaje y actividades de lectoescritura temprana">Language development and early literacy activities</div>
-            <div class="program-feat" data-en="Structured play zones that develop motor skills" data-es="Zonas de juego estructurado que desarrollan habilidades motoras">Structured play zones that develop motor skills</div>
-            <div class="program-feat" data-en="Biblical values woven into daily storytime" data-es="Valores bíblicos integrados en la hora del cuento diaria">Biblical values woven into daily storytime</div>
-            <div class="program-feat" data-en="Social-emotional learning and positive guidance" data-es="Aprendizaje socioemocional y guía positiva">Social-emotional learning and positive guidance</div>
-          </div>
+      <!-- Growing Roots -->
+      <div class="prog-card fade">
+        <div class="prog-bar sky"></div>
+        <div class="prog-body">
+          <div class="prog-age" data-en="Ages 3 – 4 Years" data-es="Edades 3 – 4 Años">Ages 3 – 4 Years</div>
+          <h3 class="prog-name" data-en="Growing Roots" data-es="Raíces Crecientes">Growing Roots</h3>
+          <p class="prog-tagline" data-en="Where curiosity grows into confidence." data-es="Donde la curiosidad se convierte en confianza.">"Where curiosity grows into confidence."</p>
+          <ul class="prog-list">
+            <li data-en="Hands-on science & creative arts" data-es="Ciencias prácticas y artes creativas">Hands-on science & creative arts</li>
+            <li data-en="Early literacy & math readiness" data-es="Lectura temprana y preparación matemática">Early literacy & math readiness</li>
+            <li data-en="Chapel program & Bible stories" data-es="Programa de capilla e historias bíblicas">Chapel program & Bible stories</li>
+            <li data-en="Conversational Spanish enrichment" data-es="Enriquecimiento de español conversacional">Conversational Spanish enrichment</li>
+          </ul>
+          <a href="#enroll" class="prog-link" data-en="Enroll in Growing Roots →" data-es="Inscribirse en Raíces Crecientes →">Enroll in Growing Roots →</a>
         </div>
       </div>
-
-      <!-- CARD 3 -->
-      <div class="program-card fade">
-        <div class="program-img">
-          <img src="https://images.pexels.com/photos/8613065/pexels-photo-8613065.jpeg?auto=compress&cs=tinysrgb&w=800" alt="School age classroom 5 and up" loading="lazy">
+      <!-- Rising Seeds -->
+      <div class="prog-card fade">
+        <div class="prog-bar green"></div>
+        <div class="prog-body">
+          <div class="prog-age green-bg" data-en="Ages 5 & Up" data-es="Edades 5 y Más">Ages 5 & Up</div>
+          <h3 class="prog-name" data-en="Rising Seeds" data-es="Semillas que Crecen">Rising Seeds</h3>
+          <p class="prog-tagline" data-en="Ready for school, rooted for life." data-es="Listos para la escuela, arraigados para la vida.">"Ready for school, rooted for life."</p>
+          <ul class="prog-list">
+            <li data-en="Kindergarten readiness skills" data-es="Habilidades de preparación para el kínder">Kindergarten readiness skills</li>
+            <li data-en="Reading, writing & critical thinking" data-es="Lectura, escritura y pensamiento crítico">Reading, writing & critical thinking</li>
+            <li data-en="Leadership & values development" data-es="Desarrollo de liderazgo y valores">Leadership & values development</li>
+            <li data-en="Bilingual Spanish curriculum" data-es="Currículo bilingüe en español">Bilingual Spanish curriculum</li>
+          </ul>
+          <a href="#enroll" class="prog-link" data-en="Enroll in Rising Seeds →" data-es="Inscribirse en Semillas que Crecen →">Enroll in Rising Seeds →</a>
         </div>
-        <div class="program-body">
-          <span class="program-age age-school" data-en="5 &amp; Up" data-es="5 Años y Más">5 &amp; Up</span>
-          <div class="program-name" data-en="School Age Classroom" data-es="Salón de Edad Escolar">School Age Classroom</div>
-          <p class="program-desc" data-en="A safe, enriching place where school-age children continue to learn and grow. Homework help, healthy activities, outdoor play, and positive mentorship in a faith-filled environment." data-es="Un lugar seguro y enriquecedor donde los niños en edad escolar continúan aprendiendo y creciendo. Ayuda con tareas, actividades saludables, juego al aire libre y mentoría positiva en un ambiente de fe.">A safe, enriching place where school-age children continue to learn and grow. Homework help, healthy activities, outdoor play, and positive mentorship in a faith-filled environment.</p>
-          <div class="program-features">
-            <div class="program-feat" data-en="Supervised homework time every afternoon" data-es="Tiempo supervisado para tareas cada tarde">Supervised homework time every afternoon</div>
-            <div class="program-feat" data-en="Outdoor and creative recreational activities" data-es="Actividades recreativas al aire libre y creativas">Outdoor and creative recreational activities</div>
-            <div class="program-feat" data-en="Healthy snacks provided daily" data-es="Bocadillos saludables proporcionados a diario">Healthy snacks provided daily</div>
-            <div class="program-feat" data-en="Mentorship and character-building activities" data-es="Actividades de mentoría y formación de carácter">Mentorship and character-building activities</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- SPECIAL FEATURES STRIP -->
-    <div class="special-strip fade">
-      <div class="special-strip-left">
-        <h3 data-en="Special Features — Included in All Programs" data-es="Características Especiales — Incluidas en Todos los Programas">Special Features — Included in All Programs</h3>
-        <p data-en="Every classroom at Little Seeds of Hope Academy offers Spanish instruction and weekly Chapel — because bilingual minds and strong character go hand in hand." data-es="Cada salón en Little Seeds of Hope Academy ofrece instrucción en español y Capilla semanal — porque las mentes bilingües y el carácter sólido van de la mano.">Every classroom at Little Seeds of Hope Academy offers Spanish instruction and weekly Chapel — because bilingual minds and strong character go hand in hand.</p>
-      </div>
-      <div class="special-badges">
-        <div class="special-badge badge-spanish">🌎 <span data-en="Spanish Offered" data-es="Español Ofrecido">Spanish Offered</span></div>
-        <div class="special-badge badge-chapel">⛪ <span data-en="Chapel Program" data-es="Programa de Capilla">Chapel Program</span></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- WHY US -->
-<section class="section alt" id="about">
-  <div class="container">
-    <div class="text-center">
-      <div class="s-label coral fade" data-en="Why Little Seeds of Hope" data-es="Por Qué Little Seeds of Hope">Why Little Seeds of Hope</div>
-      <h2 class="s-title fade" data-en="Six Things That Make<br>Us Different" data-es="Seis Cosas Que Nos<br>Hacen Diferentes">Six Things That Make<br>Us Different</h2>
-      <div class="s-rule coral fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade" data-en="We're not just childcare. We're a community built intentionally small — so every child feels seen, loved, and challenged to grow." data-es="No somos solo guardería. Somos una comunidad intencionalmente pequeña — para que cada niño se sienta visto, amado y desafiado a crecer.">We're not just childcare. We're a community built intentionally small — so every child feels seen, loved, and challenged to grow.</p>
-    </div>
-    <div class="why-grid">
-      <div class="why-card fade">
-        <div class="why-icon">🙏</div>
-        <div class="why-title" data-en="Faith-Based Foundation" data-es="Base en la Fe">Faith-Based Foundation</div>
-        <div class="why-body" data-en="Values of kindness, gratitude, and hope are woven into everything — stories, songs, Chapel, and everyday moments with your child." data-es="Los valores de bondad, gratitud y esperanza están entretejidos en todo — cuentos, canciones, Capilla y momentos cotidianos con tu hijo.">Values of kindness, gratitude, and hope are woven into everything — stories, songs, Chapel, and everyday moments with your child.</div>
-      </div>
-      <div class="why-card fade">
-        <div class="why-icon">🎯</div>
-        <div class="why-title" data-en="Individualized Attention" data-es="Atención Individualizada">Individualized Attention</div>
-        <div class="why-body" data-en="With a max capacity of 47, every child knows their teachers by name — and every teacher knows your child's personality, pace, and potential." data-es="Con una capacidad máxima de 47, cada niño conoce a sus maestros por nombre — y cada maestro conoce la personalidad, ritmo y potencial de tu hijo.">With a max capacity of 47, every child knows their teachers by name — and every teacher knows your child's personality, pace, and potential.</div>
-      </div>
-      <div class="why-card fade">
-        <div class="why-icon">🌎</div>
-        <div class="why-title" data-en="Bilingual — Spanish Offered" data-es="Bilingüe — Español Ofrecido">Bilingual — Spanish Offered</div>
-        <div class="why-body" data-en="Spanish instruction is offered in all programs. Bilingual children have a lifelong cognitive advantage — and we celebrate both cultures every day." data-es="Se ofrece instrucción en español en todos los programas. Los niños bilingües tienen una ventaja cognitiva de por vida — y celebramos ambas culturas cada día.">Spanish instruction is offered in all programs. Bilingual children have a lifelong cognitive advantage — and we celebrate both cultures every day.</div>
-      </div>
-      <div class="why-card fade">
-        <div class="why-icon">👨‍👩‍👧‍👦</div>
-        <div class="why-title" data-en="Family-Oriented Culture" data-es="Cultura Orientada a la Familia">Family-Oriented Culture</div>
-        <div class="why-body" data-en="We treat your family like our family. Open communication, parent updates, and a welcome that goes beyond drop-off and pick-up." data-es="Tratamos a tu familia como la nuestra. Comunicación abierta, actualizaciones para padres y una bienvenida que va más allá de dejar y recoger a los niños.">We treat your family like our family. Open communication, parent updates, and a welcome that goes beyond drop-off and pick-up.</div>
-      </div>
-      <div class="why-card fade">
-        <div class="why-icon">⚖️</div>
-        <div class="why-title" data-en="Balanced Schedule" data-es="Horario Equilibrado">Balanced Schedule</div>
-        <div class="why-body" data-en="Learning, play, rest, and nourishment in the right proportions. Children thrive on structure — ours is warm, predictable, and age-appropriate." data-es="Aprendizaje, juego, descanso y nutrición en las proporciones correctas. Los niños prosperan con la estructura — la nuestra es cálida, predecible y apropiada para cada edad.">Learning, play, rest, and nourishment in the right proportions. Children thrive on structure — ours is warm, predictable, and age-appropriate.</div>
-      </div>
-      <div class="why-card fade">
-        <div class="why-icon">👩‍💼</div>
-        <div class="why-title" data-en="Mother-Daughter Leadership" data-es="Liderazgo Madre e Hija">Mother-Daughter Leadership</div>
-        <div class="why-body" data-en="Founded and led by Irasema &amp; Genesis Campa — a mother-daughter team whose passion for children and community is personal, not corporate." data-es="Fundada y dirigida por Irasema y Genesis Campa — un equipo madre e hija cuya pasión por los niños y la comunidad es personal, no corporativa.">Founded and led by Irasema &amp; Genesis Campa — a mother-daughter team whose passion for children and community is personal, not corporate.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FAITH SECTION -->
-<section class="section green-bg">
+<!-- SEEDS OF LEARNING CURRICULUM -->
+<section class="curriculum" id="about">
   <div class="container">
-    <div class="faith-grid">
-      <div class="faith-img fade">
-        <img src="https://images.pexels.com/photos/8422173/pexels-photo-8422173.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Children in faith-based learning" loading="lazy" style="height:100%;object-fit:cover;">
-      </div>
-      <div class="faith-content">
-        <div class="s-label fade" style="color:var(--purple);" data-en="Our Faith &amp; Values" data-es="Nuestra Fe y Valores">Our Faith &amp; Values</div>
-        <h2 class="s-title fade" data-en="Rooted in Hope.<br>Growing in Purpose." data-es="Arraigados en la Esperanza.<br>Creciendo con Propósito.">Rooted in Hope.<br>Growing in Purpose.</h2>
-        <div class="s-rule fade" style="background:var(--purple);"></div>
-        <p style="color:var(--muted);font-size:.95rem;line-height:1.85;margin-bottom:24px;" class="fade" data-en="At Little Seeds of Hope Academy, faith isn't a separate class — it's the atmosphere. We believe every child carries a purpose and our job is to help them discover it in an environment of love, encouragement, and grace." data-es="En Little Seeds of Hope Academy, la fe no es una clase separada — es el ambiente. Creemos que cada niño lleva un propósito y nuestro trabajo es ayudarlos a descubrirlo en un ambiente de amor, aliento y gracia.">At Little Seeds of Hope Academy, faith isn't a separate class — it's the atmosphere. We believe every child carries a purpose and our job is to help them discover it in an environment of love, encouragement, and grace.</p>
-        <div class="faith-quote fade">
-          <span data-en='"We want every child who walks through our doors to feel the same thing — that they are seen, that they matter, and that they belong."' data-es='"Queremos que cada niño que entre por nuestras puertas sienta lo mismo — que es visto, que importa y que pertenece aquí."'>"We want every child who walks through our doors to feel the same thing — that they are seen, that they matter, and that they belong."</span>
-          <cite>— Irasema &amp; Genesis Campa, <span data-en="Founders" data-es="Fundadoras">Founders</span></cite>
+    <div class="curriculum-grid">
+      <div class="curriculum-text fade">
+        <div class="section-label" data-en="OUR APPROACH" data-es="NUESTRO ENFOQUE">OUR APPROACH</div>
+        <h2 class="section-headline" data-en="The Seeds of Learning℠ Method" data-es="El Método Seeds of Learning℠">The Seeds of Learning℠ Method</h2>
+        <p class="section-sub" data-en="Every child is a seed with unique potential. Our curriculum is designed to plant the right roots — faith, language, curiosity, and character — so they flourish long after they leave our care." data-es="Cada niño es una semilla con potencial único. Nuestro currículo está diseñado para plantar las raíces correctas — fe, idioma, curiosidad y carácter — para que florezcan mucho después de nuestra cuidado.">Every child is a seed with unique potential. Our curriculum is designed to plant the right roots — faith, language, curiosity, and character — so they flourish long after they leave our care.</p>
+        <div class="curriculum-cta">
+          <a href="#enroll" class="btn btn-coral" data-en="Schedule a Tour →" data-es="Agendar Visita →">Schedule a Tour →</a>
         </div>
-        <div class="faith-pillars fade">
-          <div class="faith-pillar">
-            <div class="faith-pillar-icon">💛</div>
-            <div class="faith-pillar-text">
-              <strong data-en="Character Over Curriculum" data-es="Carácter Antes que Currículo">Character Over Curriculum</strong>
-              <span data-en="Kindness, honesty, and compassion are taught alongside letters and numbers." data-es="La bondad, la honestidad y la compasión se enseñan junto con letras y números.">Kindness, honesty, and compassion are taught alongside letters and numbers.</span>
-            </div>
+      </div>
+      <div class="curriculum-pillars fade">
+        <div class="pillar">
+          <div class="pillar-icon sky">🙏</div>
+          <div class="pillar-text">
+            <strong data-en="Faith & Values Foundation" data-es="Fe y Valores Fundamentales">Faith & Values Foundation</strong>
+            <span data-en="Chapel, prayer, and Bible-rooted character building" data-es="Capilla, oración y carácter basado en la Biblia">Chapel, prayer, and Bible-rooted character building</span>
           </div>
-          <div class="faith-pillar">
-            <div class="faith-pillar-icon">🌿</div>
-            <div class="faith-pillar-text">
-              <strong data-en="Hope as a Daily Practice" data-es="La Esperanza como Práctica Diaria">Hope as a Daily Practice</strong>
-              <span data-en="We start every day reminding children — and families — that tomorrow holds promise." data-es="Comenzamos cada día recordándoles a los niños — y a las familias — que el mañana tiene promesas.">We start every day reminding children — and families — that tomorrow holds promise.</span>
-            </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon coral">🇪🇸</div>
+          <div class="pillar-text">
+            <strong data-en="Bilingual Spanish Immersion" data-es="Inmersión Bilingüe en Español">Bilingual Spanish Immersion</strong>
+            <span data-en="Spanish woven naturally into every day, from day one" data-es="Español integrado naturalmente en cada día, desde el primer día">Spanish woven naturally into every day, from day one</span>
           </div>
-          <div class="faith-pillar">
-            <div class="faith-pillar-icon">🤝</div>
-            <div class="faith-pillar-text">
-              <strong data-en="Community &amp; Belonging" data-es="Comunidad y Pertenencia">Community &amp; Belonging</strong>
-              <span data-en="No child is invisible here. Every family is a valued part of our growing community." data-es="Ningún niño es invisible aquí. Cada familia es una parte valiosa de nuestra comunidad en crecimiento.">No child is invisible here. Every family is a valued part of our growing community.</span>
-            </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon sun">🔬</div>
+          <div class="pillar-text">
+            <strong data-en="Hands-On Exploration" data-es="Exploración Práctica">Hands-On Exploration</strong>
+            <span data-en="Science, art, and play-based discovery activities" data-es="Actividades de descubrimiento con ciencias, arte y juego">Science, art, and play-based discovery activities</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon green">💛</div>
+          <div class="pillar-text">
+            <strong data-en="Social-Emotional Growth" data-es="Desarrollo Social y Emocional">Social-Emotional Growth</strong>
+            <span data-en="Building empathy, resilience, and healthy relationships" data-es="Construyendo empatía, resiliencia y relaciones saludables">Building empathy, resilience, and healthy relationships</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon purple">📚</div>
+          <div class="pillar-text">
+            <strong data-en="School Readiness Skills" data-es="Habilidades para la Escuela">School Readiness Skills</strong>
+            <span data-en="Literacy, numeracy, and critical thinking from day one" data-es="Lectura, matemáticas y pensamiento crítico desde el primer día">Literacy, numeracy, and critical thinking from day one</span>
           </div>
         </div>
       </div>
@@ -828,407 +749,426 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   </div>
 </section>
 
-<!-- DAILY SCHEDULE -->
-<section class="section" id="schedule">
+<!-- THREE PILLARS — WHY LITTLE SEEDS -->
+<section class="pillars-section">
   <div class="container">
-    <div class="schedule-wrap">
+    <div class="pillars-header fade">
+      <div class="section-label" data-en="WHY LITTLE SEEDS" data-es="POR QUÉ LITTLE SEEDS">WHY LITTLE SEEDS</div>
+      <h2 class="section-headline" data-en="More Than Childcare — A Second Family" data-es="Más que Guardería — Una Segunda Familia">More Than Childcare — A Second Family</h2>
+      <p class="section-sub" data-en="We made three choices on purpose: small enrollment, faith-centered values, and bilingual learning. Every other decision flows from those three." data-es="Tomamos tres decisiones a propósito: inscripción pequeña, valores centrados en la fe y aprendizaje bilingüe. Todo lo demás fluye desde ahí.">We made three choices on purpose: small enrollment, faith-centered values, and bilingual learning. Every other decision flows from those three.</p>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar-card fade">
+        <div class="pillar-badge sky">👶</div>
+        <h3 data-en="Intentionally Small" data-es="Intencionalmente Pequeño">Intentionally Small</h3>
+        <p data-en="We cap enrollment at 47 children — not because we can't grow, but because every child deserves to be known by name. Small classes mean real relationships." data-es="Limitamos la inscripción a 47 niños — no porque no podamos crecer, sino porque cada niño merece ser conocido por nombre. Las clases pequeñas crean relaciones reales.">We cap enrollment at 47 children — not because we can't grow, but because every child deserves to be known by name. Small classes mean real relationships.</p>
+        <div class="pillar-stat">47</div>
+        <div class="pillar-stat-label" data-en="Maximum Children Enrolled" data-es="Máximo de Niños Inscritos">Maximum Children Enrolled</div>
+      </div>
+      <div class="pillar-card fade">
+        <div class="pillar-badge coral">🙏</div>
+        <h3 data-en="Faith at the Center" data-es="La Fe en el Centro">Faith at the Center</h3>
+        <p data-en="Chapel every week. Bible stories woven into daily learning. Character virtues modeled by every staff member. Your child's spiritual foundation starts here." data-es="Capilla cada semana. Historias bíblicas integradas en el aprendizaje diario. Virtudes de carácter modeladas por cada miembro del personal. La base espiritual de tu hijo comienza aquí.">Chapel every week. Bible stories woven into daily learning. Character virtues modeled by every staff member. Your child's spiritual foundation starts here.</p>
+        <div class="pillar-stat">📖</div>
+        <div class="pillar-stat-label" data-en="Chapel + Bible-Based Curriculum" data-es="Capilla + Currículo Basado en la Biblia">Chapel + Bible-Based Curriculum</div>
+      </div>
+      <div class="pillar-card fade">
+        <div class="pillar-badge green">🇪🇸</div>
+        <h3 data-en="Bilingual from Day One" data-es="Bilingüe Desde el Primer Día">Bilingual from Day One</h3>
+        <p data-en="Spanish isn't an add-on — it's woven into daily routines, songs, stories, and conversations from the first day your child walks through our door." data-es="El español no es un complemento — está integrado en las rutinas diarias, canciones, historias y conversaciones desde el primer día que tu hijo entra por nuestra puerta.">Spanish isn't an add-on — it's woven into daily routines, songs, stories, and conversations from the first day your child walks through our door.</p>
+        <div class="pillar-stat">2</div>
+        <div class="pillar-stat-label" data-en="Languages · Every Single Day" data-es="Idiomas · Cada Día">Languages · Every Single Day</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SAFETY -->
+<section class="safety">
+  <div class="container">
+    <div class="safety-header fade">
+      <div class="section-label coral" data-en="HEALTH & SAFETY" data-es="SALUD Y SEGURIDAD">HEALTH & SAFETY</div>
+      <h2 class="section-headline" data-en="Your Child's Safety Is Our First Priority" data-es="La Seguridad de Tu Hijo Es Nuestra Primera Prioridad">Your Child's Safety Is Our First Priority</h2>
+      <p class="section-sub" data-en="From the moment you drop off to the moment you pick up, every protocol is designed to keep your child safe, healthy, and smiling." data-es="Desde el momento que dejas a tu hijo hasta que lo recoges, cada protocolo está diseñado para mantenerlo seguro, sano y sonriente." style="margin:0 auto;">From the moment you drop off to the moment you pick up, every protocol is designed to keep your child safe, healthy, and smiling.</p>
+    </div>
+    <div class="safety-grid">
+      <div class="safety-card fade">
+        <div class="safety-icon">🏛️</div>
+        <div>
+          <h4 data-en="Licensed by Texas HHSC" data-es="Licenciado por Texas HHSC">Licensed by Texas HHSC</h4>
+          <p data-en="We meet all Texas Health and Human Services Commission standards for early childhood facilities — inspected and fully compliant." data-es="Cumplimos todos los estándares de la Comisión de Salud y Servicios Humanos de Texas — inspeccionados y en pleno cumplimiento.">We meet all Texas Health and Human Services Commission standards for early childhood facilities — inspected and fully compliant.</p>
+        </div>
+      </div>
+      <div class="safety-card fade">
+        <div class="safety-icon">🔒</div>
+        <div>
+          <h4 data-en="Secure Single-Entry Access" data-es="Acceso Seguro de Entrada Única">Secure Single-Entry Access</h4>
+          <p data-en="Our facility uses controlled single-entry access. Only authorized adults may enter — no exceptions, no compromises." data-es="Nuestra instalación utiliza acceso controlado de entrada única. Solo adultos autorizados pueden entrar — sin excepciones, sin compromisos.">Our facility uses controlled single-entry access. Only authorized adults may enter — no exceptions, no compromises.</p>
+        </div>
+      </div>
+      <div class="safety-card fade">
+        <div class="safety-icon">✅</div>
+        <div>
+          <h4 data-en="Background-Checked Staff" data-es="Personal con Antecedentes Verificados">Background-Checked Staff</h4>
+          <p data-en="Every team member undergoes comprehensive background screening before their first day. CPR and First Aid certified for every class." data-es="Cada miembro del equipo pasa por una verificación de antecedentes completa antes de su primer día. Certificados en RCP y Primeros Auxilios para cada clase.">Every team member undergoes comprehensive background screening before their first day. CPR and First Aid certified for every class.</p>
+        </div>
+      </div>
+      <div class="safety-card fade">
+        <div class="safety-icon">🌡️</div>
+        <div>
+          <h4 data-en="Daily Health Screenings" data-es="Revisiones de Salud Diarias">Daily Health Screenings</h4>
+          <p data-en="Each child receives a wellness check at drop-off. We maintain clean, sanitized environments and follow strict illness exclusion protocols." data-es="Cada niño recibe una revisión de bienestar al llegada. Mantenemos ambientes limpios y sanitizados con protocolos estrictos de exclusión por enfermedad.">Each child receives a wellness check at drop-off. We maintain clean, sanitized environments and follow strict illness exclusion protocols.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A DAY WITH US -->
+<section class="schedule-section" id="schedule">
+  <div class="container">
+    <div class="schedule-grid">
       <div>
-        <div class="s-label sun fade" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</div>
-        <h2 class="s-title fade" data-en="Structured, Warm,<br>and Full of Learning" data-es="Estructurado, Cálido<br>y Lleno de Aprendizaje">Structured, Warm,<br>and Full of Learning</h2>
-        <div class="s-rule sun fade"></div>
-        <p style="color:var(--muted);font-size:.9rem;line-height:1.85;margin-bottom:36px;" class="fade" data-en="Every day at Little Seeds of Hope follows a warm, predictable rhythm — so children feel safe, engaged, and ready to grow." data-es="Cada día en Little Seeds of Hope sigue un ritmo cálido y predecible — para que los niños se sientan seguros, comprometidos y listos para crecer.">Every day at Little Seeds of Hope follows a warm, predictable rhythm — so children feel safe, engaged, and ready to grow.</p>
-        <div class="schedule-list fade">
-          <div class="schedule-item">
-            <div class="schedule-time">7:00 AM</div>
-            <div class="schedule-detail">
-              <strong data-en="Morning Arrival &amp; Welcome" data-es="Llegada Matutina y Bienvenida">Morning Arrival &amp; Welcome</strong>
-              <span data-en="Greet teachers, settle in, free play and family-style breakfast" data-es="Saludar a los maestros, acomodarse, juego libre y desayuno familiar">Greet teachers, settle in, free play and family-style breakfast</span>
+        <div class="section-label fade" data-en="A DAY WITH US" data-es="UN DÍA CON NOSOTROS">A DAY WITH US</div>
+        <h2 class="section-headline fade" data-en="A Nurturing Routine, Every Day" data-es="Una Rutina Amorosa, Cada Día">A Nurturing Routine, Every Day</h2>
+        <p class="section-sub fade" style="margin-bottom:36px;" data-en="Predictable structure builds security. Every day at Little Seeds of Hope flows with a warm rhythm your child will quickly come to love." data-es="La estructura predecible genera seguridad. Cada día en Little Seeds of Hope fluye con un ritmo cálido que tu hijo llegará a amar rápidamente.">Predictable structure builds security. Every day at Little Seeds of Hope flows with a warm rhythm your child will quickly come to love.</p>
+        <div class="schedule-list">
+          <div class="sched-row fade">
+            <div class="sched-time">7:00 AM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Welcome & Free Play" data-es="Bienvenida y Juego Libre">Welcome & Free Play</strong>
+              <span data-en="Settling in, greetings, open exploration" data-es="Adaptación, saludos, exploración libre">Settling in, greetings, open exploration</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">8:30 AM</div>
-            <div class="schedule-detail">
-              <strong data-en="Morning Circle &amp; Prayer" data-es="Círculo Matutino y Oración">Morning Circle &amp; Prayer</strong>
-              <span data-en="Bible story, gratitude practice, calendar time, and songs" data-es="Historia bíblica, práctica de gratitud, tiempo del calendario y canciones">Bible story, gratitude practice, calendar time, and songs</span>
+          <div class="sched-row fade">
+            <div class="sched-time">8:00 AM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Morning Circle & Devotion" data-es="Círculo Matutino y Devoción">Morning Circle & Devotion</strong>
+              <span data-en="Prayer, Bible story, character virtue of the day" data-es="Oración, historia bíblica, virtud del día">Prayer, Bible story, character virtue of the day</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">9:00 AM</div>
-            <div class="schedule-detail">
+          <div class="sched-row fade">
+            <div class="sched-time">8:30 AM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Breakfast" data-es="Desayuno">Breakfast</strong>
+              <span data-en="Nutritious morning meal, table manners practice" data-es="Comida nutritiva matutina, práctica de modales">Nutritious morning meal, table manners practice</span>
+            </div>
+          </div>
+          <div class="sched-row fade">
+            <div class="sched-time">9:00 AM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
               <strong data-en="Learning Centers" data-es="Centros de Aprendizaje">Learning Centers</strong>
-              <span data-en="Hands-on literacy, math, science, and creative arts activities" data-es="Actividades prácticas de lectoescritura, matemáticas, ciencias y artes creativas">Hands-on literacy, math, science, and creative arts activities</span>
+              <span data-en="Hands-on activities, literacy, math, science, arts" data-es="Actividades prácticas, lectura, matemáticas, ciencias, artes">Hands-on activities, literacy, math, science, arts</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">10:00 AM</div>
-            <div class="schedule-detail">
-              <strong data-en="Spanish Instruction" data-es="Instrucción en Español">Spanish Instruction</strong>
-              <span data-en="Daily bilingual learning — songs, vocabulary, conversation in Spanish" data-es="Aprendizaje bilingüe diario — canciones, vocabulario, conversación en español">Daily bilingual learning — songs, vocabulary, conversation in Spanish</span>
-            </div>
-          </div>
-          <div class="schedule-item">
-            <div class="schedule-time">10:30 AM</div>
-            <div class="schedule-detail">
+          <div class="sched-row fade">
+            <div class="sched-time">10:30 AM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
               <strong data-en="Outdoor Play" data-es="Juego al Aire Libre">Outdoor Play</strong>
-              <span data-en="Gross motor development, social skills, fresh air every day" data-es="Desarrollo motor grueso, habilidades sociales, aire fresco todos los días">Gross motor development, social skills, fresh air every day</span>
+              <span data-en="Gross motor development, nature exploration" data-es="Desarrollo motor grueso, exploración de la naturaleza">Gross motor development, nature exploration</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">11:30 AM</div>
-            <div class="schedule-detail">
-              <strong data-en="Lunch &amp; Rest" data-es="Almuerzo y Descanso">Lunch &amp; Rest</strong>
-              <span data-en="Family-style lunch, quiet reading, and nap time for younger children" data-es="Almuerzo familiar, lectura tranquila y siesta para los más pequeños">Family-style lunch, quiet reading, and nap time for younger children</span>
+          <div class="sched-row fade">
+            <div class="sched-time">12:00 PM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Lunch & Rest Time" data-es="Almuerzo y Descanso">Lunch & Rest Time</strong>
+              <span data-en="Balanced meal, quiet rest for all ages" data-es="Comida balanceada, descanso tranquilo para todas las edades">Balanced meal, quiet rest for all ages</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">1:30 PM</div>
-            <div class="schedule-detail">
-              <strong data-en="Afternoon Activities" data-es="Actividades de la Tarde">Afternoon Activities</strong>
-              <span data-en="Art, music, STEM projects, and enrichment centers" data-es="Arte, música, proyectos STEM y centros de enriquecimiento">Art, music, STEM projects, and enrichment centers</span>
+          <div class="sched-row fade">
+            <div class="sched-time">3:00 PM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Spanish Enrichment" data-es="Enriquecimiento en Español">Spanish Enrichment</strong>
+              <span data-en="Songs, stories, and conversation in Spanish" data-es="Canciones, cuentos y conversación en español">Songs, stories, and conversation in Spanish</span>
             </div>
           </div>
-          <div class="schedule-item">
-            <div class="schedule-time">2:30 PM</div>
-            <div class="schedule-detail">
-              <strong data-en="Chapel Time" data-es="Tiempo de Capilla">Chapel Time</strong>
-              <span data-en="Weekly Chapel — worship songs, Bible lessons, and prayer together" data-es="Capilla semanal — canciones de alabanza, lecciones bíblicas y oración juntos">Weekly Chapel — worship songs, Bible lessons, and prayer together</span>
-            </div>
-          </div>
-          <div class="schedule-item">
-            <div class="schedule-time">5:00 PM</div>
-            <div class="schedule-detail">
-              <strong data-en="Evening Wind-Down" data-es="Cierre del Día">Evening Wind-Down</strong>
-              <span data-en="Story time, reflection, parent pick-up and daily updates" data-es="Hora del cuento, reflexión, recogida y actualizaciones diarias para padres">Story time, reflection, parent pick-up and daily updates</span>
+          <div class="sched-row fade">
+            <div class="sched-time">4:30 PM</div>
+            <div class="sched-dot"></div>
+            <div class="sched-info">
+              <strong data-en="Creative Arts & Pick-Up" data-es="Artes Creativas y Recogida">Creative Arts & Pick-Up</strong>
+              <span data-en="Wind-down activities until 6:00 PM" data-es="Actividades de relajación hasta las 6:00 PM">Wind-down activities until 6:00 PM</span>
             </div>
           </div>
         </div>
       </div>
-      <div class="schedule-img fade">
-        <img src="https://images.pexels.com/photos/8087867/pexels-photo-8087867.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Teacher with children in classroom" loading="lazy" style="height:100%;object-fit:cover;border-radius:20px;">
+      <div class="schedule-side fade">
+        <div class="schedule-callout">
+          <div style="font-size:2.5rem;margin-bottom:12px;">🕖</div>
+          <h3 data-en="Open 7:00 AM – 6:00 PM" data-es="Abierto 7:00 AM – 6:00 PM">Open 7:00 AM – 6:00 PM</h3>
+          <p data-en="Monday through Friday, designed for working families in Humble, TX." data-es="De lunes a viernes, diseñado para familias trabajadoras en Humble, TX.">Monday through Friday, designed for working families in Humble, TX.</p>
+        </div>
+        <div class="schedule-callout">
+          <div style="font-size:2.5rem;margin-bottom:12px;">📱</div>
+          <h3 data-en="Stay Connected Daily" data-es="Manténgase Conectado Diariamente">Stay Connected Daily</h3>
+          <p data-en="Daily activity reports, open-door drop-in policy, and direct teacher communication — you're always part of your child's day." data-es="Informes de actividades diarias, política de puertas abiertas y comunicación directa con maestros — siempre serás parte del día de tu hijo.">Daily activity reports, open-door drop-in policy, and direct teacher communication — you're always part of your child's day.</p>
+        </div>
+        <div class="schedule-callout">
+          <div style="font-size:2.5rem;margin-bottom:12px;">🥗</div>
+          <h3 data-en="Meals Included" data-es="Comidas Incluidas">Meals Included</h3>
+          <p data-en="Nutritious breakfast, lunch, and afternoon snack provided each day. Allergy-aware menus." data-es="Desayuno nutritivo, almuerzo y merienda vespertina incluidos cada día. Menús con conciencia de alergias.">Nutritious breakfast, lunch, and afternoon snack provided each day. Allergy-aware menus.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- GALLERY -->
-<section class="section alt">
+<!-- FAITH & FAMILY -->
+<section class="faith-section" id="faith">
   <div class="container">
-    <div class="text-center" style="margin-bottom:40px;">
-      <div class="s-label fade" data-en="Life at Little Seeds" data-es="La Vida en Little Seeds">Life at Little Seeds</div>
-      <h2 class="s-title fade" data-en="A Peek Inside Our World" data-es="Una Mirada a Nuestro Mundo">A Peek Inside Our World</h2>
-      <div class="s-rule fade" style="margin:0 auto;"></div>
-    </div>
-    <div class="gallery-grid">
-      <div class="gallery-item tall fade">
-        <img src="https://images.pexels.com/photos/8363575/pexels-photo-8363575.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Children learning" loading="lazy">
-      </div>
-      <div class="gallery-item fade">
-        <img src="https://images.pexels.com/photos/3661390/pexels-photo-3661390.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kids playing outdoors" loading="lazy">
-      </div>
-      <div class="gallery-item fade">
-        <img src="https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Art activities" loading="lazy">
-      </div>
-      <div class="gallery-item tall fade">
-        <img src="https://images.pexels.com/photos/8535198/pexels-photo-8535198.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Preschool classroom" loading="lazy">
-      </div>
-      <div class="gallery-item fade">
-        <img src="https://images.pexels.com/photos/3885941/pexels-photo-3885941.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Children reading" loading="lazy">
-      </div>
-      <div class="gallery-item fade">
-        <img src="https://images.pexels.com/photos/5275301/pexels-photo-5275301.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor play" loading="lazy">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MEET THE TEAM -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <div class="s-label coral fade" data-en="Meet the Founders" data-es="Conoce a las Fundadoras">Meet the Founders</div>
-      <h2 class="s-title fade" data-en="The Hearts Behind<br>Little Seeds of Hope" data-es="Los Corazones Detrás de<br>Little Seeds of Hope">The Hearts Behind<br>Little Seeds of Hope</h2>
-      <div class="s-rule coral fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade" data-en="Two women. One shared calling. Irasema and Genesis Campa built this academy on a simple belief: every child deserves a place where they are seen, loved, and empowered to grow." data-es="Dos mujeres. Un llamado compartido. Irasema y Genesis Campa construyeron esta academia sobre una creencia simple: cada niño merece un lugar donde sea visto, amado y empoderado para crecer.">Two women. One shared calling. Irasema and Genesis Campa built this academy on a simple belief: every child deserves a place where they are seen, loved, and empowered to grow.</p>
-    </div>
-    <div class="team-grid">
-      <div class="team-card fade">
-        <div class="team-avatar">👩</div>
-        <div class="team-name">Irasema Campa</div>
-        <div class="team-role" data-en="Co-Founder &amp; Director" data-es="Co-Fundadora y Directora">Co-Founder &amp; Director</div>
-        <p class="team-bio" data-en="A lifelong advocate for children and families, Irasema brings years of experience in early childhood development and community building to Little Seeds of Hope Academy." data-es="Una defensora de por vida de los niños y las familias, Irasema aporta años de experiencia en el desarrollo infantil temprano y la construcción de comunidades a Little Seeds of Hope Academy.">A lifelong advocate for children and families, Irasema brings years of experience in early childhood development and community building to Little Seeds of Hope Academy.</p>
-      </div>
-      <div class="team-card fade">
-        <div class="team-avatar">👩‍🦱</div>
-        <div class="team-name">Genesis Campa</div>
-        <div class="team-role" data-en="Co-Founder &amp; Lead Educator" data-es="Co-Fundadora y Educadora Principal">Co-Founder &amp; Lead Educator</div>
-        <p class="team-bio" data-en="Genesis combines a passion for faith-based education with hands-on teaching experience, creating learning environments where every child's unique potential is recognized and celebrated." data-es="Genesis combina una pasión por la educación basada en la fe con experiencia docente práctica, creando entornos de aprendizaje donde el potencial único de cada niño es reconocido y celebrado.">Genesis combines a passion for faith-based education with hands-on teaching experience, creating learning environments where every child's unique potential is recognized and celebrated.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SOCIAL PROOF -->
-<section class="section proof-section">
-  <div class="container">
-    <div class="text-center" style="margin-bottom:48px;">
-      <div class="s-label fade" style="color:var(--sun);" data-en="What Parents Are Saying" data-es="Lo Que Dicen los Padres">What Parents Are Saying</div>
-      <h2 class="s-title light fade" data-en="The Community<br>Speaks for Itself" data-es="La Comunidad<br>Habla por Sí Misma">The Community<br>Speaks for Itself</h2>
-      <div class="s-rule fade" style="background:var(--sun);margin:0 auto;"></div>
-    </div>
-    <div class="proof-grid">
-      <div class="proof-card fade">
-        <div class="proof-stars">★★★★★</div>
-        <p class="proof-text" data-en='"Finally a daycare where my child isn't just a number. From day one, the teachers knew her name, her favorite toy, and exactly how to comfort her when I left. That peace of mind is everything."' data-es='"Por fin una guardería donde mi hija no es solo un número. Desde el primer día, las maestras conocían su nombre, su juguete favorito y exactamente cómo consolarla cuando me iba. Esa tranquilidad lo es todo."'>"Finally a daycare where my child isn't just a number. From day one, the teachers knew her name, her favorite toy, and exactly how to comfort her when I left. That peace of mind is everything."</p>
-        <div class="proof-attr" data-en="— Parent of a 2-year-old, Humble, TX" data-es="— Madre de una niña de 2 años, Humble, TX">— Parent of a 2-year-old, Humble, TX</div>
-      </div>
-      <div class="proof-card fade">
-        <div class="proof-stars">★★★★★</div>
-        <p class="proof-text" data-en='"I was nervous about faith-based childcare, but it's exactly what our family needed. They don't push — they just model love, kindness, and respect. My son comes home talking about being a good friend."' data-es='"Estaba nerviosa con la guardería basada en la fe, pero es exactamente lo que nuestra familia necesitaba. No imponen — simplemente modelan amor, bondad y respeto. Mi hijo llega a casa hablando de ser un buen amigo."'>"I was nervous about faith-based childcare, but it's exactly what our family needed. They don't push — they just model love, kindness, and respect. My son comes home talking about being a good friend."</p>
-        <div class="proof-attr" data-en="— Parent of a 4-year-old, Atascocita, TX" data-es="— Padre de un niño de 4 años, Atascocita, TX">— Parent of a 4-year-old, Atascocita, TX</div>
-      </div>
-      <div class="proof-card fade">
-        <div class="proof-stars">★★★★★</div>
-        <p class="proof-text" data-en='"The bilingual program is what sold us. My kids are picking up Spanish and loving it. And the Chapel time gives them a foundation I couldn't provide on my own. We found something truly special here."' data-es='"El programa bilingüe fue lo que nos convenció. Mis hijos están aprendiendo español y les encanta. Y el tiempo de Capilla les da una base que yo no podía darles sola. Encontramos algo verdaderamente especial aquí."'>"The bilingual program is what sold us. My kids are picking up Spanish and loving it. And the Chapel time gives them a foundation I couldn't provide on my own. We found something truly special here."</p>
-        <div class="proof-attr" data-en="— Parent of a 3 &amp; 5-year-old, Humble, TX" data-es="— Madre de niños de 3 y 5 años, Humble, TX">— Parent of a 3 &amp; 5-year-old, Humble, TX</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- BIBLE VERSES -->
-<section class="bible-section" id="scripture">
-  <div class="container">
-    <div class="text-center" style="margin-bottom:52px;">
-      <div class="s-label fade" style="color:var(--sun);letter-spacing:.18em;" data-en="Our Scripture" data-es="Nuestras Escrituras">Our Scripture</div>
-      <h2 class="s-title light fade" data-en="Rooted in the Word" data-es="Arraigados en la Palabra">Rooted in the Word</h2>
-      <div class="s-rule fade" style="background:var(--sun);margin:0 auto;"></div>
-      <p class="s-sub light fade" style="margin-top:14px;" data-en="The same Word that guides our teachers guides your children every day." data-es="La misma Palabra que guía a nuestros maestros guía a sus hijos cada día.">The same Word that guides our teachers guides your children every day.</p>
+    <div class="faith-header fade">
+      <div class="section-label" data-en="FAITH & FAMILY" data-es="FE Y FAMILIA">FAITH & FAMILY</div>
+      <h2 class="section-headline" data-en="Rooted in Faith, Raised with Purpose" data-es="Arraigados en la Fe, Criados con Propósito">Rooted in Faith, Raised with Purpose</h2>
+      <p class="section-sub" data-en="We believe every child is a gift from God. Our faith-based environment teaches character, compassion, and the love of Christ alongside every academic lesson." data-es="Creemos que cada niño es un regalo de Dios. Nuestro ambiente basado en la fe enseña carácter, compasión y el amor de Cristo junto a cada lección académica.">We believe every child is a gift from God. Our faith-based environment teaches character, compassion, and the love of Christ alongside every academic lesson.</p>
     </div>
     <div class="bible-grid">
-
       <div class="verse-card fade">
         <div class="verse-ref">Jeremiah 29:11</div>
-        <p class="verse-en">"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."</p>
-        <p class="verse-es">"Porque yo sé los planes que tengo para ustedes, declara el Señor, planes de prosperarlos y no de hacerles daño, planes de darles esperanza y un futuro."</p>
+        <p class="verse-en">"For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future."</p>
+        <p class="verse-es">"Porque yo sé muy bien los planes que tengo para ustedes", afirma el Señor, "planes de bienestar y no de calamidad, a fin de darles un futuro y una esperanza."</p>
       </div>
-
       <div class="verse-card fade">
         <div class="verse-ref">Proverbs 22:6</div>
-        <p class="verse-en">"Start children off on the way they should go, and even when they are old they will not turn from it."</p>
-        <p class="verse-es">"Instruye al niño en el camino correcto, y aun en su vejez no lo abandonará."</p>
+        <p class="verse-en">Start children off on the way they should go, and even when they are old they will not turn from it.</p>
+        <p class="verse-es">Instruye al niño en el camino correcto, y aun en su vejez no lo abandonará.</p>
       </div>
-
       <div class="verse-card fade">
         <div class="verse-ref">Matthew 19:14</div>
-        <p class="verse-en">"Jesus said, Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these."</p>
-        <p class="verse-es">"Jesús dijo: Dejen que los niños vengan a mí, y no se lo impidan, porque el reino de los cielos es de quienes son como ellos."</p>
+        <p class="verse-en">Jesus said, "Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these."</p>
+        <p class="verse-es">Jesús dijo: "Dejen que los niños vengan a mí, y no se lo impidan, porque el reino de los cielos es de quienes son como ellos."</p>
       </div>
-
       <div class="verse-card fade">
         <div class="verse-ref">Psalm 127:3</div>
-        <p class="verse-en">"Children are a heritage from the Lord, offspring a reward from him."</p>
-        <p class="verse-es">"Los hijos son una herencia del Señor, los frutos del vientre son una recompensa."</p>
+        <p class="verse-en">Children are a heritage from the Lord, offspring a reward from him.</p>
+        <p class="verse-es">Los hijos son una herencia del Señor, los frutos del vientre son una recompensa.</p>
       </div>
-
+    </div>
+    <div class="chapel-banner fade">
+      <h3 data-en="⛪ Weekly Chapel Program" data-es="⛪ Programa de Capilla Semanal">⛪ Weekly Chapel Program</h3>
+      <p data-en="Every week, children gather for a joyful chapel time — songs of praise, an age-appropriate Bible lesson, and a moment of prayer together. Faith isn't a class here. It's a way of life." data-es="Cada semana, los niños se reúnen para un gozoso tiempo de capilla — canciones de alabanza, una lección bíblica apropiada para su edad y un momento de oración juntos. La fe no es una clase aquí. Es un estilo de vida.">Every week, children gather for a joyful chapel time — songs of praise, an age-appropriate Bible lesson, and a moment of prayer together. Faith isn't a class here. It's a way of life.</p>
     </div>
   </div>
 </section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonials-header fade">
+      <div class="section-label" data-en="WHAT FAMILIES SAY" data-es="LO QUE DICEN LAS FAMILIAS">WHAT FAMILIES SAY</div>
+      <h2 class="section-headline" data-en="Why Humble Families Choose Little Seeds" data-es="Por Qué las Familias de Humble Eligen Little Seeds">Why Humble Families Choose Little Seeds</h2>
+      <p class="section-sub" data-en="A faith-based, bilingual, intentionally small school is exactly what our community has needed. Here's why families are choosing us before we even open." data-es="Una escuela basada en la fe, bilingüe e intencionalmente pequeña es exactamente lo que nuestra comunidad ha necesitado.">A faith-based, bilingual, intentionally small school is exactly what our community has needed. Here's why families are choosing us before we even open.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card fade">
+        <div class="testi-quote">"</div>
+        <p class="testi-text" data-en="The combination of faith-based values and real bilingual instruction was impossible to find in Humble. The 47-child cap sealed it for us — our daughter won't be a number." data-es="La combinación de valores basados en la fe e instrucción bilingüe real era imposible de encontrar en Humble. El límite de 47 niños nos convenció — nuestra hija no será un número.">The combination of faith-based values and real bilingual instruction was impossible to find in Humble. The 47-child cap sealed it for us — our daughter won't be a number.</p>
+        <div class="testi-name" data-en="Maria G." data-es="Maria G.">Maria G.</div>
+        <div class="testi-loc" data-en="Humble, TX — Enrolled, Little Sprouts" data-es="Humble, TX — Inscrita, Pequeños Brotes">Humble, TX — Enrolled, Little Sprouts</div>
+      </div>
+      <div class="testi-card fade">
+        <div class="testi-quote">"</div>
+        <p class="testi-text" data-en="As a working mom, I needed somewhere I could drop off my son and genuinely not worry all day. The chapel program, the Spanish, the small classes — it checks every box we prayed about." data-es="Como mamá trabajadora, necesitaba un lugar donde pudiera dejar a mi hijo y genuinamente no preocuparme todo el día. El programa de capilla, el español, las clases pequeñas — marca cada casilla por la que oramos.">As a working mom, I needed somewhere I could drop off my son and genuinely not worry all day. The chapel program, the Spanish, the small classes — it checks every box we prayed about.</p>
+        <div class="testi-name" data-en="Jennifer R." data-es="Jennifer R.">Jennifer R.</div>
+        <div class="testi-loc" data-en="Harris County — Enrolled, Growing Roots" data-es="Harris County — Inscrita, Raíces Crecientes">Harris County — Enrolled, Growing Roots</div>
+      </div>
+      <div class="testi-card fade">
+        <div class="testi-quote">"</div>
+        <p class="testi-text" data-en="I visited three daycares before finding Little Seeds. The difference was instant — this feels like a family, not a facility. My daughter starts in May and she's already excited." data-es="Visité tres guarderías antes de encontrar Little Seeds. La diferencia fue inmediata — esto se siente como una familia, no una instalación. Mi hija empieza en mayo y ya está emocionada.">I visited three daycares before finding Little Seeds. The difference was instant — this feels like a family, not a facility. My daughter starts in May and she's already excited.</p>
+        <div class="testi-name" data-en="Ashley M." data-es="Ashley M.">Ashley M.</div>
+        <div class="testi-loc" data-en="Humble, TX — Enrolled, Rising Seeds" data-es="Humble, TX — Inscrita, Semillas que Crecen">Humble, TX — Enrolled, Rising Seeds</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="cta-band-inner">
+    <h2 class="fade" data-en="Ready to Give Your Child the Best Start?" data-es="¿Lista para Darle a Tu Hijo el Mejor Comienzo?">Ready to Give Your Child the Best Start?</h2>
+    <p class="fade" data-en="Spots are limited to 47 children. Grand Opening is May 31, 2026. Schedule your free tour today — meet the teachers, see the space, and feel the difference." data-es="Los cupos están limitados a 47 niños. La Gran Inauguración es el 31 de mayo de 2026. Agenda tu visita gratuita hoy — conoce a los maestros, ve el espacio y siente la diferencia.">Spots are limited to 47 children. Grand Opening is May 31, 2026. Schedule your free tour today — meet the teachers, see the space, and feel the difference.</p>
+    <div class="cta-band-btns fade">
+      <a href="#enroll" class="btn btn-white" data-en="Schedule a Free Tour →" data-es="Agendar Visita Gratuita →">Schedule a Free Tour →</a>
+      <a href="tel:8329930188" class="cta-phone">📞 (832) 993-0188</a>
+    </div>
+  </div>
+</div>
 
 <!-- FAQ -->
-<section class="section alt" id="faq">
+<section class="faq" id="faq">
   <div class="container">
-    <div class="text-center" style="margin-bottom:52px;">
-      <div class="s-label fade" data-en="Common Questions" data-es="Preguntas Frecuentes">Common Questions</div>
-      <h2 class="s-title fade" data-en="Everything You Want<br>to Know Before Enrolling" data-es="Todo Lo Que Quieres<br>Saber Antes de Inscribirte">Everything You Want<br>to Know Before Enrolling</h2>
-      <div class="s-rule fade" style="margin:0 auto;"></div>
+    <div class="faq-header fade">
+      <div class="section-label" data-en="FREQUENTLY ASKED" data-es="PREGUNTAS FRECUENTES">FREQUENTLY ASKED</div>
+      <h2 class="section-headline" data-en="Questions Families Ask" data-es="Preguntas que Hacen las Familias">Questions Families Ask</h2>
     </div>
-    <div class="faq-list fade">
-
+    <div class="faq-list">
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="What ages does Little Seeds of Hope Academy serve?" data-es="¿Qué edades atiende Little Seeds of Hope Academy?">What ages does Little Seeds of Hope Academy serve?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="We serve children starting at 18 months through school age (5 and up) across three classroom programs: 18 Months–2 Years, 3–4 Years, and 5 &amp; Up. All classrooms include Spanish instruction and Chapel." data-es="Atendemos a niños a partir de 18 meses hasta edad escolar (5 años en adelante) en tres programas de salones: 18 Meses–2 Años, 3–4 Años y 5 Años y Más. Todos los salones incluyen instrucción en español y Capilla.">We serve children starting at 18 months through school age (5 and up) across three classroom programs: 18 Months–2 Years, 3–4 Years, and 5 &amp; Up. All classrooms include Spanish instruction and Chapel.</div>
+        <button class="faq-q" data-en="What ages do you accept?" data-es="¿Qué edades aceptan?">What ages do you accept? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="We serve children from 18 months through 5+ years across three programs: Little Sprouts (18 mo–2 yrs), Growing Roots (3–4 yrs), and Rising Seeds (5+)." data-es="Atendemos a niños desde los 18 meses hasta los 5+ años en tres programas: Pequeños Brotes (18 meses–2 años), Raíces Crecientes (3–4 años) y Semillas que Crecen (5+).">We serve children from 18 months through 5+ years across three programs: Little Sprouts (18 mo–2 yrs), Growing Roots (3–4 yrs), and Rising Seeds (5+).</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="Do you offer Spanish instruction? How does it work?" data-es="¿Ofrecen instrucción en español? ¿Cómo funciona?">Do you offer Spanish instruction? How does it work?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Yes! Spanish is offered in all of our classrooms. Children learn through songs, vocabulary, conversation, and everyday activities — the most natural and effective way for young children to absorb a second language. No prior Spanish knowledge is required from your child." data-es="¡Sí! El español se ofrece en todos nuestros salones. Los niños aprenden a través de canciones, vocabulario, conversación y actividades cotidianas — la forma más natural y efectiva para que los niños pequeños absorban un segundo idioma. No se requiere conocimiento previo de español por parte de su hijo.">Yes! Spanish is offered in all of our classrooms. Children learn through songs, vocabulary, conversation, and everyday activities — the most natural and effective way for young children to absorb a second language. No prior Spanish knowledge is required from your child.</div>
+        <button class="faq-q" data-en="What are your hours?" data-es="¿Cuáles son sus horarios?">What are your hours? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="We're open Monday through Friday, 7:00 AM to 6:00 PM — designed for working families in the Humble, TX area." data-es="Estamos abiertos de lunes a viernes, 7:00 AM a 6:00 PM — diseñado para familias trabajadoras en el área de Humble, TX.">We're open Monday through Friday, 7:00 AM to 6:00 PM — designed for working families in the Humble, TX area.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="What is the Chapel program?" data-es="¿Qué es el programa de Capilla?">What is the Chapel program?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Chapel is a regular time for worship songs, age-appropriate Bible lessons, and prayer together. It's a joyful, age-appropriate experience — not a formal church service. We don't impose beliefs, we simply invite children into an atmosphere of gratitude, love, and faith." data-es="La Capilla es un tiempo regular para canciones de alabanza, lecciones bíblicas apropiadas para la edad y oración juntos. Es una experiencia alegre y apropiada para la edad — no un servicio de iglesia formal. No imponemos creencias, simplemente invitamos a los niños a un ambiente de gratitud, amor y fe.">Chapel is a regular time for worship songs, age-appropriate Bible lessons, and prayer together. It's a joyful, age-appropriate experience — not a formal church service. We don't impose beliefs, we simply invite children into an atmosphere of gratitude, love, and faith.</div>
+        <button class="faq-q" data-en="Do I have to be Christian to enroll?" data-es="¿Tengo que ser cristiano para inscribir a mi hijo?">Do I have to be Christian to enroll? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="No — we welcome all families. We are a faith-based school and our curriculum is Christian in values and practice (prayer, chapel, Bible stories). We are transparent about this so families can make an informed choice." data-es="No — damos la bienvenida a todas las familias. Somos una escuela basada en la fe y nuestro currículo es cristiano en valores y práctica (oración, capilla, historias bíblicas). Somos transparentes sobre esto para que las familias puedan tomar una decisión informada.">No — we welcome all families. We are a faith-based school and our curriculum is Christian in values and practice (prayer, chapel, Bible stories). We are transparent about this so families can make an informed choice.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="What does &quot;faith-based&quot; mean for your curriculum?" data-es="¿Qué significa &quot;basado en la fe&quot; para su currículo?">What does "faith-based" mean for your curriculum?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="It means faith is the foundation of how we treat one another — not a class that replaces academics. We integrate Biblical values like kindness, honesty, and gratitude into daily stories, songs, Chapel, and conversations. Academic standards are fully met alongside this foundation." data-es="Significa que la fe es la base de cómo nos tratamos unos a otros — no una clase que reemplaza lo académico. Integramos valores bíblicos como la bondad, la honestidad y la gratitud en cuentos diarios, canciones, Capilla y conversaciones. Los estándares académicos se cumplen plenamente junto con esta base.">It means faith is the foundation of how we treat one another — not a class that replaces academics. We integrate Biblical values like kindness, honesty, and gratitude into daily stories, songs, Chapel, and conversations. Academic standards are fully met alongside this foundation.</div>
+        <button class="faq-q" data-en="Does my child need to speak Spanish?" data-es="¿Mi hijo necesita hablar español?">Does my child need to speak Spanish? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="Not at all. Spanish is introduced naturally through songs, routines, and play. Children absorb it without pressure. Native Spanish speakers are also welcome — it's a genuine bilingual environment." data-es="Para nada. El español se introduce naturalmente a través de canciones, rutinas y juego. Los niños lo absorben sin presión. Los hablantes nativos de español también son bienvenidos — es un ambiente genuinamente bilingüe.">Not at all. Spanish is introduced naturally through songs, routines, and play. Children absorb it without pressure. Native Spanish speakers are also welcome — it's a genuine bilingual environment.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="How do I enroll my child?" data-es="¿Cómo inscribo a mi hijo?">How do I enroll my child?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Fill out the enrollment form below or call us at (832) 993-0188. You can also email lshopeacademy@gmail.com or come meet us at our Grand Opening on May 31st. We'll reach out within 24 hours to walk you through next steps. Spaces are limited to 47 children." data-es="Llene el formulario de inscripción a continuación o llámenos al (832) 993-0188. También puede enviarnos un correo a lshopeacademy@gmail.com o venir a conocernos en nuestra Gran Inauguración el 31 de mayo. Nos comunicaremos dentro de las 24 horas para guiarle en los próximos pasos. Los espacios están limitados a 47 niños.">Fill out the enrollment form below or call us at (832) 993-0188. You can also email lshopeacademy@gmail.com or come meet us at our Grand Opening on May 31st. We'll reach out within 24 hours to walk you through next steps. Spaces are limited to 47 children.</div>
+        <button class="faq-q" data-en="Why only 47 children maximum?" data-es="¿Por qué solo 47 niños como máximo?">Why only 47 children maximum? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="We believe in intentionally small enrollment so every child is truly known — not just by their teacher, but by every staff member. Small enrollment means real relationships, real individual attention, and a real family feel that large corporate daycares simply cannot offer." data-es="Creemos en una inscripción intencionalmente pequeña para que cada niño sea verdaderamente conocido — no solo por su maestra, sino por cada miembro del personal. Una inscripción pequeña significa relaciones reales, atención individual real y una sensación familiar real que las grandes guarderías corporativas simplemente no pueden ofrecer.">We believe in intentionally small enrollment so every child is truly known — not just by their teacher, but by every staff member. Small enrollment means real relationships, real individual attention, and a real family feel that large corporate daycares simply cannot offer.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="What are your hours of operation?" data-es="¿Cuáles son sus horarios de operación?">What are your hours of operation?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="We are open Monday through Friday, 7:00 AM to 6:00 PM. Contact us directly at (832) 993-0188 to confirm hours for your child's specific program." data-es="Estamos abiertos de lunes a viernes, de 7:00 AM a 6:00 PM. Contáctenos directamente al (832) 993-0188 para confirmar los horarios del programa específico de su hijo.">We are open Monday through Friday, 7:00 AM to 6:00 PM. Contact us directly at (832) 993-0188 to confirm hours for your child's specific program.</div>
+        <button class="faq-q" data-en="Are meals included?" data-es="¿Están incluidas las comidas?">Are meals included? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="Yes — breakfast, lunch, and an afternoon snack are provided each day. We prepare nutritious, allergy-aware meals and can accommodate documented dietary restrictions." data-es="Sí — el desayuno, el almuerzo y una merienda vespertina se proporcionan cada día. Preparamos comidas nutritivas con conciencia de alergias y podemos acomodar restricciones dietéticas documentadas.">Yes — breakfast, lunch, and an afternoon snack are provided each day. We prepare nutritious, allergy-aware meals and can accommodate documented dietary restrictions.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="Do you provide meals and snacks?" data-es="¿Proporcionan comidas y bocadillos?">Do you provide meals and snacks?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Yes. We provide breakfast, lunch, and an afternoon snack daily. Meals are nutritious, age-appropriate, and served family-style to build healthy eating habits. Please let us know about any allergies during enrollment." data-es="Sí. Proporcionamos desayuno, almuerzo y un bocadillo por la tarde a diario. Las comidas son nutritivas, apropiadas para la edad y servidas al estilo familiar para desarrollar hábitos alimenticios saludables. Por favor infórmenos sobre cualquier alergia durante la inscripción.">Yes. We provide breakfast, lunch, and an afternoon snack daily. Meals are nutritious, age-appropriate, and served family-style to build healthy eating habits. Please let us know about any allergies during enrollment.</div>
+        <button class="faq-q" data-en="How do I stay updated on my child's day?" data-es="¿Cómo me mantengo al día sobre el día de mi hijo?">How do I stay updated on my child's day? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="We provide daily activity reports, maintain an open-door policy (you can stop by anytime), and direct teacher communication. You will always know what your child did, ate, learned, and felt each day." data-es="Proporcionamos informes de actividades diarias, mantenemos una política de puertas abiertas (puede pasar en cualquier momento) y comunicación directa con los maestros. Siempre sabrá qué hizo, comió, aprendió y sintió su hijo cada día.">We provide daily activity reports, maintain an open-door policy (you can stop by anytime), and direct teacher communication. You will always know what your child did, ate, learned, and felt each day.</div>
       </div>
-
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="Are you licensed by the state of Texas?" data-es="¿Están licenciados por el estado de Texas?">Are you licensed by the state of Texas?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Yes. Little Seeds of Hope Academy is a licensed center-based childcare facility operating in compliance with Texas Health and Human Services requirements. Our facility at 900 Granberry St., Humble, TX has been prepared to meet all health, safety, and licensing standards." data-es="Sí. Little Seeds of Hope Academy es un centro de cuidado infantil con licencia que opera en cumplimiento con los requisitos del Departamento de Salud y Servicios Humanos de Texas. Nuestras instalaciones en 900 Granberry St., Humble, TX han sido preparadas para cumplir con todos los estándares de salud, seguridad y licencias.">Yes. Little Seeds of Hope Academy is a licensed center-based childcare facility operating in compliance with Texas Health and Human Services requirements. Our facility at 900 Granberry St., Humble, TX has been prepared to meet all health, safety, and licensing standards.</div>
+        <button class="faq-q" data-en="When does enrollment open and when do you open?" data-es="¿Cuándo abre la inscripción y cuándo abren?">When does enrollment open and when do you open? <span class="faq-chevron">▾</span></button>
+        <div class="faq-a" data-en="Enrollment is open now — Grand Opening is May 31, 2026. Spots are limited to 47 children. We encourage families to schedule a tour and reserve their child's spot as soon as possible." data-es="La inscripción está abierta ahora — la Gran Inauguración es el 31 de mayo de 2026. Los cupos están limitados a 47 niños. Animamos a las familias a agendar una visita y reservar el lugar de su hijo lo antes posible.">Enrollment is open now — Grand Opening is May 31, 2026. Spots are limited to 47 children. We encourage families to schedule a tour and reserve their child's spot as soon as possible.</div>
       </div>
-
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">
-          <span data-en="Do you offer tours before enrollment?" data-es="¿Ofrecen visitas antes de la inscripción?">Do you offer tours before enrollment?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-a" data-en="Absolutely. We encourage every family to visit before enrolling. Request a tour through the form below, call (832) 993-0188, or come meet us at our Grand Opening on May 31st at noon. Seeing the space and meeting the team in person makes all the difference." data-es="Por supuesto. Animamos a cada familia a visitar antes de inscribirse. Solicite una visita a través del formulario a continuación, llame al (832) 993-0188, o vénganos a conocer en nuestra Gran Inauguración el 31 de mayo al mediodía. Ver el espacio y conocer al equipo en persona hace toda la diferencia.">Absolutely. We encourage every family to visit before enrolling. Request a tour through the form below, call (832) 993-0188, or come meet us at our Grand Opening on May 31st at noon. Seeing the space and meeting the team in person makes all the difference.</div>
-      </div>
-
     </div>
   </div>
 </section>
 
-<!-- ENROLLMENT CTA -->
-<section class="enroll-section" id="enroll">
+<!-- ENROLL / TOUR FORM -->
+<section class="enroll" id="enroll">
   <div class="container">
-    <h2 class="fade" data-en="Spots Are Filling Up Fast.<br>Secure Yours Today." data-es="Los Cupos Se Llenan Rápido.<br>Asegura el Tuyo Hoy.">Spots Are Filling Up Fast.<br>Secure Yours Today.</h2>
-    <p class="fade" data-en="We cap enrollment at 47 children — intentionally. Once we're full, we're full. Don't wait until after the Grand Opening to reach out." data-es="Limitamos la inscripción a 47 niños — intencionalmente. Cuando estemos llenos, estamos llenos. No esperes hasta después de la Gran Inauguración para comunicarte con nosotros.">We cap enrollment at 47 children — intentionally. Once we're full, we're full. Don't wait until after the Grand Opening to reach out.</p>
-    <div class="enroll-btns fade">
-      <a href="#contact" class="btn-white" data-en="✏️ Enroll Now — It's Free" data-es="✏️ Inscríbete — Es Gratis">✏️ Enroll Now — It's Free</a>
-      <a href="tel:8329930188" class="btn-outline-white">📞 (832) 993-0188</a>
+    <div class="enroll-grid">
+      <div class="enroll-left fade">
+        <div class="section-label coral" data-en="SCHEDULE A TOUR" data-es="AGENDAR VISITA">SCHEDULE A TOUR</div>
+        <h2 data-en="Come See Little Seeds in Person" data-es="Ven a Ver Little Seeds en Persona">Come See Little Seeds in Person</h2>
+        <p data-en="The best way to feel the Little Seeds difference is to visit. Tours are free, take about 30 minutes, and include time to meet teachers and ask all your questions." data-es="La mejor manera de sentir la diferencia de Little Seeds es visitarnos. Las visitas son gratuitas, duran unos 30 minutos e incluyen tiempo para conocer a los maestros y hacer todas sus preguntas.">The best way to feel the Little Seeds difference is to visit. Tours are free, take about 30 minutes, and include time to meet teachers and ask all your questions.</p>
+        <div class="enroll-contact" style="margin-top:32px;">
+          <div class="contact-row">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail">
+              <strong data-en="Call or Text" data-es="Llame o Envíe un Mensaje">Call or Text</strong>
+              <a href="tel:8329930188">(832) 993-0188</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-detail">
+              <strong>Email</strong>
+              <a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">📍</div>
+            <div class="contact-detail">
+              <strong data-en="Address" data-es="Dirección">Address</strong>
+              <span>900 Granberry St., Humble, TX 77338</span>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">🕖</div>
+            <div class="contact-detail">
+              <strong data-en="Office Hours" data-es="Horas de Oficina">Office Hours</strong>
+              <span data-en="Mon–Fri, 7:00 AM – 6:00 PM" data-es="Lun–Vie, 7:00 AM – 6:00 PM">Mon–Fri, 7:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fade">
+        <div class="form-card">
+          <h3 data-en="Schedule Your Free Tour" data-es="Agenda Tu Visita Gratuita">Schedule Your Free Tour</h3>
+          <form onsubmit="handleTourForm(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+                <input type="text" placeholder="Jane Smith" required>
+              </div>
+              <div class="form-group">
+                <label data-en="Phone Number" data-es="Número de Teléfono">Phone Number</label>
+                <input type="tel" placeholder="(832) 555-0000">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="jane@email.com" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-en="Child's Age" data-es="Edad del Niño">Child's Age</label>
+                <select>
+                  <option value="" data-en="Select age..." data-es="Seleccionar edad...">Select age...</option>
+                  <option data-en="18 months – 2 years" data-es="18 meses – 2 años">18 months – 2 years</option>
+                  <option data-en="3 – 4 years" data-es="3 – 4 años">3 – 4 years</option>
+                  <option data-en="5 years and up" data-es="5 años y más">5 years and up</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label data-en="Preferred Tour Date" data-es="Fecha Preferida de Visita">Preferred Tour Date</label>
+                <input type="date">
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-en="Message (Optional)" data-es="Mensaje (Opcional)">Message (Optional)</label>
+              <textarea placeholder="Any questions or special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-coral form-submit" data-en="Request My Free Tour →" data-es="Solicitar Mi Visita Gratuita →">Request My Free Tour →</button>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- CONTACT & LOCATION -->
-<section class="section" id="contact">
+<!-- LOCATION & HOURS -->
+<section class="location" id="location">
   <div class="container">
-    <div class="contact-grid">
-      <div>
-        <div class="s-label fade" data-en="Find Us" data-es="Encuéntranos">Find Us</div>
-        <h2 class="s-title fade" data-en="Visit Little Seeds<br>of Hope Academy" data-es="Visita Little Seeds<br>of Hope Academy">Visit Little Seeds<br>of Hope Academy</h2>
-        <div class="s-rule fade"></div>
-
-        <div class="contact-detail fade">
-          <div class="contact-detail-icon">📍</div>
-          <div class="contact-detail-body">
-            <strong data-en="Address" data-es="Dirección">Address</strong>
-            <span>900 Granberry St., Humble, TX 77338</span>
-          </div>
+    <div class="section-label fade" data-en="FIND US" data-es="ENCUÉNTRANOS">FIND US</div>
+    <h2 class="section-headline fade" data-en="Located in the Heart of Humble, TX" data-es="Ubicados en el Corazón de Humble, TX">Located in the Heart of Humble, TX</h2>
+    <div class="location-grid" style="margin-top:36px;">
+      <div class="fade">
+        <div class="map-wrap">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-95.270,29.984,-95.262,29.992&layer=mapnik&marker=29.988,-95.266" loading="lazy" title="Little Seeds of Hope Academy Map"></iframe>
         </div>
-        <div class="contact-detail fade">
-          <div class="contact-detail-icon">📞</div>
-          <div class="contact-detail-body">
-            <strong data-en="Phone" data-es="Teléfono">Phone</strong>
-            <span><a href="tel:8329930188">(832) 993-0188</a></span>
-          </div>
-        </div>
-        <div class="contact-detail fade">
-          <div class="contact-detail-icon">✉️</div>
-          <div class="contact-detail-body">
-            <strong data-en="Email" data-es="Correo Electrónico">Email</strong>
-            <span><a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></span>
-          </div>
-        </div>
-        <div class="contact-detail fade">
-          <div class="contact-detail-icon">📘</div>
-          <div class="contact-detail-body">
-            <strong>Facebook</strong>
-            <span><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" data-en="Little Seeds of Hope Academy" data-es="Little Seeds of Hope Academy">Little Seeds of Hope Academy</a></span>
-          </div>
-        </div>
-        <div class="contact-detail fade">
-          <div class="contact-detail-icon">🎉</div>
-          <div class="contact-detail-body">
-            <strong data-en="Grand Opening Event" data-es="Evento de Gran Inauguración">Grand Opening Event</strong>
-            <span data-en="May 31, 2026 · Noon–5:30 PM<br>Pop-up market, face painting, kids activities &amp; enrollment sign-ups" data-es="31 de Mayo, 2026 · Mediodía–5:30 PM<br>Mercado pop-up, pintura de caras, actividades para niños e inscripciones">May 31, 2026 · Noon–5:30 PM<br>Pop-up market, face painting, kids activities &amp; enrollment sign-ups</span>
-          </div>
-        </div>
-
-        <h3 style="font-size:1rem;color:var(--dark);margin:28px 0 12px;font-weight:900;" class="fade" data-en="Hours of Operation" data-es="Horarios de Operación">Hours of Operation</h3>
-        <table class="hours-table fade">
-          <tr><td data-en="Monday – Friday" data-es="Lunes – Viernes">Monday – Friday</td><td>7:00 AM – 6:00 PM</td></tr>
-          <tr><td data-en="Saturday" data-es="Sábado">Saturday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
-          <tr><td data-en="Sunday" data-es="Domingo">Sunday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
-        </table>
-
-        <div class="contact-map fade" style="margin-top:28px;">
-          <div class="map-wrap">
-            <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-95.3100,29.9880,-95.2700,30.0080&layer=mapnik&marker=29.998,-95.290"
-              width="100%" height="220" style="border:none;display:block;" loading="lazy"
-              title="Little Seeds of Hope Academy — 900 Granberry St., Humble, TX">
-            </iframe>
-            <a class="map-link" href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" rel="noopener">📍 900 Granberry St., Humble, TX — <span data-en="Open in Google Maps →" data-es="Abrir en Google Maps →">Open in Google Maps →</span></a>
-          </div>
-        </div>
+        <a class="map-open-link" href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" rel="noopener" data-en="Open in Google Maps →" data-es="Abrir en Google Maps →">Open in Google Maps →</a>
       </div>
-
-      <div class="form-card fade">
-        <h3 data-en="Request Enrollment or a Tour" data-es="Solicitar Inscripción o una Visita">Request Enrollment or a Tour</h3>
-        <p class="form-sub" data-en="Fill this out and we'll reach out within 24 hours. No commitment required — just a conversation." data-es="Llene esto y nos comunicaremos dentro de las 24 horas. Sin compromiso — solo una conversación.">Fill this out and we'll reach out within 24 hours. No commitment required — just a conversation.</p>
-        <div class="field-row">
-          <div class="field"><label for="fname" data-en="Parent First Name" data-es="Nombre del Padre/Madre">Parent First Name</label><input type="text" id="fname" placeholder="First name"></div>
-          <div class="field"><label for="lname" data-en="Last Name" data-es="Apellido">Last Name</label><input type="text" id="lname" placeholder="Last name"></div>
+      <div class="fade">
+        <div class="hours-card">
+          <h3 data-en="Hours & Contact" data-es="Horarios y Contacto">Hours & Contact</h3>
+          <table class="hours-table" id="hours-table">
+            <tr id="day-mon"><td data-en="Monday" data-es="Lunes">Monday</td><td>7:00 AM – 6:00 PM</td></tr>
+            <tr id="day-tue"><td data-en="Tuesday" data-es="Martes">Tuesday</td><td>7:00 AM – 6:00 PM</td></tr>
+            <tr id="day-wed"><td data-en="Wednesday" data-es="Miércoles">Wednesday</td><td>7:00 AM – 6:00 PM</td></tr>
+            <tr id="day-thu"><td data-en="Thursday" data-es="Jueves">Thursday</td><td>7:00 AM – 6:00 PM</td></tr>
+            <tr id="day-fri"><td data-en="Friday" data-es="Viernes">Friday</td><td>7:00 AM – 6:00 PM</td></tr>
+            <tr><td data-en="Saturday" data-es="Sábado">Saturday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
+            <tr><td data-en="Sunday" data-es="Domingo">Sunday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
+          </table>
+          <hr class="hours-divider">
+          <div class="addr-row">
+            <span class="addr-icon">📍</span>
+            <div class="addr-text">900 Granberry St., Humble, TX 77338</div>
+          </div>
+          <div class="addr-row">
+            <span class="addr-icon">📞</span>
+            <div class="addr-text"><a href="tel:8329930188" style="color:var(--sky);">(832) 993-0188</a></div>
+          </div>
+          <div class="addr-row">
+            <span class="addr-icon">✉️</span>
+            <div class="addr-text"><a href="mailto:lshopeacademy@gmail.com" style="color:var(--sky);">lshopeacademy@gmail.com</a></div>
+          </div>
+          <div style="margin-top:24px;">
+            <a href="#enroll" class="btn btn-coral" style="width:100%;justify-content:center;" data-en="Schedule a Free Tour →" data-es="Agendar Visita Gratuita →">Schedule a Free Tour →</a>
+          </div>
         </div>
-        <div class="field"><label for="email" data-en="Email Address" data-es="Correo Electrónico">Email Address</label><input type="email" id="email" placeholder="you@email.com"></div>
-        <div class="field"><label for="phone" data-en="Phone Number" data-es="Número de Teléfono">Phone Number</label><input type="tel" id="phone" placeholder="(832) 000-0000"></div>
-        <div class="field">
-          <label for="child-age" data-en="Child's Age" data-es="Edad del Niño/a">Child's Age</label>
-          <select id="child-age">
-            <option value="" data-en="Select age range..." data-es="Seleccionar rango de edad...">Select age range...</option>
-            <option data-en="18 Months – 2 Years" data-es="18 Meses – 2 Años">18 Months – 2 Years</option>
-            <option data-en="3–4 Years" data-es="3–4 Años">3–4 Years</option>
-            <option data-en="5 Years and Up" data-es="5 Años y Más">5 Years and Up</option>
-            <option data-en="Multiple children" data-es="Varios hijos">Multiple children</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="interest" data-en="I'm Interested In" data-es="Me Interesa">I'm Interested In</label>
-          <select id="interest">
-            <option value="" data-en="Select one..." data-es="Seleccionar...">Select one...</option>
-            <option data-en="Enrolling My Child" data-es="Inscribir a Mi Hijo/a">Enrolling My Child</option>
-            <option data-en="Scheduling a Tour" data-es="Programar una Visita">Scheduling a Tour</option>
-            <option data-en="Attending the Grand Opening (May 31)" data-es="Asistir a la Gran Inauguración (31 de Mayo)">Attending the Grand Opening (May 31)</option>
-            <option data-en="Learning About Spanish Program" data-es="Conocer el Programa de Español">Learning About Spanish Program</option>
-            <option data-en="General Information" data-es="Información General">General Information</option>
-          </select>
-        </div>
-        <div class="field"><label for="msg" data-en="Questions or Notes" data-es="Preguntas o Notas">Questions or Notes</label><textarea id="msg" rows="3" placeholder="Tell us about your child and what you're looking for..."></textarea></div>
-        <button class="btn-submit" onclick="alert('Thank you! We will be in touch within 24 hours. Call us anytime at (832) 993-0188 or email lshopeacademy@gmail.com')" data-en="Submit Enrollment Request →" data-es="Enviar Solicitud de Inscripción →">Submit Enrollment Request →</button>
-        <p style="font-size:.75rem;color:var(--muted);text-align:center;margin-top:12px;" data-en="Spaces limited to 47 children. We'll confirm availability when we reach out." data-es="Espacios limitados a 47 niños. Confirmaremos disponibilidad cuando nos comuniquemos.">Spaces limited to 47 children. We'll confirm availability when we reach out.</p>
       </div>
     </div>
   </div>
@@ -1259,124 +1199,151 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
               <div class="footer-brand-tag" data-en="Faith-Based Early Childhood Education · Humble, TX" data-es="Educación Infantil Basada en la Fe · Humble, TX">Faith-Based Early Childhood Education · Humble, TX</div>
             </div>
           </div>
-          <p class="footer-desc" data-en="A faith-centered, family-oriented learning community where every child from 18 months and up is known, loved, and empowered to grow. Bilingual (Spanish), Chapel, now enrolling — Grand Opening May 31, 2026." data-es="Una comunidad de aprendizaje centrada en la fe y orientada a la familia donde cada niño desde 18 meses es conocido, amado y empoderado para crecer. Bilingüe (español), Capilla, ahora inscribiendo — Gran Inauguración 31 de mayo de 2026.">A faith-centered, family-oriented learning community where every child from 18 months and up is known, loved, and empowered to grow. Bilingual (Spanish), Chapel, now enrolling — Grand Opening May 31, 2026.</p>
-          <p style="margin-top:14px;font-size:.84rem;color:rgba(255,255,255,.45);">
-            📞 <a href="tel:8329930188" style="color:rgba(255,255,255,.6);">(832) 993-0188</a><br>
-            ✉️ <a href="mailto:lshopeacademy@gmail.com" style="color:rgba(255,255,255,.6);">lshopeacademy@gmail.com</a>
+          <p class="footer-desc" data-en="A faith-centered, family-oriented learning community in Humble, TX. Every child from 18 months and up is known, loved, and empowered to grow. Bilingual, intentionally small. Grand Opening May 31, 2026." data-es="Una comunidad de aprendizaje centrada en la fe y orientada a la familia en Humble, TX. Cada niño desde 18 meses es conocido, amado y empoderado para crecer. Bilingüe, intencionalmente pequeño. Gran Inauguración 31 de mayo de 2026.">A faith-centered, family-oriented learning community in Humble, TX. Every child from 18 months and up is known, loved, and empowered to grow. Bilingual, intentionally small. Grand Opening May 31, 2026.</p>
+          <p class="footer-contacts">
+            📞 <a href="tel:8329930188">(832) 993-0188</a><br>
+            ✉️ <a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a><br>
+            📍 900 Granberry St., Humble, TX 77338
           </p>
         </div>
         <div class="footer-col">
-          <h5 data-en="Navigate" data-es="Navegación">Navigate</h5>
+          <h4 data-en="Programs" data-es="Programas">Programs</h4>
           <ul>
-            <li><a href="#programs" data-en="Our Programs" data-es="Nuestros Programas">Our Programs</a></li>
-            <li><a href="#about" data-en="Why Little Seeds" data-es="Por Qué Little Seeds">Why Little Seeds</a></li>
-            <li><a href="#schedule" data-en="Daily Schedule" data-es="Horario Diario">Daily Schedule</a></li>
-            <li><a href="#scripture" data-en="Our Scripture" data-es="Nuestras Escrituras">Our Scripture</a></li>
-            <li><a href="#faq" data-en="FAQ" data-es="Preguntas">FAQ</a></li>
-            <li><a href="#enroll" data-en="Enroll Now" data-es="Inscríbete">Enroll Now</a></li>
+            <li><a href="#programs" data-en="Little Sprouts (18 mo–2 yrs)" data-es="Pequeños Brotes (18 meses–2 años)">Little Sprouts (18 mo–2 yrs)</a></li>
+            <li><a href="#programs" data-en="Growing Roots (3–4 yrs)" data-es="Raíces Crecientes (3–4 años)">Growing Roots (3–4 yrs)</a></li>
+            <li><a href="#programs" data-en="Rising Seeds (5+)" data-es="Semillas que Crecen (5+)">Rising Seeds (5+)</a></li>
+            <li><a href="#faith" data-en="Chapel Program" data-es="Programa de Capilla">Chapel Program</a></li>
+            <li><a href="#about" data-en="Seeds of Learning℠" data-es="Seeds of Learning℠">Seeds of Learning℠</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5 data-en="Connect" data-es="Contacto">Connect</h5>
+          <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
           <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" data-en="Facebook Page" data-es="Página de Facebook">Facebook Page</a></li>
-            <li><a href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" data-en="Get Directions" data-es="Cómo Llegar">Get Directions</a></li>
-            <li><a href="tel:8329930188">(832) 993-0188</a></li>
-            <li><a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></li>
-            <li><a href="#contact" data-en="Grand Opening — May 31" data-es="Gran Inauguración — 31 de Mayo">Grand Opening — May 31</a></li>
+            <li><a href="#about" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+            <li><a href="#schedule" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</a></li>
+            <li><a href="#safety" data-en="Health & Safety" data-es="Salud y Seguridad">Health & Safety</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#enroll" data-en="Schedule a Tour" data-es="Agendar Visita">Schedule a Tour</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-en="Connect" data-es="Conéctate">Connect</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="tel:8329930188" data-en="Call: (832) 993-0188" data-es="Llamar: (832) 993-0188">Call: (832) 993-0188</a></li>
+            <li><a href="mailto:lshopeacademy@gmail.com">Email Us</a></li>
+            <li><a href="#enroll" data-en="Schedule a Tour" data-es="Agendar Visita">Schedule a Tour</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="footer-bottom">
-      <p>© 2026 Little Seeds of Hope Academy · 900 Granberry St., Humble, TX 77338 · <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank">Facebook →</a>
-      </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <span data-en="© 2026 Little Seeds of Hope Academy. All rights reserved." data-es="© 2026 Little Seeds of Hope Academy. Todos los derechos reservados.">© 2026 Little Seeds of Hope Academy. All rights reserved.</span>
+      <span>900 Granberry St., Humble, TX 77338 · <a href="tel:8329930188">(832) 993-0188</a></span>
     </div>
   </div>
 </footer>
 
-<!-- MOBILE STICKY -->
+<!-- MOBILE STICKY BAR -->
 <div class="mobile-sticky">
   <a href="tel:8329930188" class="ms-btn ms-call" data-en="📞 Call Now" data-es="📞 Llamar">📞 Call Now</a>
-  <a href="#enroll" class="ms-btn ms-enroll" data-en="✏️ Enroll Now" data-es="✏️ Inscríbete">✏️ Enroll Now</a>
+  <a href="#enroll" class="ms-btn ms-dir" data-en="🌱 Schedule Tour" data-es="🌱 Agendar Visita">🌱 Schedule Tour</a>
 </div>
 
 <!-- LANGUAGE TOGGLE -->
-<button class="lang-toggle en" id="langToggle" aria-label="Toggle language">
-  <span class="lang-en">🇺🇸 EN</span>
-  <span class="lang-sep">|</span>
-  <span class="lang-es">🇲🇽 ES</span>
-</button>
+<button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">🌐 EN / ES</button>
 
 <script>
-// ─── MOBILE MENU ───
+/* === LANGUAGE TOGGLE === */
+var currentLang = localStorage.getItem('lsoh-lang') || 'en';
+function applyLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('lsoh-lang', lang);
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(function(el) {
+    var val = el.getAttribute('data-' + lang);
+    if (!val) return;
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      el.placeholder = val;
+    } else if (el.tagName === 'OPTION') {
+      el.textContent = val;
+    } else {
+      el.innerHTML = val;
+    }
+  });
+  document.getElementById('lang-toggle').textContent = lang === 'en' ? '🌐 ES' : '🌐 EN';
+}
+document.getElementById('lang-toggle').addEventListener('click', function() {
+  applyLang(currentLang === 'en' ? 'es' : 'en');
+});
+if (currentLang === 'es') applyLang('es');
+
+/* === MOBILE MENU === */
 var menu = document.getElementById('mobile-menu');
 var hamburger = document.getElementById('hamburger');
 var closeBtn = document.getElementById('menu-close');
-function openMenu(){ menu.classList.add('open'); menu.setAttribute('aria-hidden','false'); hamburger.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
-function closeMenu(){ menu.classList.remove('open'); menu.setAttribute('aria-hidden','true'); hamburger.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+function openMenu() {
+  menu.classList.add('open'); menu.setAttribute('aria-hidden','false');
+  hamburger.setAttribute('aria-expanded','true');
+  document.body.style.overflow = 'hidden';
+}
+function closeMenu() {
+  menu.classList.remove('open'); menu.setAttribute('aria-hidden','true');
+  hamburger.setAttribute('aria-expanded','false');
+  document.body.style.overflow = '';
+}
 hamburger.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
-document.querySelectorAll('.menu-link').forEach(function(l){ l.addEventListener('click', closeMenu); });
-
-// ─── FADE ON SCROLL ───
-var io = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-}, { threshold: 0.10 });
-document.querySelectorAll('.fade').forEach(function(el){ io.observe(el); });
-
-// ─── FAQ ACCORDION ───
-document.querySelectorAll('.faq-q').forEach(function(btn){
-  btn.addEventListener('click', function(){
-    var answer = this.nextElementSibling;
-    var isOpen = answer.classList.contains('open');
-    document.querySelectorAll('.faq-a').forEach(function(a){ a.classList.remove('open'); });
-    document.querySelectorAll('.faq-q').forEach(function(q){ q.classList.remove('open'); q.setAttribute('aria-expanded','false'); });
-    if(!isOpen){ answer.classList.add('open'); this.classList.add('open'); this.setAttribute('aria-expanded','true'); }
-  });
+document.querySelectorAll('.menu-link').forEach(function(l) {
+  l.addEventListener('click', closeMenu);
 });
 
-// ─── LANGUAGE TOGGLE ───
-var currentLang = localStorage.getItem('lsoh-lang') || 'en';
-var langToggleBtn = document.getElementById('langToggle');
-
-function applyLanguage(lang) {
-  currentLang = lang;
-  localStorage.setItem('lsoh-lang', lang);
-
-  // Update all data-en / data-es elements
-  document.querySelectorAll('[data-en]').forEach(function(el) {
-    var text = el.getAttribute('data-' + lang);
-    if (text !== null) {
-      el.innerHTML = text;
+/* === FAQ ACCORDION === */
+document.querySelectorAll('.faq-q').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var item = btn.closest('.faq-item');
+    var answer = item.querySelector('.faq-a');
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(i) {
+      i.classList.remove('open');
+      i.querySelector('.faq-a').classList.remove('open');
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      answer.classList.add('open');
     }
   });
-
-  // Update button state
-  langToggleBtn.classList.remove('en', 'es');
-  langToggleBtn.classList.add(lang);
-
-  // Update html lang attribute
-  document.documentElement.lang = lang === 'es' ? 'es' : 'en';
-
-  // Update submit button (it uses onclick, so just update its display text)
-  var submitBtn = document.querySelector('.btn-submit');
-  if (submitBtn) {
-    submitBtn.textContent = lang === 'es' ? 'Enviar Solicitud de Inscripción →' : 'Submit Enrollment Request →';
-  }
-}
-
-langToggleBtn.addEventListener('click', function() {
-  applyLanguage(currentLang === 'en' ? 'es' : 'en');
 });
 
-// Apply on load
-applyLanguage(currentLang);
-</script>
+/* === SCROLL ANIMATIONS === */
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) { e.target.classList.add('in'); observer.unobserve(e.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade').forEach(function(el) { observer.observe(el); });
 
+/* === TODAY HOURS HIGHLIGHT === */
+var days = ['day-sun','day-mon','day-tue','day-wed','day-thu','day-fri','day-sat'];
+var today = days[new Date().getDay()];
+var todayRow = document.getElementById(today);
+if (todayRow) todayRow.classList.add('today');
+
+/* === TOUR FORM === */
+function handleTourForm(e) {
+  e.preventDefault();
+  var btn = e.target.querySelector('button[type="submit"]');
+  btn.textContent = currentLang === 'es' ? '✅ ¡Solicitud Enviada!' : '✅ Request Sent!';
+  btn.style.background = 'var(--green)';
+  btn.disabled = true;
+  setTimeout(function() {
+    btn.textContent = currentLang === 'es' ? 'Solicitar Mi Visita Gratuita →' : 'Request My Free Tour →';
+    btn.style.background = ''; btn.disabled = false;
+    e.target.reset();
+  }, 4000);
+}
+</script>
 </body>
 </html>
