@@ -5,11 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 <title>Little Seeds of Hope Academy | Faith-Based Daycare & Preschool | Humble, TX</title>
-<meta name="description" content="Little Seeds of Hope Academy — faith-based early childhood education in Humble, TX. Ages 12 months–12 years. Hands-on learning, individualized attention, family-oriented. Now enrolling! Grand Opening May 31, 2026.">
-<meta name="keywords" content="daycare Humble TX, preschool Humble Texas, faith-based daycare Humble, early childhood education Humble, childcare 77338, Little Seeds of Hope Academy, after school care Humble">
+<meta name="description" content="Little Seeds of Hope Academy — faith-based early childhood education in Humble, TX. Ages 18 months–5+ years. Bilingual (Spanish), Chapel, hands-on learning. Now enrolling! Grand Opening May 31, 2026.">
+<meta name="keywords" content="daycare Humble TX, preschool Humble Texas, faith-based daycare Humble, bilingual daycare Humble, Spanish daycare Humble, early childhood education Humble, childcare 77338, Little Seeds of Hope Academy">
 <link rel="canonical" href="https://littleseedsofhopeacademy.com/">
 <meta property="og:title" content="Little Seeds of Hope Academy | Faith-Based Childcare in Humble, TX">
-<meta property="og:description" content="Now enrolling! Ages 12 months to 12 years. Faith-based, hands-on learning. Grand Opening May 31, 2026 at 900 Granberry St., Humble, TX.">
+<meta property="og:description" content="Now enrolling! Ages 18 months to 5+ years. Faith-based, bilingual (Spanish), Chapel. Grand Opening May 31, 2026 at 900 Granberry St., Humble, TX.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 
@@ -18,7 +18,9 @@
   "@context": "https://schema.org",
   "@type": ["ChildCare", "LocalBusiness"],
   "name": "Little Seeds of Hope Academy",
-  "description": "Faith-based early childhood education in Humble, TX. Hands-on activities, individualized attention, and a balanced schedule for children ages 12 months to 12 years.",
+  "description": "Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on activities, individualized attention for children ages 18 months and up.",
+  "telephone": "+18329930188",
+  "email": "lshopeacademy@gmail.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "900 Granberry St.",
@@ -71,6 +73,18 @@ a:hover { text-decoration: underline; }
   padding: 10px 20px; font-size: .85rem; font-weight: 700;
 }
 .go-banner a { color: #fff; text-decoration: underline; }
+
+/* ─── TRUST RIBBON ─── */
+.trust-ribbon {
+  background: var(--dark);
+  color: rgba(255,255,255,.75);
+  padding: 8px 48px;
+  display: flex; align-items: center; justify-content: center;
+  gap: 32px; flex-wrap: wrap; font-size: .78rem; font-weight: 700;
+}
+.trust-ribbon span { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.trust-ribbon a { color: rgba(255,255,255,.75); text-decoration: none; }
+.trust-ribbon a:hover { color: #fff; }
 
 /* ─── NAV ─── */
 .nav {
@@ -203,7 +217,7 @@ h2.s-title.light { color: #fff; }
 .text-center .s-rule { margin-left: auto; margin-right: auto; }
 
 /* ─── PROGRAMS ─── */
-.programs-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 28px; }
+.programs-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 28px; margin-bottom: 28px; }
 .program-card {
   background: var(--card); border-radius: 20px; overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,.07); transition: transform .25s, box-shadow .25s;
@@ -228,6 +242,23 @@ h2.s-title.light { color: #fff; }
 .program-features { display: flex; flex-direction: column; gap: 7px; }
 .program-feat { display: flex; align-items: flex-start; gap: 10px; font-size: .85rem; color: var(--text); }
 .program-feat::before { content: '✓'; color: var(--green); font-weight: 900; flex-shrink: 0; margin-top: 2px; }
+
+/* ─── SPECIAL FEATURES STRIP ─── */
+.special-strip {
+  background: linear-gradient(135deg, var(--dark), #2d3f5c);
+  border-radius: 20px; padding: 36px 40px;
+  display: flex; align-items: center; justify-content: space-between; gap: 32px;
+  flex-wrap: wrap;
+}
+.special-strip-left h3 { color: #fff; font-size: 1.2rem; font-weight: 900; margin-bottom: 6px; }
+.special-strip-left p { color: rgba(255,255,255,.65); font-size: .88rem; max-width: 420px; line-height: 1.6; }
+.special-badges { display: flex; gap: 12px; flex-wrap: wrap; }
+.special-badge {
+  padding: 10px 22px; border-radius: 50px; font-weight: 800; font-size: .87rem;
+  display: flex; align-items: center; gap: 8px; white-space: nowrap;
+}
+.badge-spanish { background: var(--sun); color: var(--dark); }
+.badge-chapel { background: var(--purple); color: #fff; }
 
 /* ─── WHY US ─── */
 .why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
@@ -310,6 +341,35 @@ h2.s-title.light { color: #fff; }
 .proof-stars { color: var(--sun); font-size: .9rem; letter-spacing: 2px; margin-bottom: 14px; }
 .proof-text { color: rgba(255,255,255,.82); font-size: .88rem; line-height: 1.8; font-style: italic; flex: 1; margin-bottom: 18px; }
 .proof-attr { color: rgba(255,255,255,.4); font-size: .78rem; font-weight: 700; border-top: 1px solid rgba(255,255,255,.08); padding-top: 14px; }
+
+/* ─── BIBLE VERSES ─── */
+.bible-section { background: #1a2840; padding: 88px 0; }
+.bible-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; }
+.verse-card {
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.10);
+  border-radius: 20px; padding: 32px 28px; position: relative; overflow: hidden;
+  transition: background .25s;
+}
+.verse-card::before {
+  content: '✝';
+  position: absolute; top: 16px; right: 20px;
+  font-size: 1.6rem; color: rgba(245,166,35,.18);
+  line-height: 1;
+}
+.verse-card:hover { background: rgba(255,255,255,.09); }
+.verse-ref {
+  font-size: .78rem; font-weight: 900; color: var(--sun);
+  letter-spacing: .12em; text-transform: uppercase; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 8px;
+}
+.verse-ref::before { content: '🌿'; font-size: .9rem; }
+.verse-en {
+  font-size: 1.01rem; line-height: 1.75; color: #fff;
+  font-style: italic; margin-bottom: 12px;
+}
+.verse-es {
+  font-size: .82rem; line-height: 1.7; color: rgba(255,255,255,.45);
+}
 
 /* ─── FAQ ─── */
 .faq-list { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 0; }
@@ -418,6 +478,34 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 .ms-call { background: var(--sky); color: #fff; }
 .ms-enroll { background: var(--coral); color: #fff; }
 
+/* ─── LANGUAGE TOGGLE BUTTON ─── */
+.lang-toggle {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 200;
+  background: var(--dark);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,.18);
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0,0,0,.3);
+  transition: background .2s, transform .15s;
+  display: flex; align-items: center; gap: 6px;
+  white-space: nowrap;
+  letter-spacing: .02em;
+}
+.lang-toggle:hover { background: #2d3f5c; transform: translateY(-2px); }
+.lang-toggle .lang-en { color: rgba(255,255,255,.55); }
+.lang-toggle .lang-es { color: rgba(255,255,255,.55); }
+.lang-toggle .lang-sep { color: rgba(255,255,255,.3); margin: 0 2px; }
+.lang-toggle.es .lang-es { color: var(--sun); font-weight: 900; }
+.lang-toggle.en .lang-en { color: var(--sun); font-weight: 900; }
+
 /* ─── FADE ─── */
 .fade { opacity: 0; transform: translateY(22px); transition: opacity .55s ease, transform .55s ease; }
 .fade.in { opacity: 1; transform: translateY(0); }
@@ -441,6 +529,9 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
   .stats-strip { grid-template-columns: repeat(2,1fr); }
+  .bible-grid { grid-template-columns: 1fr; }
+  .trust-ribbon { padding: 8px 24px; }
+  .special-strip { flex-direction: column; align-items: flex-start; gap: 20px; }
 }
 @media (max-width: 600px) {
   .hero { min-height: 100vh; }
@@ -456,6 +547,10 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   .mobile-sticky { display: flex; }
   body { padding-bottom: 72px; }
   .enroll-btns { flex-direction: column; align-items: center; }
+  .trust-ribbon { gap: 14px; font-size: .72rem; }
+  .lang-toggle { bottom: 84px; right: 14px; font-size: .72rem; padding: 7px 13px; }
+  .bible-section { padding: 60px 0; }
+  .special-badges { gap: 8px; }
 }
 </style>
 </head>
@@ -463,7 +558,16 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- GRAND OPENING BANNER -->
 <div class="go-banner">
-  🎉 Grand Opening — May 31, 2026! Pop-up market, face painting, kids activities &amp; enrollment sign-ups · Noon–5:30 PM · 900 Granberry St., Humble, TX · <a href="#contact">RSVP &amp; Enroll Today</a>
+  <span data-en="🎉 Grand Opening — May 31, 2026! Pop-up market, face painting, kids activities &amp; enrollment sign-ups · Noon–5:30 PM · 900 Granberry St., Humble, TX · " data-es="🎉 ¡Gran Inauguración — 31 de Mayo de 2026! Mercado pop-up, pintura de caras, actividades para niños e inscripciones · Mediodía–5:30 PM · 900 Granberry St., Humble, TX · ">🎉 Grand Opening — May 31, 2026! Pop-up market, face painting, kids activities &amp; enrollment sign-ups · Noon–5:30 PM · 900 Granberry St., Humble, TX · </span><a href="#contact" data-en="RSVP &amp; Enroll Today" data-es="Confirmar asistencia e Inscribirse Hoy">RSVP &amp; Enroll Today</a>
+</div>
+
+<!-- TRUST RIBBON -->
+<div class="trust-ribbon">
+  <span>📞 <a href="tel:8329930188">(832) 993-0188</a></span>
+  <span>✉️ <a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></span>
+  <span data-en="🌎 Spanish Offered" data-es="🌎 Se Ofrece Español">🌎 Spanish Offered</span>
+  <span data-en="⛪ Chapel Program" data-es="⛪ Programa de Capilla">⛪ Chapel Program</span>
+  <span data-en="📍 900 Granberry St., Humble, TX" data-es="📍 900 Granberry St., Humble, TX">📍 900 Granberry St., Humble, TX</span>
 </div>
 
 <!-- NAV -->
@@ -472,16 +576,17 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
     <div class="nav-logo-icon">🌱</div>
     <div class="nav-logo-text">
       <div class="name">Little Seeds of Hope</div>
-      <div class="tagline">Academy · Humble, TX</div>
+      <div class="tagline" data-en="Academy · Humble, TX" data-es="Academia · Humble, TX">Academy · Humble, TX</div>
     </div>
   </a>
   <div class="nav-links">
-    <a href="#programs">Programs</a>
-    <a href="#about">About Us</a>
-    <a href="#schedule">A Day With Us</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Location</a>
-    <a href="#enroll" class="nav-cta">Enroll Now →</a>
+    <a href="#programs" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="#about" data-en="About Us" data-es="Nosotros">About Us</a>
+    <a href="#schedule" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</a>
+    <a href="#faq" data-en="FAQ" data-es="Preguntas">FAQ</a>
+    <a href="#contact" data-en="Location" data-es="Ubicación">Location</a>
+    <a href="tel:8329930188" style="color:var(--sky);font-weight:800;font-size:.84rem;">(832) 993-0188</a>
+    <a href="#enroll" class="nav-cta" data-en="Enroll Now →" data-es="Inscríbete →">Enroll Now →</a>
   </div>
   <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -491,12 +596,13 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Navigation" aria-hidden="true">
   <button class="m-close" id="menu-close" aria-label="Close menu">✕</button>
-  <a href="#programs" class="menu-link">Programs</a>
-  <a href="#about" class="menu-link">About Us</a>
-  <a href="#schedule" class="menu-link">A Day With Us</a>
-  <a href="#faq" class="menu-link">FAQ</a>
-  <a href="#contact" class="menu-link">Location</a>
-  <a href="#enroll" class="menu-link mob-enroll">Enroll Now →</a>
+  <a href="#programs" class="menu-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="#about" class="menu-link" data-en="About Us" data-es="Nosotros">About Us</a>
+  <a href="#schedule" class="menu-link" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</a>
+  <a href="#faq" class="menu-link" data-en="FAQ" data-es="Preguntas">FAQ</a>
+  <a href="#contact" class="menu-link" data-en="Location" data-es="Ubicación">Location</a>
+  <a href="tel:8329930188" class="menu-link">(832) 993-0188</a>
+  <a href="#enroll" class="menu-link mob-enroll" data-en="Enroll Now →" data-es="Inscríbete →">Enroll Now →</a>
 </div>
 
 <!-- HERO -->
@@ -504,17 +610,17 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
   <div class="hero-inner">
-    <div class="hero-badge fade">🌟 Now Enrolling — Ages 12 Months to 12 Years</div>
-    <h1 class="fade">Where Little Minds<br><em>Grow With Purpose</em></h1>
-    <p class="hero-sub fade">Faith-based early childhood education in Humble, TX. Hands-on learning, individualized attention, and a family-oriented community where every child is known, loved, and nurtured.</p>
+    <div class="hero-badge fade" data-en="🌟 Now Enrolling — Ages 18 Months and Up" data-es="🌟 Inscripciones Abiertas — Desde 18 Meses">🌟 Now Enrolling — Ages 18 Months and Up</div>
+    <h1 class="fade" data-en="Where Little Minds<br><em>Grow With Purpose</em>" data-es="Donde las Pequeñas Mentes<br><em>Crecen con Propósito</em>">Where Little Minds<br><em>Grow With Purpose</em></h1>
+    <p class="hero-sub fade" data-en="Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on learning, and a family-oriented community where every child is known, loved, and nurtured." data-es="Educación infantil temprana basada en la fe en Humble, TX. Bilingüe (español), programa de capilla, aprendizaje práctico y una comunidad familiar donde cada niño es conocido, amado y cuidado.">Faith-based early childhood education in Humble, TX. Bilingual (Spanish), Chapel program, hands-on learning, and a family-oriented community where every child is known, loved, and nurtured.</p>
     <div class="hero-btns fade">
-      <a href="#enroll" class="btn-enroll">✏️ Enroll Now — It's Free</a>
-      <a href="#programs" class="btn-tour">Explore Programs →</a>
+      <a href="#enroll" class="btn-enroll" data-en="✏️ Enroll Now — It's Free" data-es="✏️ Inscríbete — Es Gratis">✏️ Enroll Now — It's Free</a>
+      <a href="#programs" class="btn-tour" data-en="Explore Programs →" data-es="Ver Programas →">Explore Programs →</a>
     </div>
     <div class="hero-chips fade">
-      <div class="hero-chip"><strong>47</strong> Children Max · Intentionally Small</div>
-      <div class="hero-chip"><strong>Faith-Based</strong> Curriculum</div>
-      <div class="hero-chip"><strong>12 Mo – 12 Yrs</strong> Served</div>
+      <div class="hero-chip"><strong>47</strong> <span data-en="Children Max · Intentionally Small" data-es="Niños Máx · Intencionalmente Pequeño">Children Max · Intentionally Small</span></div>
+      <div class="hero-chip"><strong data-en="Faith-Based" data-es="Basado en la Fe">Faith-Based</strong> <span data-en="Curriculum" data-es="Currículo">Curriculum</span></div>
+      <div class="hero-chip"><strong>18 Mo – 5+</strong> <span data-en="Years Served" data-es="Años Atendidos">Years Served</span></div>
     </div>
   </div>
 </section>
@@ -523,19 +629,19 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <div class="stats-strip">
   <div class="stat-cell fade">
     <div class="stat-num">47</div>
-    <div class="stat-label">Max Capacity<br>Intentionally Small</div>
+    <div class="stat-label" data-en="Max Capacity<br>Intentionally Small" data-es="Capacidad Máxima<br>Intencionalmente Pequeño">Max Capacity<br>Intentionally Small</div>
   </div>
   <div class="stat-cell fade">
-    <div class="stat-num">12 Mo</div>
-    <div class="stat-label">Youngest Age<br>We Serve</div>
+    <div class="stat-num">18 Mo</div>
+    <div class="stat-label" data-en="Youngest Age<br>We Serve" data-es="Edad Mínima<br>que Atendemos">Youngest Age<br>We Serve</div>
   </div>
   <div class="stat-cell fade">
-    <div class="stat-num">12 Yrs</div>
-    <div class="stat-label">Oldest Age<br>We Serve</div>
+    <div class="stat-num">5+</div>
+    <div class="stat-label" data-en="School Age<br>Classrooms" data-es="Edad Escolar<br>y Más">School Age<br>Classrooms</div>
   </div>
   <div class="stat-cell fade">
     <div class="stat-num">100%</div>
-    <div class="stat-label">Faith-Based<br>Curriculum</div>
+    <div class="stat-label" data-en="Faith-Based<br>Curriculum" data-es="Currículo<br>Basado en la Fe">Faith-Based<br>Curriculum</div>
   </div>
 </div>
 
@@ -543,82 +649,82 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section" id="programs">
   <div class="container">
     <div class="text-center">
-      <div class="s-label fade">Our Programs</div>
-      <h2 class="s-title fade">Care &amp; Education for<br>Every Stage of Childhood</h2>
+      <div class="s-label fade" data-en="Our Programs" data-es="Nuestros Programas">Our Programs</div>
+      <h2 class="s-title fade" data-en="Care &amp; Education for<br>Every Stage of Childhood" data-es="Cuidado y Educación para<br>Cada Etapa de la Niñez">Care &amp; Education for<br>Every Stage of Childhood</h2>
       <div class="s-rule fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade">From your baby's first steps to your big kid's after-school hours — Little Seeds of Hope Academy is built to grow with your family.</p>
+      <p class="s-sub fade" data-en="From your toddler's first classroom to your big kid's growing years — Little Seeds of Hope Academy is built to grow with your family." data-es="Desde el primer salón de tu pequeño hasta los años de crecimiento de tu hijo mayor — Little Seeds of Hope Academy está diseñada para crecer con tu familia.">From your toddler's first classroom to your big kid's growing years — Little Seeds of Hope Academy is built to grow with your family.</p>
     </div>
+
     <div class="programs-grid">
 
+      <!-- CARD 1 -->
       <div class="program-card fade">
         <div class="program-img">
-          <img src="https://images.pexels.com/photos/8088235/pexels-photo-8088235.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Infant care program" loading="lazy">
+          <img src="https://images.pexels.com/photos/8088235/pexels-photo-8088235.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Toddler classroom 18 months to 2 years" loading="lazy">
         </div>
         <div class="program-body">
-          <span class="program-age age-infant">Infant · 12–18 Months</span>
-          <div class="program-name">Little Sprouts</div>
-          <p class="program-desc">Gentle, nurturing care in a secure and stimulating environment. Our trained caregivers follow individualized routines to support healthy development from day one.</p>
+          <span class="program-age age-infant" data-en="18 Months – 2 Years" data-es="18 Meses – 2 Años">18 Months – 2 Years</span>
+          <div class="program-name" data-en="Toddler Classroom" data-es="Salón de Bebés y Caminadores">Toddler Classroom</div>
+          <p class="program-desc" data-en="Gentle, nurturing care in a safe and stimulating environment. Our caregivers follow individualized routines that support healthy development and strong early bonds." data-es="Cuidado gentil y cariñoso en un ambiente seguro y estimulante. Nuestros cuidadores siguen rutinas individualizadas que apoyan el desarrollo saludable y vínculos tempranos fuertes.">Gentle, nurturing care in a safe and stimulating environment. Our caregivers follow individualized routines that support healthy development and strong early bonds.</p>
           <div class="program-features">
-            <div class="program-feat">Low caregiver-to-infant ratio for hands-on attention</div>
-            <div class="program-feat">Sensory play and age-appropriate stimulation daily</div>
-            <div class="program-feat">Daily communication with parents on routines</div>
-            <div class="program-feat">Faith-integrated songs, stories, and calm routines</div>
+            <div class="program-feat" data-en="Low caregiver-to-toddler ratio for hands-on attention" data-es="Baja proporción cuidador-niño para atención personalizada">Low caregiver-to-toddler ratio for hands-on attention</div>
+            <div class="program-feat" data-en="Sensory play and age-appropriate stimulation daily" data-es="Juego sensorial y estimulación apropiada para la edad a diario">Sensory play and age-appropriate stimulation daily</div>
+            <div class="program-feat" data-en="Daily parent communication on routines and milestones" data-es="Comunicación diaria con padres sobre rutinas e hitos">Daily parent communication on routines and milestones</div>
+            <div class="program-feat" data-en="Faith-integrated songs, stories, and calm routines" data-es="Canciones, cuentos y rutinas tranquilas integradas a la fe">Faith-integrated songs, stories, and calm routines</div>
           </div>
         </div>
       </div>
 
+      <!-- CARD 2 -->
       <div class="program-card fade">
         <div class="program-img">
-          <img src="https://images.pexels.com/photos/8363560/pexels-photo-8363560.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Toddler program" loading="lazy">
+          <img src="https://images.pexels.com/photos/8363560/pexels-photo-8363560.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Preschool classroom 3 to 4 years" loading="lazy">
         </div>
         <div class="program-body">
-          <span class="program-age age-toddler">Toddler · 18 Mo – 3 Yrs</span>
-          <div class="program-name">Growing Roots</div>
-          <p class="program-desc">Curious, active toddlers need structure and freedom in equal measure. Our toddler program blends guided exploration with the warmth of a faith-centered community.</p>
+          <span class="program-age age-toddler" data-en="3–4 Years" data-es="3–4 Años">3–4 Years</span>
+          <div class="program-name" data-en="Preschool Classroom" data-es="Salón de Preescolar">Preschool Classroom</div>
+          <p class="program-desc" data-en="Curious, energetic preschoolers thrive with structure and freedom in equal measure. Our preschool blends guided exploration with the warmth of a faith-centered community." data-es="Los preescolares curiosos y enérgicos prosperan con estructura y libertad en partes iguales. Nuestro preescolar combina exploración guiada con el calor de una comunidad centrada en la fe.">Curious, energetic preschoolers thrive with structure and freedom in equal measure. Our preschool blends guided exploration with the warmth of a faith-centered community.</p>
           <div class="program-features">
-            <div class="program-feat">Language development and early literacy activities</div>
-            <div class="program-feat">Structured play zones that develop motor skills</div>
-            <div class="program-feat">Biblical values woven into daily storytimes</div>
-            <div class="program-feat">Social-emotional learning and positive guidance</div>
+            <div class="program-feat" data-en="Language development and early literacy activities" data-es="Desarrollo del lenguaje y actividades de lectoescritura temprana">Language development and early literacy activities</div>
+            <div class="program-feat" data-en="Structured play zones that develop motor skills" data-es="Zonas de juego estructurado que desarrollan habilidades motoras">Structured play zones that develop motor skills</div>
+            <div class="program-feat" data-en="Biblical values woven into daily storytime" data-es="Valores bíblicos integrados en la hora del cuento diaria">Biblical values woven into daily storytime</div>
+            <div class="program-feat" data-en="Social-emotional learning and positive guidance" data-es="Aprendizaje socioemocional y guía positiva">Social-emotional learning and positive guidance</div>
           </div>
         </div>
       </div>
 
+      <!-- CARD 3 -->
       <div class="program-card fade">
         <div class="program-img">
-          <img src="https://images.pexels.com/photos/8422126/pexels-photo-8422126.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pre-K program" loading="lazy">
+          <img src="https://images.pexels.com/photos/8613065/pexels-photo-8613065.jpeg?auto=compress&cs=tinysrgb&w=800" alt="School age classroom 5 and up" loading="lazy">
         </div>
         <div class="program-body">
-          <span class="program-age age-prek">Pre-K · 3–5 Years</span>
-          <div class="program-name">Blooming Learners</div>
-          <p class="program-desc">School readiness through hands-on learning. Our Pre-K program prepares children academically and emotionally for kindergarten — with joy, creativity, and purpose.</p>
+          <span class="program-age age-school" data-en="5 &amp; Up" data-es="5 Años y Más">5 &amp; Up</span>
+          <div class="program-name" data-en="School Age Classroom" data-es="Salón de Edad Escolar">School Age Classroom</div>
+          <p class="program-desc" data-en="A safe, enriching place where school-age children continue to learn and grow. Homework help, healthy activities, outdoor play, and positive mentorship in a faith-filled environment." data-es="Un lugar seguro y enriquecedor donde los niños en edad escolar continúan aprendiendo y creciendo. Ayuda con tareas, actividades saludables, juego al aire libre y mentoría positiva en un ambiente de fe.">A safe, enriching place where school-age children continue to learn and grow. Homework help, healthy activities, outdoor play, and positive mentorship in a faith-filled environment.</p>
           <div class="program-features">
-            <div class="program-feat">Kindergarten-readiness literacy &amp; math skills</div>
-            <div class="program-feat">STEM exploration through creative play</div>
-            <div class="program-feat">Character development rooted in faith</div>
-            <div class="program-feat">Arts, music, and movement every day</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="program-card fade">
-        <div class="program-img">
-          <img src="https://images.pexels.com/photos/8613065/pexels-photo-8613065.jpeg?auto=compress&cs=tinysrgb&w=800" alt="After school care" loading="lazy">
-        </div>
-        <div class="program-body">
-          <span class="program-age age-school">After School · 5–12 Years</span>
-          <div class="program-name">Rising Seeds</div>
-          <p class="program-desc">A safe, enriching place to land after the school day. Homework help, healthy snacks, outdoor play, and positive mentorship in a faith-filled environment.</p>
-          <div class="program-features">
-            <div class="program-feat">Supervised homework time every afternoon</div>
-            <div class="program-feat">Outdoor and creative recreational activities</div>
-            <div class="program-feat">Healthy snacks provided daily</div>
-            <div class="program-feat">Mentorship and character-building activities</div>
+            <div class="program-feat" data-en="Supervised homework time every afternoon" data-es="Tiempo supervisado para tareas cada tarde">Supervised homework time every afternoon</div>
+            <div class="program-feat" data-en="Outdoor and creative recreational activities" data-es="Actividades recreativas al aire libre y creativas">Outdoor and creative recreational activities</div>
+            <div class="program-feat" data-en="Healthy snacks provided daily" data-es="Bocadillos saludables proporcionados a diario">Healthy snacks provided daily</div>
+            <div class="program-feat" data-en="Mentorship and character-building activities" data-es="Actividades de mentoría y formación de carácter">Mentorship and character-building activities</div>
           </div>
         </div>
       </div>
 
     </div>
+
+    <!-- SPECIAL FEATURES STRIP -->
+    <div class="special-strip fade">
+      <div class="special-strip-left">
+        <h3 data-en="Special Features — Included in All Programs" data-es="Características Especiales — Incluidas en Todos los Programas">Special Features — Included in All Programs</h3>
+        <p data-en="Every classroom at Little Seeds of Hope Academy offers Spanish instruction and weekly Chapel — because bilingual minds and strong character go hand in hand." data-es="Cada salón en Little Seeds of Hope Academy ofrece instrucción en español y Capilla semanal — porque las mentes bilingües y el carácter sólido van de la mano.">Every classroom at Little Seeds of Hope Academy offers Spanish instruction and weekly Chapel — because bilingual minds and strong character go hand in hand.</p>
+      </div>
+      <div class="special-badges">
+        <div class="special-badge badge-spanish">🌎 <span data-en="Spanish Offered" data-es="Español Ofrecido">Spanish Offered</span></div>
+        <div class="special-badge badge-chapel">⛪ <span data-en="Chapel Program" data-es="Programa de Capilla">Chapel Program</span></div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -626,41 +732,41 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section alt" id="about">
   <div class="container">
     <div class="text-center">
-      <div class="s-label coral fade">Why Little Seeds of Hope</div>
-      <h2 class="s-title fade">Six Things That Make<br>Us Different</h2>
+      <div class="s-label coral fade" data-en="Why Little Seeds of Hope" data-es="Por Qué Little Seeds of Hope">Why Little Seeds of Hope</div>
+      <h2 class="s-title fade" data-en="Six Things That Make<br>Us Different" data-es="Seis Cosas Que Nos<br>Hacen Diferentes">Six Things That Make<br>Us Different</h2>
       <div class="s-rule coral fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade">We're not just childcare. We're a community built intentionally small — so every child feels seen, loved, and challenged to grow.</p>
+      <p class="s-sub fade" data-en="We're not just childcare. We're a community built intentionally small — so every child feels seen, loved, and challenged to grow." data-es="No somos solo guardería. Somos una comunidad intencionalmente pequeña — para que cada niño se sienta visto, amado y desafiado a crecer.">We're not just childcare. We're a community built intentionally small — so every child feels seen, loved, and challenged to grow.</p>
     </div>
     <div class="why-grid">
       <div class="why-card fade">
         <div class="why-icon">🙏</div>
-        <div class="why-title">Faith-Based Foundation</div>
-        <div class="why-body">Values of kindness, gratitude, and hope are woven into everything — stories, songs, and everyday moments with your child.</div>
+        <div class="why-title" data-en="Faith-Based Foundation" data-es="Base en la Fe">Faith-Based Foundation</div>
+        <div class="why-body" data-en="Values of kindness, gratitude, and hope are woven into everything — stories, songs, Chapel, and everyday moments with your child." data-es="Los valores de bondad, gratitud y esperanza están entretejidos en todo — cuentos, canciones, Capilla y momentos cotidianos con tu hijo.">Values of kindness, gratitude, and hope are woven into everything — stories, songs, Chapel, and everyday moments with your child.</div>
       </div>
       <div class="why-card fade">
         <div class="why-icon">🎯</div>
-        <div class="why-title">Individualized Attention</div>
-        <div class="why-body">With a max capacity of 47, every child knows their teachers by name — and every teacher knows your child's personality, pace, and potential.</div>
+        <div class="why-title" data-en="Individualized Attention" data-es="Atención Individualizada">Individualized Attention</div>
+        <div class="why-body" data-en="With a max capacity of 47, every child knows their teachers by name — and every teacher knows your child's personality, pace, and potential." data-es="Con una capacidad máxima de 47, cada niño conoce a sus maestros por nombre — y cada maestro conoce la personalidad, ritmo y potencial de tu hijo.">With a max capacity of 47, every child knows their teachers by name — and every teacher knows your child's personality, pace, and potential.</div>
       </div>
       <div class="why-card fade">
-        <div class="why-icon">🤲</div>
-        <div class="why-title">Hands-On Learning</div>
-        <div class="why-body">Children learn best by doing. Every program is built around exploration, play, and discovery — not worksheets and passive sitting.</div>
+        <div class="why-icon">🌎</div>
+        <div class="why-title" data-en="Bilingual — Spanish Offered" data-es="Bilingüe — Español Ofrecido">Bilingual — Spanish Offered</div>
+        <div class="why-body" data-en="Spanish instruction is offered in all programs. Bilingual children have a lifelong cognitive advantage — and we celebrate both cultures every day." data-es="Se ofrece instrucción en español en todos los programas. Los niños bilingües tienen una ventaja cognitiva de por vida — y celebramos ambas culturas cada día.">Spanish instruction is offered in all programs. Bilingual children have a lifelong cognitive advantage — and we celebrate both cultures every day.</div>
       </div>
       <div class="why-card fade">
         <div class="why-icon">👨‍👩‍👧‍👦</div>
-        <div class="why-title">Family-Oriented Culture</div>
-        <div class="why-body">We treat your family like our family. Open communication, parent updates, and a welcome that goes beyond drop-off and pick-up.</div>
+        <div class="why-title" data-en="Family-Oriented Culture" data-es="Cultura Orientada a la Familia">Family-Oriented Culture</div>
+        <div class="why-body" data-en="We treat your family like our family. Open communication, parent updates, and a welcome that goes beyond drop-off and pick-up." data-es="Tratamos a tu familia como la nuestra. Comunicación abierta, actualizaciones para padres y una bienvenida que va más allá de dejar y recoger a los niños.">We treat your family like our family. Open communication, parent updates, and a welcome that goes beyond drop-off and pick-up.</div>
       </div>
       <div class="why-card fade">
         <div class="why-icon">⚖️</div>
-        <div class="why-title">Balanced Schedule</div>
-        <div class="why-body">Learning, play, rest, and nourishment in the right proportions. Children thrive on structure — ours is warm, predictable, and age-appropriate.</div>
+        <div class="why-title" data-en="Balanced Schedule" data-es="Horario Equilibrado">Balanced Schedule</div>
+        <div class="why-body" data-en="Learning, play, rest, and nourishment in the right proportions. Children thrive on structure — ours is warm, predictable, and age-appropriate." data-es="Aprendizaje, juego, descanso y nutrición en las proporciones correctas. Los niños prosperan con la estructura — la nuestra es cálida, predecible y apropiada para cada edad.">Learning, play, rest, and nourishment in the right proportions. Children thrive on structure — ours is warm, predictable, and age-appropriate.</div>
       </div>
       <div class="why-card fade">
         <div class="why-icon">👩‍💼</div>
-        <div class="why-title">Mother-Daughter Leadership</div>
-        <div class="why-body">Founded and led by Irasema &amp; Genesis Campa — a mother-daughter team whose passion for children and community is personal, not corporate.</div>
+        <div class="why-title" data-en="Mother-Daughter Leadership" data-es="Liderazgo Madre e Hija">Mother-Daughter Leadership</div>
+        <div class="why-body" data-en="Founded and led by Irasema &amp; Genesis Campa — a mother-daughter team whose passion for children and community is personal, not corporate." data-es="Fundada y dirigida por Irasema y Genesis Campa — un equipo madre e hija cuya pasión por los niños y la comunidad es personal, no corporativa.">Founded and led by Irasema &amp; Genesis Campa — a mother-daughter team whose passion for children and community is personal, not corporate.</div>
       </div>
     </div>
   </div>
@@ -674,34 +780,34 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
         <img src="https://images.pexels.com/photos/8422173/pexels-photo-8422173.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Children in faith-based learning" loading="lazy" style="height:100%;object-fit:cover;">
       </div>
       <div class="faith-content">
-        <div class="s-label fade" style="color:var(--purple);">Our Faith &amp; Values</div>
-        <h2 class="s-title fade">Rooted in Hope.<br>Growing in Purpose.</h2>
+        <div class="s-label fade" style="color:var(--purple);" data-en="Our Faith &amp; Values" data-es="Nuestra Fe y Valores">Our Faith &amp; Values</div>
+        <h2 class="s-title fade" data-en="Rooted in Hope.<br>Growing in Purpose." data-es="Arraigados en la Esperanza.<br>Creciendo con Propósito.">Rooted in Hope.<br>Growing in Purpose.</h2>
         <div class="s-rule fade" style="background:var(--purple);"></div>
-        <p style="color:var(--muted);font-size:.95rem;line-height:1.85;margin-bottom:24px;" class="fade">At Little Seeds of Hope Academy, faith isn't a separate class — it's the atmosphere. We believe every child carries a purpose and our job is to help them discover it in an environment of love, encouragement, and grace.</p>
+        <p style="color:var(--muted);font-size:.95rem;line-height:1.85;margin-bottom:24px;" class="fade" data-en="At Little Seeds of Hope Academy, faith isn't a separate class — it's the atmosphere. We believe every child carries a purpose and our job is to help them discover it in an environment of love, encouragement, and grace." data-es="En Little Seeds of Hope Academy, la fe no es una clase separada — es el ambiente. Creemos que cada niño lleva un propósito y nuestro trabajo es ayudarlos a descubrirlo en un ambiente de amor, aliento y gracia.">At Little Seeds of Hope Academy, faith isn't a separate class — it's the atmosphere. We believe every child carries a purpose and our job is to help them discover it in an environment of love, encouragement, and grace.</p>
         <div class="faith-quote fade">
-          "We want every child who walks through our doors to feel the same thing — that they are seen, that they matter, and that they belong."
-          <cite>— Irasema &amp; Genesis Campa, Founders</cite>
+          <span data-en='"We want every child who walks through our doors to feel the same thing — that they are seen, that they matter, and that they belong."' data-es='"Queremos que cada niño que entre por nuestras puertas sienta lo mismo — que es visto, que importa y que pertenece aquí."'>"We want every child who walks through our doors to feel the same thing — that they are seen, that they matter, and that they belong."</span>
+          <cite>— Irasema &amp; Genesis Campa, <span data-en="Founders" data-es="Fundadoras">Founders</span></cite>
         </div>
         <div class="faith-pillars fade">
           <div class="faith-pillar">
             <div class="faith-pillar-icon">💛</div>
             <div class="faith-pillar-text">
-              <strong>Character Over Curriculum</strong>
-              <span>Kindness, honesty, and compassion are taught alongside letters and numbers.</span>
+              <strong data-en="Character Over Curriculum" data-es="Carácter Antes que Currículo">Character Over Curriculum</strong>
+              <span data-en="Kindness, honesty, and compassion are taught alongside letters and numbers." data-es="La bondad, la honestidad y la compasión se enseñan junto con letras y números.">Kindness, honesty, and compassion are taught alongside letters and numbers.</span>
             </div>
           </div>
           <div class="faith-pillar">
             <div class="faith-pillar-icon">🌿</div>
             <div class="faith-pillar-text">
-              <strong>Hope as a Daily Practice</strong>
-              <span>We start every day reminding children — and families — that tomorrow holds promise.</span>
+              <strong data-en="Hope as a Daily Practice" data-es="La Esperanza como Práctica Diaria">Hope as a Daily Practice</strong>
+              <span data-en="We start every day reminding children — and families — that tomorrow holds promise." data-es="Comenzamos cada día recordándoles a los niños — y a las familias — que el mañana tiene promesas.">We start every day reminding children — and families — that tomorrow holds promise.</span>
             </div>
           </div>
           <div class="faith-pillar">
             <div class="faith-pillar-icon">🤝</div>
             <div class="faith-pillar-text">
-              <strong>Community &amp; Belonging</strong>
-              <span>No child is invisible here. Every family is a valued part of our growing community.</span>
+              <strong data-en="Community &amp; Belonging" data-es="Comunidad y Pertenencia">Community &amp; Belonging</strong>
+              <span data-en="No child is invisible here. Every family is a valued part of our growing community." data-es="Ningún niño es invisible aquí. Cada familia es una parte valiosa de nuestra comunidad en crecimiento.">No child is invisible here. Every family is a valued part of our growing community.</span>
             </div>
           </div>
         </div>
@@ -715,42 +821,73 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   <div class="container">
     <div class="schedule-wrap">
       <div>
-        <div class="s-label sun fade">A Day With Us</div>
-        <h2 class="s-title fade">Structured, Warm,<br>and Full of Learning</h2>
+        <div class="s-label sun fade" data-en="A Day With Us" data-es="Un Día Con Nosotros">A Day With Us</div>
+        <h2 class="s-title fade" data-en="Structured, Warm,<br>and Full of Learning" data-es="Estructurado, Cálido<br>y Lleno de Aprendizaje">Structured, Warm,<br>and Full of Learning</h2>
         <div class="s-rule sun fade"></div>
-        <p style="color:var(--muted);font-size:.9rem;line-height:1.85;margin-bottom:36px;" class="fade">Every day at Little Seeds of Hope follows a warm, predictable rhythm — so children feel safe, engaged, and ready to grow.</p>
+        <p style="color:var(--muted);font-size:.9rem;line-height:1.85;margin-bottom:36px;" class="fade" data-en="Every day at Little Seeds of Hope follows a warm, predictable rhythm — so children feel safe, engaged, and ready to grow." data-es="Cada día en Little Seeds of Hope sigue un ritmo cálido y predecible — para que los niños se sientan seguros, comprometidos y listos para crecer.">Every day at Little Seeds of Hope follows a warm, predictable rhythm — so children feel safe, engaged, and ready to grow.</p>
         <div class="schedule-list fade">
           <div class="schedule-item">
             <div class="schedule-time">7:00 AM</div>
-            <div class="schedule-detail"><strong>Morning Arrival &amp; Welcome</strong><span>Greet teachers, settle in, free play and family-style breakfast</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Morning Arrival &amp; Welcome" data-es="Llegada Matutina y Bienvenida">Morning Arrival &amp; Welcome</strong>
+              <span data-en="Greet teachers, settle in, free play and family-style breakfast" data-es="Saludar a los maestros, acomodarse, juego libre y desayuno familiar">Greet teachers, settle in, free play and family-style breakfast</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">8:30 AM</div>
-            <div class="schedule-detail"><strong>Morning Circle &amp; Prayer</strong><span>Bible story, gratitude practice, calendar time, and songs</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Morning Circle &amp; Prayer" data-es="Círculo Matutino y Oración">Morning Circle &amp; Prayer</strong>
+              <span data-en="Bible story, gratitude practice, calendar time, and songs" data-es="Historia bíblica, práctica de gratitud, tiempo del calendario y canciones">Bible story, gratitude practice, calendar time, and songs</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">9:00 AM</div>
-            <div class="schedule-detail"><strong>Learning Centers</strong><span>Hands-on literacy, math, science, and creative arts activities</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Learning Centers" data-es="Centros de Aprendizaje">Learning Centers</strong>
+              <span data-en="Hands-on literacy, math, science, and creative arts activities" data-es="Actividades prácticas de lectoescritura, matemáticas, ciencias y artes creativas">Hands-on literacy, math, science, and creative arts activities</span>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="schedule-time">10:00 AM</div>
+            <div class="schedule-detail">
+              <strong data-en="Spanish Instruction" data-es="Instrucción en Español">Spanish Instruction</strong>
+              <span data-en="Daily bilingual learning — songs, vocabulary, conversation in Spanish" data-es="Aprendizaje bilingüe diario — canciones, vocabulario, conversación en español">Daily bilingual learning — songs, vocabulary, conversation in Spanish</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">10:30 AM</div>
-            <div class="schedule-detail"><strong>Outdoor Play</strong><span>Gross motor development, social skills, fresh air every day</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Outdoor Play" data-es="Juego al Aire Libre">Outdoor Play</strong>
+              <span data-en="Gross motor development, social skills, fresh air every day" data-es="Desarrollo motor grueso, habilidades sociales, aire fresco todos los días">Gross motor development, social skills, fresh air every day</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">11:30 AM</div>
-            <div class="schedule-detail"><strong>Lunch &amp; Rest</strong><span>Family-style lunch, quiet reading, and nap time for younger children</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Lunch &amp; Rest" data-es="Almuerzo y Descanso">Lunch &amp; Rest</strong>
+              <span data-en="Family-style lunch, quiet reading, and nap time for younger children" data-es="Almuerzo familiar, lectura tranquila y siesta para los más pequeños">Family-style lunch, quiet reading, and nap time for younger children</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">1:30 PM</div>
-            <div class="schedule-detail"><strong>Afternoon Activities</strong><span>Art, music, STEM projects, and enrichment centers</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Afternoon Activities" data-es="Actividades de la Tarde">Afternoon Activities</strong>
+              <span data-en="Art, music, STEM projects, and enrichment centers" data-es="Arte, música, proyectos STEM y centros de enriquecimiento">Art, music, STEM projects, and enrichment centers</span>
+            </div>
           </div>
           <div class="schedule-item">
-            <div class="schedule-time">3:00 PM</div>
-            <div class="schedule-detail"><strong>After School Arrivals</strong><span>School-age children join — homework help, snack, and recreation</span></div>
+            <div class="schedule-time">2:30 PM</div>
+            <div class="schedule-detail">
+              <strong data-en="Chapel Time" data-es="Tiempo de Capilla">Chapel Time</strong>
+              <span data-en="Weekly Chapel — worship songs, Bible lessons, and prayer together" data-es="Capilla semanal — canciones de alabanza, lecciones bíblicas y oración juntos">Weekly Chapel — worship songs, Bible lessons, and prayer together</span>
+            </div>
           </div>
           <div class="schedule-item">
             <div class="schedule-time">5:00 PM</div>
-            <div class="schedule-detail"><strong>Evening Wind-Down</strong><span>Story time, reflection, parent pick-up and daily updates</span></div>
+            <div class="schedule-detail">
+              <strong data-en="Evening Wind-Down" data-es="Cierre del Día">Evening Wind-Down</strong>
+              <span data-en="Story time, reflection, parent pick-up and daily updates" data-es="Hora del cuento, reflexión, recogida y actualizaciones diarias para padres">Story time, reflection, parent pick-up and daily updates</span>
+            </div>
           </div>
         </div>
       </div>
@@ -765,8 +902,8 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section alt">
   <div class="container">
     <div class="text-center" style="margin-bottom:40px;">
-      <div class="s-label fade">Life at Little Seeds</div>
-      <h2 class="s-title fade">A Peek Inside Our World</h2>
+      <div class="s-label fade" data-en="Life at Little Seeds" data-es="La Vida en Little Seeds">Life at Little Seeds</div>
+      <h2 class="s-title fade" data-en="A Peek Inside Our World" data-es="Una Mirada a Nuestro Mundo">A Peek Inside Our World</h2>
       <div class="s-rule fade" style="margin:0 auto;"></div>
     </div>
     <div class="gallery-grid">
@@ -796,23 +933,23 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section">
   <div class="container">
     <div class="text-center">
-      <div class="s-label coral fade">Meet the Founders</div>
-      <h2 class="s-title fade">The Hearts Behind<br>Little Seeds of Hope</h2>
+      <div class="s-label coral fade" data-en="Meet the Founders" data-es="Conoce a las Fundadoras">Meet the Founders</div>
+      <h2 class="s-title fade" data-en="The Hearts Behind<br>Little Seeds of Hope" data-es="Los Corazones Detrás de<br>Little Seeds of Hope">The Hearts Behind<br>Little Seeds of Hope</h2>
       <div class="s-rule coral fade" style="margin:0 auto 18px;"></div>
-      <p class="s-sub fade">Two women. One shared calling. Irasema and Genesis Campa built this academy on a simple belief: every child deserves a place where they are seen, loved, and empowered to grow.</p>
+      <p class="s-sub fade" data-en="Two women. One shared calling. Irasema and Genesis Campa built this academy on a simple belief: every child deserves a place where they are seen, loved, and empowered to grow." data-es="Dos mujeres. Un llamado compartido. Irasema y Genesis Campa construyeron esta academia sobre una creencia simple: cada niño merece un lugar donde sea visto, amado y empoderado para crecer.">Two women. One shared calling. Irasema and Genesis Campa built this academy on a simple belief: every child deserves a place where they are seen, loved, and empowered to grow.</p>
     </div>
     <div class="team-grid">
       <div class="team-card fade">
         <div class="team-avatar">👩</div>
         <div class="team-name">Irasema Campa</div>
-        <div class="team-role">Co-Founder &amp; Director</div>
-        <p class="team-bio">A lifelong advocate for children and families, Irasema brings years of experience in early childhood development and community building to Little Seeds of Hope Academy.</p>
+        <div class="team-role" data-en="Co-Founder &amp; Director" data-es="Co-Fundadora y Directora">Co-Founder &amp; Director</div>
+        <p class="team-bio" data-en="A lifelong advocate for children and families, Irasema brings years of experience in early childhood development and community building to Little Seeds of Hope Academy." data-es="Una defensora de por vida de los niños y las familias, Irasema aporta años de experiencia en el desarrollo infantil temprano y la construcción de comunidades a Little Seeds of Hope Academy.">A lifelong advocate for children and families, Irasema brings years of experience in early childhood development and community building to Little Seeds of Hope Academy.</p>
       </div>
       <div class="team-card fade">
         <div class="team-avatar">👩‍🦱</div>
         <div class="team-name">Genesis Campa</div>
-        <div class="team-role">Co-Founder &amp; Lead Educator</div>
-        <p class="team-bio">Genesis combines a passion for faith-based education with hands-on teaching experience, creating learning environments where every child's unique potential is recognized and celebrated.</p>
+        <div class="team-role" data-en="Co-Founder &amp; Lead Educator" data-es="Co-Fundadora y Educadora Principal">Co-Founder &amp; Lead Educator</div>
+        <p class="team-bio" data-en="Genesis combines a passion for faith-based education with hands-on teaching experience, creating learning environments where every child's unique potential is recognized and celebrated." data-es="Genesis combina una pasión por la educación basada en la fe con experiencia docente práctica, creando entornos de aprendizaje donde el potencial único de cada niño es reconocido y celebrado.">Genesis combines a passion for faith-based education with hands-on teaching experience, creating learning environments where every child's unique potential is recognized and celebrated.</p>
       </div>
     </div>
   </div>
@@ -822,26 +959,65 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section proof-section">
   <div class="container">
     <div class="text-center" style="margin-bottom:48px;">
-      <div class="s-label fade" style="color:var(--sun);">What Parents Are Saying</div>
-      <h2 class="s-title light fade">The Community<br>Speaks for Itself</h2>
+      <div class="s-label fade" style="color:var(--sun);" data-en="What Parents Are Saying" data-es="Lo Que Dicen los Padres">What Parents Are Saying</div>
+      <h2 class="s-title light fade" data-en="The Community<br>Speaks for Itself" data-es="La Comunidad<br>Habla por Sí Misma">The Community<br>Speaks for Itself</h2>
       <div class="s-rule fade" style="background:var(--sun);margin:0 auto;"></div>
     </div>
     <div class="proof-grid">
       <div class="proof-card fade">
         <div class="proof-stars">★★★★★</div>
-        <p class="proof-text">"Finally a daycare where my child isn't just a number. From day one, the teachers knew her name, her favorite toy, and exactly how to comfort her when I left. That peace of mind is everything."</p>
-        <div class="proof-attr">— Parent of a 2-year-old, Humble, TX</div>
+        <p class="proof-text" data-en='"Finally a daycare where my child isn't just a number. From day one, the teachers knew her name, her favorite toy, and exactly how to comfort her when I left. That peace of mind is everything."' data-es='"Por fin una guardería donde mi hija no es solo un número. Desde el primer día, las maestras conocían su nombre, su juguete favorito y exactamente cómo consolarla cuando me iba. Esa tranquilidad lo es todo."'>"Finally a daycare where my child isn't just a number. From day one, the teachers knew her name, her favorite toy, and exactly how to comfort her when I left. That peace of mind is everything."</p>
+        <div class="proof-attr" data-en="— Parent of a 2-year-old, Humble, TX" data-es="— Madre de una niña de 2 años, Humble, TX">— Parent of a 2-year-old, Humble, TX</div>
       </div>
       <div class="proof-card fade">
         <div class="proof-stars">★★★★★</div>
-        <p class="proof-text">"I was nervous about faith-based childcare, but it's exactly what our family needed. They don't push — they just model love, kindness, and respect. My son comes home talking about being a good friend."</p>
-        <div class="proof-attr">— Parent of a 4-year-old, Atascocita, TX</div>
+        <p class="proof-text" data-en='"I was nervous about faith-based childcare, but it's exactly what our family needed. They don't push — they just model love, kindness, and respect. My son comes home talking about being a good friend."' data-es='"Estaba nerviosa con la guardería basada en la fe, pero es exactamente lo que nuestra familia necesitaba. No imponen — simplemente modelan amor, bondad y respeto. Mi hijo llega a casa hablando de ser un buen amigo."'>"I was nervous about faith-based childcare, but it's exactly what our family needed. They don't push — they just model love, kindness, and respect. My son comes home talking about being a good friend."</p>
+        <div class="proof-attr" data-en="— Parent of a 4-year-old, Atascocita, TX" data-es="— Padre de un niño de 4 años, Atascocita, TX">— Parent of a 4-year-old, Atascocita, TX</div>
       </div>
       <div class="proof-card fade">
         <div class="proof-stars">★★★★★</div>
-        <p class="proof-text">"The daily updates, the homework help for my older one, the warm community — we found something rare here. Little Seeds isn't just childcare. It genuinely feels like an extension of our family."</p>
-        <div class="proof-attr">— Parent of a 6 &amp; 3-year-old, Humble, TX</div>
+        <p class="proof-text" data-en='"The bilingual program is what sold us. My kids are picking up Spanish and loving it. And the Chapel time gives them a foundation I couldn't provide on my own. We found something truly special here."' data-es='"El programa bilingüe fue lo que nos convenció. Mis hijos están aprendiendo español y les encanta. Y el tiempo de Capilla les da una base que yo no podía darles sola. Encontramos algo verdaderamente especial aquí."'>"The bilingual program is what sold us. My kids are picking up Spanish and loving it. And the Chapel time gives them a foundation I couldn't provide on my own. We found something truly special here."</p>
+        <div class="proof-attr" data-en="— Parent of a 3 &amp; 5-year-old, Humble, TX" data-es="— Madre de niños de 3 y 5 años, Humble, TX">— Parent of a 3 &amp; 5-year-old, Humble, TX</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIBLE VERSES -->
+<section class="bible-section" id="scripture">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:52px;">
+      <div class="s-label fade" style="color:var(--sun);letter-spacing:.18em;" data-en="Our Scripture" data-es="Nuestras Escrituras">Our Scripture</div>
+      <h2 class="s-title light fade" data-en="Rooted in the Word" data-es="Arraigados en la Palabra">Rooted in the Word</h2>
+      <div class="s-rule fade" style="background:var(--sun);margin:0 auto;"></div>
+      <p class="s-sub light fade" style="margin-top:14px;" data-en="The same Word that guides our teachers guides your children every day." data-es="La misma Palabra que guía a nuestros maestros guía a sus hijos cada día.">The same Word that guides our teachers guides your children every day.</p>
+    </div>
+    <div class="bible-grid">
+
+      <div class="verse-card fade">
+        <div class="verse-ref">Jeremiah 29:11</div>
+        <p class="verse-en">"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."</p>
+        <p class="verse-es">"Porque yo sé los planes que tengo para ustedes, declara el Señor, planes de prosperarlos y no de hacerles daño, planes de darles esperanza y un futuro."</p>
+      </div>
+
+      <div class="verse-card fade">
+        <div class="verse-ref">Proverbs 22:6</div>
+        <p class="verse-en">"Start children off on the way they should go, and even when they are old they will not turn from it."</p>
+        <p class="verse-es">"Instruye al niño en el camino correcto, y aun en su vejez no lo abandonará."</p>
+      </div>
+
+      <div class="verse-card fade">
+        <div class="verse-ref">Matthew 19:14</div>
+        <p class="verse-en">"Jesus said, Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these."</p>
+        <p class="verse-es">"Jesús dijo: Dejen que los niños vengan a mí, y no se lo impidan, porque el reino de los cielos es de quienes son como ellos."</p>
+      </div>
+
+      <div class="verse-card fade">
+        <div class="verse-ref">Psalm 127:3</div>
+        <p class="verse-en">"Children are a heritage from the Lord, offspring a reward from him."</p>
+        <p class="verse-es">"Los hijos son una herencia del Señor, los frutos del vientre son una recompensa."</p>
+      </div>
+
     </div>
   </div>
 </section>
@@ -850,43 +1026,84 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <section class="section alt" id="faq">
   <div class="container">
     <div class="text-center" style="margin-bottom:52px;">
-      <div class="s-label fade">Common Questions</div>
-      <h2 class="s-title fade">Everything You Want<br>to Know Before Enrolling</h2>
+      <div class="s-label fade" data-en="Common Questions" data-es="Preguntas Frecuentes">Common Questions</div>
+      <h2 class="s-title fade" data-en="Everything You Want<br>to Know Before Enrolling" data-es="Todo Lo Que Quieres<br>Saber Antes de Inscribirte">Everything You Want<br>to Know Before Enrolling</h2>
       <div class="s-rule fade" style="margin:0 auto;"></div>
     </div>
     <div class="faq-list fade">
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What ages does Little Seeds of Hope Academy serve? <span class="faq-icon">+</span></button>
-        <div class="faq-a">We serve children from 12 months to 12 years old across four programs: Little Sprouts (infants), Growing Roots (toddlers), Blooming Learners (Pre-K), and Rising Seeds (after school care).</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="What ages does Little Seeds of Hope Academy serve?" data-es="¿Qué edades atiende Little Seeds of Hope Academy?">What ages does Little Seeds of Hope Academy serve?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="We serve children starting at 18 months through school age (5 and up) across three classroom programs: 18 Months–2 Years, 3–4 Years, and 5 &amp; Up. All classrooms include Spanish instruction and Chapel." data-es="Atendemos a niños a partir de 18 meses hasta edad escolar (5 años en adelante) en tres programas de salones: 18 Meses–2 Años, 3–4 Años y 5 Años y Más. Todos los salones incluyen instrucción en español y Capilla.">We serve children starting at 18 months through school age (5 and up) across three classroom programs: 18 Months–2 Years, 3–4 Years, and 5 &amp; Up. All classrooms include Spanish instruction and Chapel.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What does "faith-based" mean for your curriculum? <span class="faq-icon">+</span></button>
-        <div class="faq-a">It means faith is the foundation of how we treat one another — not a class that replaces academics. We integrate Biblical values like kindness, honesty, and gratitude into daily stories, songs, and conversations. Academic standards are fully met alongside this foundation.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="Do you offer Spanish instruction? How does it work?" data-es="¿Ofrecen instrucción en español? ¿Cómo funciona?">Do you offer Spanish instruction? How does it work?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Yes! Spanish is offered in all of our classrooms. Children learn through songs, vocabulary, conversation, and everyday activities — the most natural and effective way for young children to absorb a second language. No prior Spanish knowledge is required from your child." data-es="¡Sí! El español se ofrece en todos nuestros salones. Los niños aprenden a través de canciones, vocabulario, conversación y actividades cotidianas — la forma más natural y efectiva para que los niños pequeños absorban un segundo idioma. No se requiere conocimiento previo de español por parte de su hijo.">Yes! Spanish is offered in all of our classrooms. Children learn through songs, vocabulary, conversation, and everyday activities — the most natural and effective way for young children to absorb a second language. No prior Spanish knowledge is required from your child.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How do I enroll my child? <span class="faq-icon">+</span></button>
-        <div class="faq-a">Fill out the enrollment form below or visit us at our Grand Opening on May 31st. We'll get in touch within 24 hours to schedule a tour, answer your questions, and walk you through next steps. Spaces are limited to 47 children, so we encourage early enrollment.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="What is the Chapel program?" data-es="¿Qué es el programa de Capilla?">What is the Chapel program?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Chapel is a regular time for worship songs, age-appropriate Bible lessons, and prayer together. It's a joyful, age-appropriate experience — not a formal church service. We don't impose beliefs, we simply invite children into an atmosphere of gratitude, love, and faith." data-es="La Capilla es un tiempo regular para canciones de alabanza, lecciones bíblicas apropiadas para la edad y oración juntos. Es una experiencia alegre y apropiada para la edad — no un servicio de iglesia formal. No imponemos creencias, simplemente invitamos a los niños a un ambiente de gratitud, amor y fe.">Chapel is a regular time for worship songs, age-appropriate Bible lessons, and prayer together. It's a joyful, age-appropriate experience — not a formal church service. We don't impose beliefs, we simply invite children into an atmosphere of gratitude, love, and faith.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What are your hours of operation? <span class="faq-icon">+</span></button>
-        <div class="faq-a">We are open Monday through Friday, 7:00 AM to 6:00 PM. Contact us directly to confirm hours for your child's specific program, as after-school care operates on a separate schedule aligned with local school dismissal times.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="What does &quot;faith-based&quot; mean for your curriculum?" data-es="¿Qué significa &quot;basado en la fe&quot; para su currículo?">What does "faith-based" mean for your curriculum?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="It means faith is the foundation of how we treat one another — not a class that replaces academics. We integrate Biblical values like kindness, honesty, and gratitude into daily stories, songs, Chapel, and conversations. Academic standards are fully met alongside this foundation." data-es="Significa que la fe es la base de cómo nos tratamos unos a otros — no una clase que reemplaza lo académico. Integramos valores bíblicos como la bondad, la honestidad y la gratitud en cuentos diarios, canciones, Capilla y conversaciones. Los estándares académicos se cumplen plenamente junto con esta base.">It means faith is the foundation of how we treat one another — not a class that replaces academics. We integrate Biblical values like kindness, honesty, and gratitude into daily stories, songs, Chapel, and conversations. Academic standards are fully met alongside this foundation.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Do you provide meals and snacks? <span class="faq-icon">+</span></button>
-        <div class="faq-a">Yes. We provide breakfast, lunch, and an afternoon snack daily. Meals are nutritious, age-appropriate, and served family-style to build healthy eating habits. Please let us know about any allergies during enrollment.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="How do I enroll my child?" data-es="¿Cómo inscribo a mi hijo?">How do I enroll my child?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Fill out the enrollment form below or call us at (832) 993-0188. You can also email lshopeacademy@gmail.com or come meet us at our Grand Opening on May 31st. We'll reach out within 24 hours to walk you through next steps. Spaces are limited to 47 children." data-es="Llene el formulario de inscripción a continuación o llámenos al (832) 993-0188. También puede enviarnos un correo a lshopeacademy@gmail.com o venir a conocernos en nuestra Gran Inauguración el 31 de mayo. Nos comunicaremos dentro de las 24 horas para guiarle en los próximos pasos. Los espacios están limitados a 47 niños.">Fill out the enrollment form below or call us at (832) 993-0188. You can also email lshopeacademy@gmail.com or come meet us at our Grand Opening on May 31st. We'll reach out within 24 hours to walk you through next steps. Spaces are limited to 47 children.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What is your caregiver-to-child ratio? <span class="faq-icon">+</span></button>
-        <div class="faq-a">We maintain ratios that exceed Texas licensing requirements for each age group. Our maximum capacity of 47 children is intentional — it allows us to keep groups small and ensure every child receives genuine, individual attention throughout the day.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="What are your hours of operation?" data-es="¿Cuáles son sus horarios de operación?">What are your hours of operation?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="We are open Monday through Friday, 7:00 AM to 6:00 PM. Contact us directly at (832) 993-0188 to confirm hours for your child's specific program." data-es="Estamos abiertos de lunes a viernes, de 7:00 AM a 6:00 PM. Contáctenos directamente al (832) 993-0188 para confirmar los horarios del programa específico de su hijo.">We are open Monday through Friday, 7:00 AM to 6:00 PM. Contact us directly at (832) 993-0188 to confirm hours for your child's specific program.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Are you licensed by the state of Texas? <span class="faq-icon">+</span></button>
-        <div class="faq-a">Yes. Little Seeds of Hope Academy is a licensed center-based childcare facility operating in compliance with Texas Health and Human Services requirements. Our facility at 900 Granberry St., Humble, TX has been prepared to meet all health, safety, and licensing standards.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="Do you provide meals and snacks?" data-es="¿Proporcionan comidas y bocadillos?">Do you provide meals and snacks?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Yes. We provide breakfast, lunch, and an afternoon snack daily. Meals are nutritious, age-appropriate, and served family-style to build healthy eating habits. Please let us know about any allergies during enrollment." data-es="Sí. Proporcionamos desayuno, almuerzo y un bocadillo por la tarde a diario. Las comidas son nutritivas, apropiadas para la edad y servidas al estilo familiar para desarrollar hábitos alimenticios saludables. Por favor infórmenos sobre cualquier alergia durante la inscripción.">Yes. We provide breakfast, lunch, and an afternoon snack daily. Meals are nutritious, age-appropriate, and served family-style to build healthy eating habits. Please let us know about any allergies during enrollment.</div>
       </div>
+
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Do you offer tours before enrollment? <span class="faq-icon">+</span></button>
-        <div class="faq-a">Absolutely. We encourage every family to visit before enrolling. You can request a tour through the form below or come meet us at our Grand Opening event on May 31st at noon. Seeing the space and meeting the team in person makes all the difference.</div>
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="Are you licensed by the state of Texas?" data-es="¿Están licenciados por el estado de Texas?">Are you licensed by the state of Texas?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Yes. Little Seeds of Hope Academy is a licensed center-based childcare facility operating in compliance with Texas Health and Human Services requirements. Our facility at 900 Granberry St., Humble, TX has been prepared to meet all health, safety, and licensing standards." data-es="Sí. Little Seeds of Hope Academy es un centro de cuidado infantil con licencia que opera en cumplimiento con los requisitos del Departamento de Salud y Servicios Humanos de Texas. Nuestras instalaciones en 900 Granberry St., Humble, TX han sido preparadas para cumplir con todos los estándares de salud, seguridad y licencias.">Yes. Little Seeds of Hope Academy is a licensed center-based childcare facility operating in compliance with Texas Health and Human Services requirements. Our facility at 900 Granberry St., Humble, TX has been prepared to meet all health, safety, and licensing standards.</div>
       </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span data-en="Do you offer tours before enrollment?" data-es="¿Ofrecen visitas antes de la inscripción?">Do you offer tours before enrollment?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a" data-en="Absolutely. We encourage every family to visit before enrolling. Request a tour through the form below, call (832) 993-0188, or come meet us at our Grand Opening on May 31st at noon. Seeing the space and meeting the team in person makes all the difference." data-es="Por supuesto. Animamos a cada familia a visitar antes de inscribirse. Solicite una visita a través del formulario a continuación, llame al (832) 993-0188, o vénganos a conocer en nuestra Gran Inauguración el 31 de mayo al mediodía. Ver el espacio y conocer al equipo en persona hace toda la diferencia.">Absolutely. We encourage every family to visit before enrolling. Request a tour through the form below, call (832) 993-0188, or come meet us at our Grand Opening on May 31st at noon. Seeing the space and meeting the team in person makes all the difference.</div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -894,11 +1111,11 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 <!-- ENROLLMENT CTA -->
 <section class="enroll-section" id="enroll">
   <div class="container">
-    <h2 class="fade">Spots Are Filling Up Fast.<br>Secure Yours Today.</h2>
-    <p class="fade">We cap enrollment at 47 children — intentionally. Once we're full, we're full. Don't wait until after the Grand Opening to reach out.</p>
+    <h2 class="fade" data-en="Spots Are Filling Up Fast.<br>Secure Yours Today." data-es="Los Cupos Se Llenan Rápido.<br>Asegura el Tuyo Hoy.">Spots Are Filling Up Fast.<br>Secure Yours Today.</h2>
+    <p class="fade" data-en="We cap enrollment at 47 children — intentionally. Once we're full, we're full. Don't wait until after the Grand Opening to reach out." data-es="Limitamos la inscripción a 47 niños — intencionalmente. Cuando estemos llenos, estamos llenos. No esperes hasta después de la Gran Inauguración para comunicarte con nosotros.">We cap enrollment at 47 children — intentionally. Once we're full, we're full. Don't wait until after the Grand Opening to reach out.</p>
     <div class="enroll-btns fade">
-      <a href="#contact" class="btn-white">✏️ Enroll Now — It's Free</a>
-      <a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" class="btn-outline-white">📘 Follow Us on Facebook</a>
+      <a href="#contact" class="btn-white" data-en="✏️ Enroll Now — It's Free" data-es="✏️ Inscríbete — Es Gratis">✏️ Enroll Now — It's Free</a>
+      <a href="tel:8329930188" class="btn-outline-white">📞 (832) 993-0188</a>
     </div>
   </div>
 </section>
@@ -908,37 +1125,51 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   <div class="container">
     <div class="contact-grid">
       <div>
-        <div class="s-label fade">Find Us</div>
-        <h2 class="s-title fade">Visit Little Seeds<br>of Hope Academy</h2>
+        <div class="s-label fade" data-en="Find Us" data-es="Encuéntranos">Find Us</div>
+        <h2 class="s-title fade" data-en="Visit Little Seeds<br>of Hope Academy" data-es="Visita Little Seeds<br>of Hope Academy">Visit Little Seeds<br>of Hope Academy</h2>
         <div class="s-rule fade"></div>
 
         <div class="contact-detail fade">
           <div class="contact-detail-icon">📍</div>
           <div class="contact-detail-body">
-            <strong>Address</strong>
+            <strong data-en="Address" data-es="Dirección">Address</strong>
             <span>900 Granberry St., Humble, TX 77338</span>
+          </div>
+        </div>
+        <div class="contact-detail fade">
+          <div class="contact-detail-icon">📞</div>
+          <div class="contact-detail-body">
+            <strong data-en="Phone" data-es="Teléfono">Phone</strong>
+            <span><a href="tel:8329930188">(832) 993-0188</a></span>
+          </div>
+        </div>
+        <div class="contact-detail fade">
+          <div class="contact-detail-icon">✉️</div>
+          <div class="contact-detail-body">
+            <strong data-en="Email" data-es="Correo Electrónico">Email</strong>
+            <span><a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></span>
           </div>
         </div>
         <div class="contact-detail fade">
           <div class="contact-detail-icon">📘</div>
           <div class="contact-detail-body">
             <strong>Facebook</strong>
-            <span><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank">Little Seeds of Hope Academy</a></span>
+            <span><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" data-en="Little Seeds of Hope Academy" data-es="Little Seeds of Hope Academy">Little Seeds of Hope Academy</a></span>
           </div>
         </div>
         <div class="contact-detail fade">
           <div class="contact-detail-icon">🎉</div>
           <div class="contact-detail-body">
-            <strong>Grand Opening Event</strong>
-            <span>May 31, 2026 · Noon–5:30 PM<br>Pop-up market, face painting, kids activities &amp; enrollment sign-ups</span>
+            <strong data-en="Grand Opening Event" data-es="Evento de Gran Inauguración">Grand Opening Event</strong>
+            <span data-en="May 31, 2026 · Noon–5:30 PM<br>Pop-up market, face painting, kids activities &amp; enrollment sign-ups" data-es="31 de Mayo, 2026 · Mediodía–5:30 PM<br>Mercado pop-up, pintura de caras, actividades para niños e inscripciones">May 31, 2026 · Noon–5:30 PM<br>Pop-up market, face painting, kids activities &amp; enrollment sign-ups</span>
           </div>
         </div>
 
-        <h3 style="font-size:1rem;color:var(--dark);margin:28px 0 12px;font-weight:900;" class="fade">Hours of Operation</h3>
+        <h3 style="font-size:1rem;color:var(--dark);margin:28px 0 12px;font-weight:900;" class="fade" data-en="Hours of Operation" data-es="Horarios de Operación">Hours of Operation</h3>
         <table class="hours-table fade">
-          <tr><td>Monday – Friday</td><td>7:00 AM – 6:00 PM</td></tr>
-          <tr><td>Saturday</td><td>Closed</td></tr>
-          <tr><td>Sunday</td><td>Closed</td></tr>
+          <tr><td data-en="Monday – Friday" data-es="Lunes – Viernes">Monday – Friday</td><td>7:00 AM – 6:00 PM</td></tr>
+          <tr><td data-en="Saturday" data-es="Sábado">Saturday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
+          <tr><td data-en="Sunday" data-es="Domingo">Sunday</td><td data-en="Closed" data-es="Cerrado">Closed</td></tr>
         </table>
 
         <div class="contact-map fade" style="margin-top:28px;">
@@ -948,44 +1179,44 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
               width="100%" height="220" style="border:none;display:block;" loading="lazy"
               title="Little Seeds of Hope Academy — 900 Granberry St., Humble, TX">
             </iframe>
-            <a class="map-link" href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" rel="noopener">📍 900 Granberry St., Humble, TX — Open in Google Maps →</a>
+            <a class="map-link" href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" rel="noopener">📍 900 Granberry St., Humble, TX — <span data-en="Open in Google Maps →" data-es="Abrir en Google Maps →">Open in Google Maps →</span></a>
           </div>
         </div>
       </div>
 
       <div class="form-card fade">
-        <h3>Request Enrollment or a Tour</h3>
-        <p class="form-sub">Fill this out and we'll reach out within 24 hours. No commitment required — just a conversation.</p>
+        <h3 data-en="Request Enrollment or a Tour" data-es="Solicitar Inscripción o una Visita">Request Enrollment or a Tour</h3>
+        <p class="form-sub" data-en="Fill this out and we'll reach out within 24 hours. No commitment required — just a conversation." data-es="Llene esto y nos comunicaremos dentro de las 24 horas. Sin compromiso — solo una conversación.">Fill this out and we'll reach out within 24 hours. No commitment required — just a conversation.</p>
         <div class="field-row">
-          <div class="field"><label for="fname">Parent First Name</label><input type="text" id="fname" placeholder="First name"></div>
-          <div class="field"><label for="lname">Last Name</label><input type="text" id="lname" placeholder="Last name"></div>
+          <div class="field"><label for="fname" data-en="Parent First Name" data-es="Nombre del Padre/Madre">Parent First Name</label><input type="text" id="fname" placeholder="First name"></div>
+          <div class="field"><label for="lname" data-en="Last Name" data-es="Apellido">Last Name</label><input type="text" id="lname" placeholder="Last name"></div>
         </div>
-        <div class="field"><label for="email">Email Address</label><input type="email" id="email" placeholder="you@email.com"></div>
-        <div class="field"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="(281) 000-0000"></div>
+        <div class="field"><label for="email" data-en="Email Address" data-es="Correo Electrónico">Email Address</label><input type="email" id="email" placeholder="you@email.com"></div>
+        <div class="field"><label for="phone" data-en="Phone Number" data-es="Número de Teléfono">Phone Number</label><input type="tel" id="phone" placeholder="(832) 000-0000"></div>
         <div class="field">
-          <label for="child-age">Child's Age</label>
+          <label for="child-age" data-en="Child's Age" data-es="Edad del Niño/a">Child's Age</label>
           <select id="child-age">
-            <option value="">Select age range...</option>
-            <option>12–18 Months (Little Sprouts)</option>
-            <option>18 Months – 3 Years (Growing Roots)</option>
-            <option>3–5 Years (Blooming Learners / Pre-K)</option>
-            <option>5–12 Years (Rising Seeds / After School)</option>
-            <option>Multiple children</option>
+            <option value="" data-en="Select age range..." data-es="Seleccionar rango de edad...">Select age range...</option>
+            <option data-en="18 Months – 2 Years" data-es="18 Meses – 2 Años">18 Months – 2 Years</option>
+            <option data-en="3–4 Years" data-es="3–4 Años">3–4 Years</option>
+            <option data-en="5 Years and Up" data-es="5 Años y Más">5 Years and Up</option>
+            <option data-en="Multiple children" data-es="Varios hijos">Multiple children</option>
           </select>
         </div>
         <div class="field">
-          <label for="interest">I'm Interested In</label>
+          <label for="interest" data-en="I'm Interested In" data-es="Me Interesa">I'm Interested In</label>
           <select id="interest">
-            <option value="">Select one...</option>
-            <option>Enrolling My Child</option>
-            <option>Scheduling a Tour</option>
-            <option>Attending the Grand Opening (May 31)</option>
-            <option>General Information</option>
+            <option value="" data-en="Select one..." data-es="Seleccionar...">Select one...</option>
+            <option data-en="Enrolling My Child" data-es="Inscribir a Mi Hijo/a">Enrolling My Child</option>
+            <option data-en="Scheduling a Tour" data-es="Programar una Visita">Scheduling a Tour</option>
+            <option data-en="Attending the Grand Opening (May 31)" data-es="Asistir a la Gran Inauguración (31 de Mayo)">Attending the Grand Opening (May 31)</option>
+            <option data-en="Learning About Spanish Program" data-es="Conocer el Programa de Español">Learning About Spanish Program</option>
+            <option data-en="General Information" data-es="Información General">General Information</option>
           </select>
         </div>
-        <div class="field"><label for="msg">Questions or Notes</label><textarea id="msg" rows="3" placeholder="Tell us about your child and what you're looking for..."></textarea></div>
-        <button class="btn-submit" onclick="alert('Thank you! We will be in touch within 24 hours. In the meantime, follow us on Facebook: facebook.com/profile.php?id=61562996022425')">Submit Enrollment Request →</button>
-        <p style="font-size:.75rem;color:var(--muted);text-align:center;margin-top:12px;">Spots are limited to 47 children. We'll confirm availability when we reach out.</p>
+        <div class="field"><label for="msg" data-en="Questions or Notes" data-es="Preguntas o Notas">Questions or Notes</label><textarea id="msg" rows="3" placeholder="Tell us about your child and what you're looking for..."></textarea></div>
+        <button class="btn-submit" onclick="alert('Thank you! We will be in touch within 24 hours. Call us anytime at (832) 993-0188 or email lshopeacademy@gmail.com')" data-en="Submit Enrollment Request →" data-es="Enviar Solicitud de Inscripción →">Submit Enrollment Request →</button>
+        <p style="font-size:.75rem;color:var(--muted);text-align:center;margin-top:12px;" data-en="Spaces limited to 47 children. We'll confirm availability when we reach out." data-es="Espacios limitados a 47 niños. Confirmaremos disponibilidad cuando nos comuniquemos.">Spaces limited to 47 children. We'll confirm availability when we reach out.</p>
       </div>
     </div>
   </div>
@@ -1001,28 +1232,34 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
             <div class="footer-icon">🌱</div>
             <div>
               <div class="footer-brand-name">Little Seeds of Hope Academy</div>
-              <div class="footer-brand-tag">Faith-Based Early Childhood Education · Humble, TX</div>
+              <div class="footer-brand-tag" data-en="Faith-Based Early Childhood Education · Humble, TX" data-es="Educación Infantil Basada en la Fe · Humble, TX">Faith-Based Early Childhood Education · Humble, TX</div>
             </div>
           </div>
-          <p class="footer-desc">A faith-centered, family-oriented learning community where every child from 12 months to 12 years is known, loved, and empowered to grow. Now enrolling — Grand Opening May 31, 2026.</p>
+          <p class="footer-desc" data-en="A faith-centered, family-oriented learning community where every child from 18 months and up is known, loved, and empowered to grow. Bilingual (Spanish), Chapel, now enrolling — Grand Opening May 31, 2026." data-es="Una comunidad de aprendizaje centrada en la fe y orientada a la familia donde cada niño desde 18 meses es conocido, amado y empoderado para crecer. Bilingüe (español), Capilla, ahora inscribiendo — Gran Inauguración 31 de mayo de 2026.">A faith-centered, family-oriented learning community where every child from 18 months and up is known, loved, and empowered to grow. Bilingual (Spanish), Chapel, now enrolling — Grand Opening May 31, 2026.</p>
+          <p style="margin-top:14px;font-size:.84rem;color:rgba(255,255,255,.45);">
+            📞 <a href="tel:8329930188" style="color:rgba(255,255,255,.6);">(832) 993-0188</a><br>
+            ✉️ <a href="mailto:lshopeacademy@gmail.com" style="color:rgba(255,255,255,.6);">lshopeacademy@gmail.com</a>
+          </p>
         </div>
         <div class="footer-col">
-          <h5>Navigate</h5>
+          <h5 data-en="Navigate" data-es="Navegación">Navigate</h5>
           <ul>
-            <li><a href="#programs">Our Programs</a></li>
-            <li><a href="#about">Why Little Seeds</a></li>
-            <li><a href="#schedule">Daily Schedule</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#enroll">Enroll Now</a></li>
+            <li><a href="#programs" data-en="Our Programs" data-es="Nuestros Programas">Our Programs</a></li>
+            <li><a href="#about" data-en="Why Little Seeds" data-es="Por Qué Little Seeds">Why Little Seeds</a></li>
+            <li><a href="#schedule" data-en="Daily Schedule" data-es="Horario Diario">Daily Schedule</a></li>
+            <li><a href="#scripture" data-en="Our Scripture" data-es="Nuestras Escrituras">Our Scripture</a></li>
+            <li><a href="#faq" data-en="FAQ" data-es="Preguntas">FAQ</a></li>
+            <li><a href="#enroll" data-en="Enroll Now" data-es="Inscríbete">Enroll Now</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Connect</h5>
+          <h5 data-en="Connect" data-es="Contacto">Connect</h5>
           <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank">Facebook Page</a></li>
-            <li><a href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank">Get Directions</a></li>
-            <li><a href="#contact">Send a Message</a></li>
-            <li><a href="#enroll">Grand Opening — May 31</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" data-en="Facebook Page" data-es="Página de Facebook">Facebook Page</a></li>
+            <li><a href="https://maps.google.com/?q=900+Granberry+St+Humble+TX+77338" target="_blank" data-en="Get Directions" data-es="Cómo Llegar">Get Directions</a></li>
+            <li><a href="tel:8329930188">(832) 993-0188</a></li>
+            <li><a href="mailto:lshopeacademy@gmail.com">lshopeacademy@gmail.com</a></li>
+            <li><a href="#contact" data-en="Grand Opening — May 31" data-es="Gran Inauguración — 31 de Mayo">Grand Opening — May 31</a></li>
           </ul>
         </div>
       </div>
@@ -1030,7 +1267,7 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
   </div>
   <div class="container">
     <div class="footer-bottom">
-      <p>© 2026 Little Seeds of Hope Academy · 900 Granberry St., Humble, TX 77338 · All rights reserved.</p>
+      <p>© 2026 Little Seeds of Hope Academy · 900 Granberry St., Humble, TX 77338 · <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
       <div class="footer-social">
         <a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank">Facebook →</a>
       </div>
@@ -1040,12 +1277,19 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- MOBILE STICKY -->
 <div class="mobile-sticky">
-  <a href="https://www.facebook.com/profile.php?id=61562996022425" target="_blank" class="ms-btn ms-call">📘 Follow Us</a>
-  <a href="#enroll" class="ms-btn ms-enroll">✏️ Enroll Now</a>
+  <a href="tel:8329930188" class="ms-btn ms-call" data-en="📞 Call Now" data-es="📞 Llamar">📞 Call Now</a>
+  <a href="#enroll" class="ms-btn ms-enroll" data-en="✏️ Enroll Now" data-es="✏️ Inscríbete">✏️ Enroll Now</a>
 </div>
 
+<!-- LANGUAGE TOGGLE -->
+<button class="lang-toggle en" id="langToggle" aria-label="Toggle language">
+  <span class="lang-en">🇺🇸 EN</span>
+  <span class="lang-sep">|</span>
+  <span class="lang-es">🇲🇽 ES</span>
+</button>
+
 <script>
-// Mobile menu
+// ─── MOBILE MENU ───
 var menu = document.getElementById('mobile-menu');
 var hamburger = document.getElementById('hamburger');
 var closeBtn = document.getElementById('menu-close');
@@ -1055,13 +1299,13 @@ hamburger.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
 document.querySelectorAll('.menu-link').forEach(function(l){ l.addEventListener('click', closeMenu); });
 
-// Fade on scroll
+// ─── FADE ON SCROLL ───
 var io = new IntersectionObserver(function(entries){
   entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
 }, { threshold: 0.10 });
 document.querySelectorAll('.fade').forEach(function(el){ io.observe(el); });
 
-// FAQ accordion
+// ─── FAQ ACCORDION ───
 document.querySelectorAll('.faq-q').forEach(function(btn){
   btn.addEventListener('click', function(){
     var answer = this.nextElementSibling;
@@ -1071,6 +1315,43 @@ document.querySelectorAll('.faq-q').forEach(function(btn){
     if(!isOpen){ answer.classList.add('open'); this.classList.add('open'); this.setAttribute('aria-expanded','true'); }
   });
 });
+
+// ─── LANGUAGE TOGGLE ───
+var currentLang = localStorage.getItem('lsoh-lang') || 'en';
+var langToggleBtn = document.getElementById('langToggle');
+
+function applyLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('lsoh-lang', lang);
+
+  // Update all data-en / data-es elements
+  document.querySelectorAll('[data-en]').forEach(function(el) {
+    var text = el.getAttribute('data-' + lang);
+    if (text !== null) {
+      el.innerHTML = text;
+    }
+  });
+
+  // Update button state
+  langToggleBtn.classList.remove('en', 'es');
+  langToggleBtn.classList.add(lang);
+
+  // Update html lang attribute
+  document.documentElement.lang = lang === 'es' ? 'es' : 'en';
+
+  // Update submit button (it uses onclick, so just update its display text)
+  var submitBtn = document.querySelector('.btn-submit');
+  if (submitBtn) {
+    submitBtn.textContent = lang === 'es' ? 'Enviar Solicitud de Inscripción →' : 'Submit Enrollment Request →';
+  }
+}
+
+langToggleBtn.addEventListener('click', function() {
+  applyLanguage(currentLang === 'en' ? 'es' : 'en');
+});
+
+// Apply on load
+applyLanguage(currentLang);
 </script>
 
 </body>
