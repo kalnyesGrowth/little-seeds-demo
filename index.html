@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; }
 a { color: var(--sky); text-decoration: none; }
 
 .container { max-width: 1160px; margin: 0 auto; padding: 0 40px; }
-section { padding: 88px 0; }
+section { position: relative; overflow: hidden; padding: 88px 0; }
 
 .btn {
   display: inline-flex; align-items: center; gap: 8px;
@@ -503,8 +503,7 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 .toy-scene svg { display: block; width: 100%; }
 
 /* === FLOATING TOY BG === */
-.programs, .faq { position: relative; overflow: hidden; }
-.programs .container, .faq .container { position: relative; z-index: 1; }
+section > .container { position: relative; z-index: 1; }
 .toy-float {
   position: absolute; pointer-events: none; z-index: 0;
   opacity: 0.07; user-select: none;
@@ -724,6 +723,28 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- SEEDS OF LEARNING CURRICULUM -->
 <section class="curriculum" id="about">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:-8px;right:-18px;width:190px;" viewBox="0 0 190 180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M90 10 L95 48 L130 38 L108 68 L142 80 L108 92 L130 122 L95 112 L90 150 L85 112 L50 122 L72 92 L38 80 L72 68 L50 38 L85 48 Z" fill="#F5A623"/>
+    <path d="M30 20 L33 38 L50 33 L40 48 L57 55 L40 62 L50 77 L33 72 L30 90 L27 72 L10 77 L20 62 L3 55 L20 48 L10 33 L27 38 Z" fill="#8B6DC8" opacity=".65"/>
+    <path d="M150 100 L153 115 L168 111 L159 123 L172 129 L159 135 L168 147 L153 143 L150 158 L147 143 L132 147 L141 135 L128 129 L141 123 L132 111 L147 115 Z" fill="#3B9ED4" opacity=".6"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-12px;left:-15px;width:200px;" viewBox="0 0 200 190" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="55" cy="40" rx="12" ry="20" fill="#F0624D"/>
+    <ellipse cx="55" cy="40" rx="12" ry="20" fill="#F5A623" transform="rotate(60 55 55)"/>
+    <ellipse cx="55" cy="40" rx="12" ry="20" fill="#5BAD6F" transform="rotate(120 55 55)"/>
+    <ellipse cx="55" cy="40" rx="12" ry="20" fill="#3B9ED4" transform="rotate(180 55 55)"/>
+    <ellipse cx="55" cy="40" rx="12" ry="20" fill="#8B6DC8" transform="rotate(240 55 55)"/>
+    <circle cx="55" cy="55" r="16" fill="#F5A623"/>
+    <circle cx="55" cy="55" r="9" fill="#FFF8EC"/>
+    <ellipse cx="145" cy="130" rx="10" ry="17" fill="#5BAD6F"/>
+    <ellipse cx="145" cy="130" rx="10" ry="17" fill="#F0624D" transform="rotate(72 145 145)"/>
+    <ellipse cx="145" cy="130" rx="10" ry="17" fill="#F5A623" transform="rotate(144 145 145)"/>
+    <ellipse cx="145" cy="130" rx="10" ry="17" fill="#3B9ED4" transform="rotate(216 145 145)"/>
+    <ellipse cx="145" cy="130" rx="10" ry="17" fill="#8B6DC8" transform="rotate(288 145 145)"/>
+    <circle cx="145" cy="145" r="13" fill="#F5A623"/>
+    <circle cx="145" cy="145" r="7" fill="#FFF8EC"/>
+  </svg>
   <div class="container">
     <div class="curriculum-grid">
       <div class="curriculum-text fade">
@@ -777,6 +798,33 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- THREE PILLARS — WHY LITTLE SEEDS -->
 <section class="pillars-section">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:10px;left:-20px;width:175px;" viewBox="0 0 175 210" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="55" cy="56" rx="28" ry="42" fill="#3B9ED4"/>
+    <ellipse cx="55" cy="56" rx="20" ry="30" fill="#5BAD6F" opacity=".5"/>
+    <path d="M55 98 Q52 120 48 140" stroke="#3B9ED4" stroke-width="2" fill="none"/>
+    <path d="M55 98 L55 98 Q60 104 72 130" stroke="#F0624D" stroke-width="1.5" fill="none"/>
+    <ellipse cx="120" cy="155" rx="22" ry="33" fill="#F0624D"/>
+    <ellipse cx="120" cy="155" rx="15" ry="23" fill="#F5A623" opacity=".5"/>
+    <path d="M120 188 Q117 200 113 210" stroke="#F0624D" stroke-width="2" fill="none"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-10px;right:-18px;width:200px;" viewBox="0 0 200 170" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(-28 100 85)">
+      <rect x="70" y="10" width="18" height="70" rx="4" fill="#F0624D"/>
+      <polygon points="70,10 88,10 79,0" fill="#C94030"/>
+      <rect x="70" y="65" width="18" height="15" rx="2" fill="#F5F5F5"/>
+    </g>
+    <g transform="rotate(5 100 85)">
+      <rect x="95" y="20" width="18" height="70" rx="4" fill="#5BAD6F"/>
+      <polygon points="95,20 113,20 104,10" fill="#3D8A50"/>
+      <rect x="95" y="75" width="18" height="15" rx="2" fill="#F5F5F5"/>
+    </g>
+    <g transform="rotate(32 100 85)">
+      <rect x="118" y="10" width="18" height="70" rx="4" fill="#F5A623"/>
+      <polygon points="118,10 136,10 127,0" fill="#D48A10"/>
+      <rect x="118" y="65" width="18" height="15" rx="2" fill="#F5F5F5"/>
+    </g>
+  </svg>
   <div class="container">
     <div class="pillars-header fade">
       <div class="section-label" data-en="WHY LITTLE SEEDS" data-es="POR QUÉ LITTLE SEEDS">WHY LITTLE SEEDS</div>
@@ -987,6 +1035,31 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- SAFETY -->
 <section class="safety">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:-5px;left:-15px;width:195px;" viewBox="0 0 195 180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(15,10)">
+      <rect x="0" y="30" width="44" height="44" rx="6" fill="#3B9ED4"/>
+      <rect x="4" y="30" width="40" height="12" rx="3" fill="#2478A8"/>
+      <text x="22" y="65" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">A</text>
+    </g>
+    <g transform="translate(50,0)">
+      <rect x="0" y="30" width="44" height="44" rx="6" fill="#5BAD6F"/>
+      <rect x="4" y="30" width="40" height="12" rx="3" fill="#3D8A50"/>
+      <text x="22" y="65" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">B</text>
+    </g>
+    <g transform="translate(32,55)">
+      <rect x="0" y="30" width="44" height="44" rx="6" fill="#F0624D"/>
+      <rect x="4" y="30" width="40" height="12" rx="3" fill="#C94030"/>
+      <text x="22" y="65" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">C</text>
+    </g>
+    <path d="M130 80 L134 104 L158 108 L134 112 L130 136 L126 112 L102 108 L126 104 Z" fill="#F5A623"/>
+    <path d="M160 20 L163 38 L182 42 L163 46 L160 64 L157 46 L138 42 L157 38 Z" fill="#8B6DC8" opacity=".7"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-8px;right:-20px;width:180px;" viewBox="0 0 180 170" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M90 12 L95 50 L132 44 L109 72 L145 86 L109 100 L132 128 L95 122 L90 160 L85 122 L48 128 L71 100 L35 86 L71 72 L48 44 L85 50 Z" fill="#8B6DC8"/>
+    <path d="M28 28 L31 45 L48 40 L38 54 L55 61 L38 68 L48 82 L31 77 L28 94 L25 77 L8 82 L18 68 L1 61 L18 54 L8 40 L25 45 Z" fill="#F0624D" opacity=".65"/>
+    <path d="M145 115 L147 127 L159 123 L152 132 L163 137 L152 142 L159 151 L147 147 L145 159 L143 147 L131 151 L138 142 L127 137 L138 132 L131 123 L143 127 Z" fill="#3B9ED4" opacity=".6"/>
+  </svg>
   <div class="container">
     <div class="safety-header fade">
       <div class="section-label coral" data-en="HEALTH & SAFETY" data-es="SALUD Y SEGURIDAD">HEALTH & SAFETY</div>
@@ -1028,6 +1101,29 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- A DAY WITH US -->
 <section class="schedule-section" id="schedule">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:-5px;right:-22px;width:210px;" viewBox="0 0 210 190" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(-20 105 95)">
+      <rect x="80" y="10" width="20" height="80" rx="5" fill="#8B6DC8"/>
+      <polygon points="80,10 100,10 90,-2" fill="#6A50A8"/>
+      <rect x="80" y="72" width="20" height="18" rx="3" fill="#F0F0F0"/>
+    </g>
+    <g transform="rotate(10 105 95)">
+      <rect x="108" y="15" width="20" height="80" rx="5" fill="#3B9ED4"/>
+      <polygon points="108,15 128,15 118,3" fill="#2478A8"/>
+      <rect x="108" y="77" width="20" height="18" rx="3" fill="#F0F0F0"/>
+    </g>
+    <g transform="rotate(38 105 95)">
+      <rect x="135" y="10" width="20" height="80" rx="5" fill="#5BAD6F"/>
+      <polygon points="135,10 155,10 145,-2" fill="#3D8A50"/>
+      <rect x="135" y="72" width="20" height="18" rx="3" fill="#F0F0F0"/>
+    </g>
+  </svg>
+  <svg class="toy-float" style="bottom:-10px;left:-18px;width:185px;" viewBox="0 0 185 175" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M70 16 L74 52 L108 47 L87 73 L119 86 L87 99 L108 125 L74 120 L70 156 L66 120 L32 125 L53 99 L21 86 L53 73 L32 47 L66 52 Z" fill="#F5A623"/>
+    <path d="M140 80 L143 96 L160 92 L151 104 L165 110 L151 116 L160 128 L143 124 L140 140 L137 124 L120 128 L129 116 L115 110 L129 104 L120 92 L137 96 Z" fill="#F0624D" opacity=".7"/>
+    <path d="M18 90 L21 104 L36 100 L28 110 L41 116 L28 122 L36 132 L21 128 L18 142 L15 128 L0 132 L8 122 L-5 116 L8 110 L0 100 L15 104 Z" fill="#8B6DC8" opacity=".6"/>
+  </svg>
   <div class="container">
     <div class="schedule-grid">
       <div>
@@ -1124,6 +1220,21 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- FAITH & FAMILY -->
 <section class="faith-section" id="faith">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:-10px;right:-20px;width:200px;" viewBox="0 0 200 185" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="80" cy="65" rx="32" ry="48" fill="#F5A623"/>
+    <ellipse cx="80" cy="65" rx="22" ry="34" fill="#F0624D" opacity=".5"/>
+    <path d="M80 113 Q77 130 73 148" stroke="#F5A623" stroke-width="2.5" fill="none"/>
+    <path d="M80 113 Q86 122 94 140" stroke="#8B6DC8" stroke-width="1.8" fill="none"/>
+    <ellipse cx="150" cy="145" rx="24" ry="36" fill="#8B6DC8"/>
+    <ellipse cx="150" cy="145" rx="16" ry="25" fill="#3B9ED4" opacity=".5"/>
+    <path d="M150 181 Q147 192 144 200" stroke="#8B6DC8" stroke-width="2" fill="none"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-8px;left:-15px;width:195px;" viewBox="0 0 195 175" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M78 14 L83 54 L120 48 L98 76 L132 90 L98 104 L120 132 L83 126 L78 166 L73 126 L36 132 L58 104 L24 90 L58 76 L36 48 L73 54 Z" fill="#5BAD6F"/>
+    <path d="M152 15 L155 32 L173 28 L163 42 L178 49 L163 56 L173 70 L155 66 L152 83 L149 66 L131 70 L141 56 L126 49 L141 42 L131 28 L149 32 Z" fill="#F0624D" opacity=".7"/>
+    <path d="M20 110 L23 124 L38 120 L30 130 L42 136 L30 142 L38 152 L23 148 L20 162 L17 148 L2 152 L10 142 L-2 136 L10 130 L2 120 L17 124 Z" fill="#3B9ED4" opacity=".6"/>
+  </svg>
   <div class="container">
     <div class="faith-header fade">
       <div class="section-label" data-en="FAITH & FAMILY" data-es="FE Y FAMILIA">FAITH & FAMILY</div>
@@ -1161,6 +1272,28 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- TESTIMONIALS -->
 <section class="testimonials">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:0px;left:-20px;width:200px;" viewBox="0 0 200 185" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="50" cy="44" rx="11" ry="20" fill="#F0624D"/>
+    <ellipse cx="50" cy="44" rx="11" ry="20" fill="#F5A623" transform="rotate(72 50 55)"/>
+    <ellipse cx="50" cy="44" rx="11" ry="20" fill="#5BAD6F" transform="rotate(144 50 55)"/>
+    <ellipse cx="50" cy="44" rx="11" ry="20" fill="#3B9ED4" transform="rotate(216 50 55)"/>
+    <ellipse cx="50" cy="44" rx="11" ry="20" fill="#8B6DC8" transform="rotate(288 50 55)"/>
+    <circle cx="50" cy="55" r="14" fill="#F5A623"/>
+    <circle cx="50" cy="55" r="8" fill="#FFF8EC"/>
+    <ellipse cx="148" cy="138" rx="9" ry="16" fill="#3B9ED4"/>
+    <ellipse cx="148" cy="138" rx="9" ry="16" fill="#F0624D" transform="rotate(72 148 149)"/>
+    <ellipse cx="148" cy="138" rx="9" ry="16" fill="#5BAD6F" transform="rotate(144 148 149)"/>
+    <ellipse cx="148" cy="138" rx="9" ry="16" fill="#F5A623" transform="rotate(216 148 149)"/>
+    <ellipse cx="148" cy="138" rx="9" ry="16" fill="#8B6DC8" transform="rotate(288 148 149)"/>
+    <circle cx="148" cy="149" r="12" fill="#F5A623"/>
+    <circle cx="148" cy="149" r="7" fill="#FFF8EC"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-10px;right:-18px;width:195px;" viewBox="0 0 195 180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <path d="M96 12 L101 52 L140 46 L117 74 L153 88 L117 102 L140 130 L101 124 L96 164 L91 124 L52 130 L75 102 L39 88 L75 74 L52 46 L91 52 Z" fill="#3B9ED4"/>
+    <path d="M28 18 L31 35 L49 31 L39 45 L55 52 L39 59 L49 73 L31 69 L28 86 L25 69 L7 73 L17 59 L1 52 L17 45 L7 31 L25 35 Z" fill="#F5A623" opacity=".75"/>
+    <path d="M158 108 L161 122 L176 118 L168 129 L181 135 L168 141 L176 152 L161 148 L158 162 L155 148 L140 152 L148 141 L135 135 L148 129 L140 118 L155 122 Z" fill="#8B6DC8" opacity=".65"/>
+  </svg>
   <div class="container">
     <div class="testimonials-header fade">
       <div class="section-label" data-en="WHAT FAMILIES SAY" data-es="LO QUE DICEN LAS FAMILIAS">WHAT FAMILIES SAY</div>
@@ -1267,6 +1400,41 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- ENROLL / TOUR FORM -->
 <section class="enroll" id="enroll">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:-8px;left:-18px;width:190px;" viewBox="0 0 190 175" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(10,8)">
+      <rect x="0" y="28" width="44" height="44" rx="6" fill="#8B6DC8"/>
+      <rect x="4" y="28" width="40" height="12" rx="3" fill="#6A50A8"/>
+      <text x="22" y="64" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">A</text>
+    </g>
+    <g transform="translate(52,0)">
+      <rect x="0" y="28" width="44" height="44" rx="6" fill="#F5A623"/>
+      <rect x="4" y="28" width="40" height="12" rx="3" fill="#D48A10"/>
+      <text x="22" y="64" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">B</text>
+    </g>
+    <g transform="translate(30,52)">
+      <rect x="0" y="28" width="44" height="44" rx="6" fill="#5BAD6F"/>
+      <rect x="4" y="28" width="40" height="12" rx="3" fill="#3D8A50"/>
+      <text x="22" y="64" font-size="22" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial">C</text>
+    </g>
+  </svg>
+  <svg class="toy-float" style="bottom:-5px;right:-20px;width:205px;" viewBox="0 0 205 185" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(-30 102 92)">
+      <rect x="76" y="8" width="20" height="82" rx="5" fill="#F0624D"/>
+      <polygon points="76,8 96,8 86,-4" fill="#C94030"/>
+      <rect x="76" y="72" width="20" height="18" rx="3" fill="#F5F5F5"/>
+    </g>
+    <g transform="rotate(0 102 92)">
+      <rect x="105" y="12" width="20" height="82" rx="5" fill="#8B6DC8"/>
+      <polygon points="105,12 125,12 115,0" fill="#6A50A8"/>
+      <rect x="105" y="76" width="20" height="18" rx="3" fill="#F5F5F5"/>
+    </g>
+    <g transform="rotate(30 102 92)">
+      <rect x="133" y="8" width="20" height="82" rx="5" fill="#3B9ED4"/>
+      <polygon points="133,8 153,8 143,-4" fill="#2478A8"/>
+      <rect x="133" y="72" width="20" height="18" rx="3" fill="#F5F5F5"/>
+    </g>
+  </svg>
   <div class="container">
     <div class="enroll-grid">
       <div class="enroll-left fade">
@@ -1351,6 +1519,24 @@ footer { background: var(--dark); color: rgba(255,255,255,.7); }
 
 <!-- LOCATION & HOURS -->
 <section class="location" id="location">
+  <!-- floating bg toys -->
+  <svg class="toy-float" style="top:0px;left:-22px;width:190px;" viewBox="0 0 190 175" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="58" cy="50" rx="30" ry="45" fill="#5BAD6F"/>
+    <ellipse cx="58" cy="50" rx="21" ry="32" fill="#F5A623" opacity=".5"/>
+    <path d="M58 95 Q55 112 51 130" stroke="#5BAD6F" stroke-width="2.5" fill="none"/>
+    <path d="M58 95 Q64 105 74 126" stroke="#3B9ED4" stroke-width="1.8" fill="none"/>
+    <path d="M130 110 L134 134 L158 130 L138 150 L160 160 L138 170 L158 190 L134 186 L130 210 L126 186 L102 190 L122 170 L100 160 L122 150 L102 130 L126 134 Z" fill="#F5A623" opacity=".8"/>
+  </svg>
+  <svg class="toy-float" style="bottom:-10px;right:-18px;width:200px;" viewBox="0 0 200 185" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="55" cy="38" rx="11" ry="20" fill="#F5A623"/>
+    <ellipse cx="55" cy="38" rx="11" ry="20" fill="#F0624D" transform="rotate(72 55 50)"/>
+    <ellipse cx="55" cy="38" rx="11" ry="20" fill="#3B9ED4" transform="rotate(144 55 50)"/>
+    <ellipse cx="55" cy="38" rx="11" ry="20" fill="#5BAD6F" transform="rotate(216 55 50)"/>
+    <ellipse cx="55" cy="38" rx="11" ry="20" fill="#8B6DC8" transform="rotate(288 55 50)"/>
+    <circle cx="55" cy="50" r="14" fill="#F5A623"/>
+    <circle cx="55" cy="50" r="8" fill="#FFF8EC"/>
+    <path d="M118 100 L122 124 L148 120 L130 140 L152 150 L130 160 L148 180 L122 176 L118 200 L114 176 L88 180 L106 160 L84 150 L106 140 L88 120 L114 124 Z" fill="#8B6DC8" opacity=".75"/>
+  </svg>
   <div class="container">
     <div class="section-label fade" data-en="FIND US" data-es="ENCUÉNTRANOS">FIND US</div>
     <h2 class="section-headline fade" data-en="Located in the Heart of Humble, TX" data-es="Ubicados en el Corazón de Humble, TX">Located in the Heart of Humble, TX</h2>
